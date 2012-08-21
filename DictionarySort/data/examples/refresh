@@ -1,0 +1,2 @@
+#!/bin/sh
+cat ALL_OUT_CN CUSTOM_EXAMPLES | awk '!_[$0]++' > tmp999 && mv tmp999 ALL_OUT_CN 

@@ -1,0 +1,2 @@
+cd bin && java FullSortedDictWithExamples > ../tmp.xml && java FullSortedDictWithExamples 400 > ../tmp_small.xml && cd ../
+
