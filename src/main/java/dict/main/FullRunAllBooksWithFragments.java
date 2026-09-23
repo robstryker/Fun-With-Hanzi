@@ -78,6 +78,10 @@ public class FullRunAllBooksWithFragments implements IExampleAdditionVerifier {
 		
 		// Print dict entries
 		while( !done ) {
+			if( dict.size() <= lastDictEntry) {
+				done = true;
+				continue;
+			}
 			e = dict.get(lastDictEntry);
 			if( getDifficulty(e.modern) <= hanziDif ) {
 				lastDictEntry++;
