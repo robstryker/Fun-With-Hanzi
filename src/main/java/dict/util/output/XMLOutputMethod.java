@@ -41,6 +41,6 @@ public class XMLOutputMethod implements IOutputMethod {
 	}
 
 	private static String escape(String s) {
-		return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace("\"", "&quot;");
+		return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;");
 	}
 }

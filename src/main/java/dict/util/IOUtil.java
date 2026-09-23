@@ -23,8 +23,21 @@ import dict.util.output.XMLOutputMethod;
 public class IOUtil {
 	private static IOutputMethod out;
 
+	/**
+	 * Order files hold one character per line; returns them as one string
+	 * in file order (first character of each non-empty line).
+	 */
 	public static String loadCommonCharsFromFile(String filename) {
-		return readFile(filename, "UTF8");
+		StringBuilder sb = new StringBuilder();
+		try {
+			for( String line : Files.readAllLines(new File(filename).toPath(), Charset.forName("UTF-8"))) {
+				if( line.length() > 0 )
+					sb.append(line.charAt(0));
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		return sb.toString();
 	}
 
 	public static String readFile(String filename, String encoding) {

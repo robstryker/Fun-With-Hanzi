@@ -56,7 +56,7 @@ public class FullRunAllBooksWithFragments implements IExampleAdditionVerifier {
 		examples = loadSortedExamples();
 		
 		IOUtil.getOut().start();
-		for( int i = 0; i < commonChars.length()-1; i++ ) {
+		for( int i = 0; i < commonChars.length(); i++ ) {
 			runHanziOutput(i);
 		}
 		IOUtil.getOut().end();
@@ -96,7 +96,9 @@ public class FullRunAllBooksWithFragments implements IExampleAdditionVerifier {
 				continue;
 			}
 			e = dict.get(lastDictEntry);
-			if( getDifficulty(e.modern) <= hanziDif ) {
+			int dif = getDifficulty(e.modern);
+			// unknown-character entries sort last; never print them
+			if( dif != MaxDifficultyModel.NOT_FOUND_CHAR && dif <= hanziDif ) {
 				lastDictEntry++;
 				IOUtil.getOut().printDefinition(index, e);
 			} else {
