@@ -2,6 +2,8 @@ package dict.model;
 
 import java.util.HashMap;
 
+import dict.util.StringUtil;
+
 public class MaxDifficultyModel {
 	public static final int NOT_FOUND_CHAR = -1;
 	public static MaxDifficultyModel model;
@@ -47,10 +49,16 @@ public class MaxDifficultyModel {
 	
 	public static int staticGetMaxDifficulty(String s, String usable) {
 		int max = 0;
-		for( int i = 0; i < s.length(); i++ ) {
-			int intval = staticGetDifficulty(s.charAt(i), usable);
-			if( intval == NOT_FOUND_CHAR ) {
-				return NOT_FOUND_CHAR;
+		char[] charArr = s.toCharArray();
+		for( int i = 0; i < charArr.length; i++ ) {
+			int intval = 0;
+			if( StringUtil.getAllDefaultIgnoreCharsAsString().contains(String.valueOf(charArr[i]))) { 
+				intval = 0;
+			} else {
+				intval = staticGetDifficulty(charArr[i], usable);
+				if( intval == NOT_FOUND_CHAR ) {
+					return NOT_FOUND_CHAR;
+				}
 			}
 			max = max > intval ? max : intval;
 		}

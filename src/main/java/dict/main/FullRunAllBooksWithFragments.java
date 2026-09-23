@@ -30,14 +30,14 @@ public class FullRunAllBooksWithFragments implements IExampleAdditionVerifier {
 	
 	public void run() {
 		if( commonChars == null ) {
-			String commonCharFile = "/home/rob/Documents/dict/project/DictionarySort/data/commonchar_ALL";
+			String commonCharFile = "data/commonchar_ALL";
 			commonChars = IOUtil.loadCommonCharsFromFile(commonCharFile);
 		}
 		String allDefaultChars = StringUtil.getAllDefaultIgnoreCharsAsString();
 		
 		allChars = allDefaultChars + commonChars;
 		
-		String dictFile = "/home/rob/Documents/dict/project/DictionarySort/data/cedict_ts.u8";
+		String dictFile = "data/cedict_ts.u8";
 		dict = IOUtil.loadSortedDictionary(dictFile, "UTF8", allChars);
 		
 		examples = loadSortedExamples();
@@ -118,9 +118,9 @@ public class FullRunAllBooksWithFragments implements IExampleAdditionVerifier {
 	
 	protected ArrayList<String> loadSortedExamples() {
 		// As a set
-		String hpFile = "/home/rob/Documents/dict/project/DictionarySort/data/examples/hpexamples.txt";
-		String ncikuFile = "/home/rob/Documents/dict/project/DictionarySort/data/examples/ALL_OUT_CN";
-		String customFile = "/home/rob/Documents/dict/project/DictionarySort/data/examples/CUSTOM_EXAMPLES";
+		String hpFile = "data/examples/hpexamples.txt";
+		String ncikuFile = "data/examples/ALL_OUT_CN";
+		String customFile = "data/examples/CUSTOM_EXAMPLES";
 
 		Collection<String> hpExamples = ExampleUtil.loadMultiLineExamples(hpFile, this.allChars, "UTF8", true, this);
 		Collection<String> ncikuExamples = ExampleUtil.loadSingleLineExamplesFromFile(allChars, ncikuFile, "UTF8", true, this);

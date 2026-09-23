@@ -14,7 +14,7 @@ import dict.util.StringUtil;
 public class Test5CommonCharsGeneration extends AbstractDictTest implements IExampleAdditionVerifier {
 
 	protected String getCommonCharFile() {
-		return "/home/rob/Documents/dict/project/DictionarySort/data/commonchar_hp";
+		return "data/commonchar_hp";
 	}
 
 	private HashMap<String, CharEntry> charMap =  new HashMap<String, CharEntry>();
@@ -29,9 +29,9 @@ public class Test5CommonCharsGeneration extends AbstractDictTest implements IExa
 		}
 	}
 
-	protected String hpFile = "/home/rob/Documents/dict/project/DictionarySort/data/examples/hpexamples.txt";
-	protected String ncikuFile = "/home/rob/Documents/dict/project/DictionarySort/data/examples/ALL_OUT_CN";
-	protected String customFile = "/home/rob/Documents/dict/project/DictionarySort/data/examples/CUSTOM_EXAMPLES";
+	protected String hpFile = "data/examples/hpexamples.txt";
+	protected String ncikuFile = "data/examples/ALL_OUT_CN";
+	protected String customFile = "data/examples/CUSTOM_EXAMPLES";
 	
 	public void testGenerateCommonChars() {
 		int commonCountReserve = 300;

@@ -13,8 +13,8 @@ public class Test3SortExamples extends AbstractDictTest implements IExampleAddit
 		super.setUp();
 	}
 	public void testSortExamples() {
-		String exampleFile = "/home/rob/Documents/dict/project/DictionarySort/data/examples/ALL_OUT_CN";
-		Collection<String> standardExamples = ExampleUtil.loadSingleLineExamplesFromFile(allChars, exampleFile);
+		String exampleFile = "data/examples/ALL_OUT_CN";
+		Collection<String> standardExamples = ExampleUtil.loadSingleLineExamplesFromFile(allChars, exampleFile, "UTF8", false, this);
 		ArrayList<String> standardExamples2 = new ArrayList<String>();
 		standardExamples2.addAll(standardExamples);
 		long sort1Time = System.currentTimeMillis();
@@ -32,7 +32,7 @@ public class Test3SortExamples extends AbstractDictTest implements IExampleAddit
 		
 		System.out.println(sort1Time + ":" + sort2Time);
 		int noFragSize = standardExamples2.size();
-		int max1, max2, prevMax1 = 0, prevMax2 = 0;
+		int max1, max2, prevMax1 = MaxDifficultyModel.NOT_FOUND_CHAR, prevMax2 = MaxDifficultyModel.NOT_FOUND_CHAR;
 		for( int i = 0; i < noFragSize; i++) {
 			max1 = MaxDifficultyModel.getMaxDifficulty(standardExamples2.get(i), allChars);
 			max2 = MaxDifficultyModel.getMaxDifficulty(standardExamplesWithFrag2.get(i), allChars);

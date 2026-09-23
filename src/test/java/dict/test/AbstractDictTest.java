@@ -12,7 +12,7 @@ public abstract class AbstractDictTest extends TestCase {
 	protected String commonChars;
 	protected ArrayList<DictionaryEntry> dict;
 	protected String getCommonCharFile() {
-		return "/home/rob/Documents/dict/project/DictionarySort/data/commonchar";
+		return "data/commonchar";
 	}
 	protected void setUp() throws Exception {
 		String commonCharFile = getCommonCharFile();
@@ -20,7 +20,7 @@ public abstract class AbstractDictTest extends TestCase {
 		String allDefaultChars = StringUtil.getAllDefaultIgnoreCharsAsString();
 		allChars = allDefaultChars + commonChars;
 		
-		String dictFile = "/home/rob/Documents/dict/project/DictionarySort/data/cedict_ts.u8";
+		String dictFile = "data/cedict_ts.u8";
 		dict = IOUtil.loadSortedDictionary(dictFile, "UTF8", allChars);
 	}
 

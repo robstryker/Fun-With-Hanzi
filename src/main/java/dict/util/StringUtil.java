@@ -2,6 +2,7 @@ package dict.util;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashSet;
 import java.util.Iterator;
 
 public class StringUtil {
@@ -9,22 +10,44 @@ public class StringUtil {
 		"......",".....", "....", "...", "!\".", "!\"。",
 		".\"", "。\"", "◇\"","?\"", "？\"", "!\"", "…\"",
 		".”", "。”", "◇”","?”", "？”", "!”", "…”",
-		".", "。", "◇", "…","”", ".", "。"
+		"?", "?", "?","?","?","?","?","?","?","?",
+		"?","?","?","?","?","?","?","?","?","﹖",
+		".", "。", "◇", "…","”", ".", "。", " ", "\n", "\t", "\r"
 	}; 
 	public static final String[] PUNCTUATION = {
 			"，","、", ",", ".", "·", "。", "◇", "…", "：", "；", "？", "?", 
-			"！", "!", "“", "”", "/", "%", "(", ")", "《", "》", "【", "】", "[", 
+			"！", "!", "“", "”", "(", ")", "《", "》", "【", "】", "[", 
 			"]", "∣", "—", "（", "）", "|", "—", "-", ".", "。", "\""," ","』","『","〕",",","–","―","*","─","~","¬",
 			// garbage... fuck me
-			":",";","‘","’","_","•","　","`","〈","〉","\\","．","％","～","′","－","^","／","{","}","｛","｝",
-			"﹑","‵","ˊ","ˋ","〖","〗","°","㎡","ー","+","$","﹒","×","￠","℃","∶","ｌ","α","Ｕ","→","‰","β","=","ɜ","@","Ｎ","︱","½","$","+","‖","㎡","‧","°",
-			"Ａ","Ｃ","Ｄ","ｅ","ｃ","ｈ","ｕ","ｏ","ｊ","ｔ","ｉ","ɑ","ｎ","ɡ","ｋ","ｚ"};
+			":",";","‘","’","_","•","　","`","〈","〉","\\","．","′","－","^","／","{","}","｛","｝",
+			"﹑","‵","ˊ","ˋ","〖","〗","﹒","∶","‧","°",
+			"'", "」", "「", 
+			"＂", "﹕", "｡", "﹗", "", "︰", "巜", "﹍", "＞", "＇",
+			"＿","］","［","＜","﹔","〃",">","﹚",
+			"﹙","く","■","<","﹐",
+			"″","‥"," ","｜","｀","﹞","﹝",
+			"˙", "〔", 
+			};
 
+	public static final String[] OTHER_IGNORED = {
+			"ы","р","о","е","π","ǎ","ō","ｐ","Ｚ","Ｙ","Ｌ","Ｈ","Ｅ","゜","✕","◎","◆","▪","□","③","※",
+			"━", "①", "ｘ", "②",  "/", "%","╱","∩","∞","∕","°","㎡","ー","+","$","×","￠","℃",
+			"Ｑ", "Ｍ", "Ｂ", "Ｔ", "α","Ｕ","→","‰","β","=","ɜ","@","Ｒ","Ｐ","Ｉ","＆","Ｋ", "卍","ш","Х","С","ˆ","�","￼","ǔ","ǒ",
+			"ｙ","ｇ","ｄ","ａ","я","щ","с","н","д","Ｆ","﹨","♀","●","∥","",
+			"︿","︸","❹","❸","❷","❶","☆","★","△","▬","╰","╯","⑷","⑶","⑵","⑴","⑩","④","∪","↓","Ⅱ",
+			"＼","Ｗ","Ｇ","﹡","ю","э","ь","ъ","δ","γ","Θ",
+			"ū","ś","Ņ","ч","ц",
+			"ф","у","п","й","ж","Я","Р","П","О","И","Г","В","Б","А","Ｊ","＃",
+			"", "Ｖ", "Ｓ", "﹪","⊙","✘","ｂ","т","к","в",
+			"ｌ","Ｎ","︱","½","$","+","‖","㎡","％","～"
+			
+	};
 	public static final String[] ALPHANUMERICS = {
 		"〇","Ｏ","０","１","２","３","４","５","６","７","８","９",
 		"0","1","2","3","4","5","6","7","8","9",
 		"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z",
-		"A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"
+		"A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z",
+		"Ａ","Ｃ","Ｄ","ｅ","ｃ","ｈ","ｕ","ｏ","ｊ","ｔ","ｉ","ɑ","ｎ","ɡ","ｋ","ｚ", 
 	};
 	public static String[] getTerminators() {
 		return TERMINATORS;
@@ -41,22 +64,32 @@ public class StringUtil {
 		return new String[] {"呀","呢","吧"};
 	}
 	
+	
+	private static ArrayList<String> ALL_DEFAULT_IGNORE = null;
 	public static ArrayList<String> getAllDefaultIgnoreChars() {
-		ArrayList<String> arr = new ArrayList<String>();
-		arr.addAll(Arrays.asList(getPunctuation()));
-		arr.addAll(Arrays.asList(getAlphaNumerics()));
-		arr.addAll(Arrays.asList(getDefaultZeroDifficultyChineseChars()));
-		
-		return arr;
+		if( ALL_DEFAULT_IGNORE == null ) {
+			HashSet<String> arr = new HashSet<String>();
+			arr.addAll(Arrays.asList(getPunctuation()));
+			arr.addAll(Arrays.asList(getTerminators()));
+			arr.addAll(Arrays.asList(getAlphaNumerics()));
+			arr.addAll(Arrays.asList(OTHER_IGNORED));
+			arr.addAll(Arrays.asList(getDefaultZeroDifficultyChineseChars()));
+			ALL_DEFAULT_IGNORE = new ArrayList<String>(new HashSet<String>(arr));
+		}
+		return ALL_DEFAULT_IGNORE;
 	}
 	
+	private static String ALL_DEFAULT_IGNORE_AS_STRING = null;
 	public static String getAllDefaultIgnoreCharsAsString() {
-		ArrayList<String> all = getAllDefaultIgnoreChars();
-		StringBuilder sb = new StringBuilder();
-		for( Iterator<String> i = all.iterator(); i.hasNext(); ) {
-			sb.append(i.next());
+		if( ALL_DEFAULT_IGNORE_AS_STRING == null ) {
+			ArrayList<String> all = getAllDefaultIgnoreChars();
+			StringBuilder sb = new StringBuilder();
+			for( Iterator<String> i = all.iterator(); i.hasNext(); ) {
+				sb.append(i.next());
+			}
+			ALL_DEFAULT_IGNORE_AS_STRING = sb.toString();
 		}
-		return sb.toString();
+		return ALL_DEFAULT_IGNORE_AS_STRING;
 	}
 
     public static String replacePunc(String str, String rep) {

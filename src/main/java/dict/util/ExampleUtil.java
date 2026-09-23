@@ -53,7 +53,7 @@ public class ExampleUtil {
 					new InputStreamReader(new FileInputStream(filename), encoding)); 
 			String str = in.readLine();
 			while(str != null ) {
-				if( verifier.shouldAddExample(str, false)) 
+				if( verifier == null || verifier.shouldAddExample(str, false)) 
 					examples.add(str.trim());
 				str = in.readLine();
 			}
@@ -138,16 +138,16 @@ public class ExampleUtil {
 				// str now ends with a termination, but MAY have several sentences in it. Such as:
 				// I love myself. Julie is cool, but I love myself more. Life is cool when
 				String[] sentences = StringUtil.explodeIntoTerminatedSentences(str);
-				for( int k = 0; k < sentences.length -1; k++ ) {
+				for( int k = 0; k < sentences.length; k++ ) {
 					if( (k != sentences.length -1) || StringUtil.terminatesSentence(sentences[k])) { 
 						// Handle terminated sentences
-						int maxDif = MaxDifficultyModel.getMaxDifficulty(sentences[k], usable);
-						if( verifier.shouldAddExample(sentences[k], false)) {
+						if( verifier == null || verifier.shouldAddExample(sentences[k], false)) {
+							int maxDif = MaxDifficultyModel.getMaxDifficulty(sentences[k], usable);
 							collection.add(sentences[k]);
 							if( includeFragments ) {
 								String[] fragments = getSentenceFragments(sentences[k], maxDif, usable);
 								for( int j = 0; j < fragments.length; j++ ) {
-									if(verifier.shouldAddExample(fragments[j], true)){
+									if(verifier == null || verifier.shouldAddExample(fragments[j], true)){
 										collection.add(fragments[j]);
 									}
 								}

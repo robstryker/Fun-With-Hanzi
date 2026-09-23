@@ -17,7 +17,7 @@ public class Test4StorySentenceExamples extends AbstractDictTest implements IExa
 	}
 	protected String getCommonCharFile() {
 		return super.getCommonCharFile();
-		//return "/home/rob/Documents/dict/project/DictionarySort/data/commonchar_hp";
+		//return "data/commonchar_hp";
 	}
 
 	
@@ -26,9 +26,9 @@ public class Test4StorySentenceExamples extends AbstractDictTest implements IExa
 	}
 	
 	protected void severalStuff() {
-		String hpFile = "/home/rob/Documents/dict/project/DictionarySort/data/examples/hpexamples.txt";
-		String ncikuFile = "/home/rob/Documents/dict/project/DictionarySort/data/examples/ALL_OUT_CN";
-		String customFile = "/home/rob/Documents/dict/project/DictionarySort/data/examples/ALL_OUT_CN";
+		String hpFile = "data/examples/hpexamples.txt";
+		String ncikuFile = "data/examples/ALL_OUT_CN";
+		String customFile = "data/examples/ALL_OUT_CN";
 		
 		// As a set
 		Collection<String> hpExamples = ExampleUtil.loadMultiLineExamples(hpFile, this.allChars, "UTF8", true, this);
@@ -57,7 +57,7 @@ public class Test4StorySentenceExamples extends AbstractDictTest implements IExa
 	}
 	
 	protected void harryPotterInOrder() {
-		String hpFile = "/home/rob/Documents/dict/project/DictionarySort/data/examples/hpexamples.txt";
+		String hpFile = "data/examples/hpexamples.txt";
 		ArrayList<String> hpExamples = new ArrayList<String>();
 		ExampleUtil.loadMultiLineExamples(hpFile, this.allChars, "UTF8", true, this, hpExamples);
 		TreeSet<String> ts = new TreeSet<String>();

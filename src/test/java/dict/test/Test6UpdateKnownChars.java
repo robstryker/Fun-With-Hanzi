@@ -6,11 +6,11 @@ import junit.framework.TestCase;
 
 public class Test6UpdateKnownChars extends TestCase {
 	public void testUpdateKnownChars() {
-		String customFile = "/home/rob/Documents/dict/project/DictionarySort/data/examples/CUSTOM_EXAMPLES";
-		String hpFile = "/home/rob/Documents/dict/project/DictionarySort/data/examples/hpexamples.txt";
-		String ncikuFile = "/home/rob/Documents/dict/project/DictionarySort/data/examples/ALL_OUT_CN";
-		String commonChar = "/home/rob/Documents/dict/project/DictionarySort/data/commonchar_ALL";
-		String dusbook3 = "/home/rob/Documents/dict/project/DictionarySort/data/examples/GBK/3.txt";
+		String customFile = "data/examples/CUSTOM_EXAMPLES";
+		String hpFile = "data/examples/hpexamples.txt";
+		String ncikuFile = "data/examples/ALL_OUT_CN";
+		String commonChar = "data/commonchar_ALL";
+		String dusbook3 = "data/examples/GBK/3.txt";
 
 		String chars = "";
 

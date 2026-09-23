@@ -17,14 +17,14 @@ public class DictionaryStatisticsMain {
 	protected ArrayList<DictionaryEntry> dict;
 	public void run() {
 		if( commonChars == null ) {
-			String commonCharFile = "/home/rob/code/dict/project/DictionarySort/data/commonchar_ALL";
+			String commonCharFile = "data/commonchar_ALL";
 			commonChars = IOUtil.loadCommonCharsFromFile(commonCharFile);
 		}
 		String allDefaultChars = StringUtil.getAllDefaultIgnoreCharsAsString();
 		
 		allChars = allDefaultChars + commonChars;
 		
-		String dictFile = "/home/rob/code/dict/project/DictionarySort/data/cedict_ts.u8";
+		String dictFile = "data/cedict_ts.u8";
 		dict = IOUtil.loadSortedDictionary(dictFile, "UTF8", allChars);
 		
 		int runningCount = 0;
