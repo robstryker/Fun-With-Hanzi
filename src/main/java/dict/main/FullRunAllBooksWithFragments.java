@@ -13,8 +13,21 @@ import dict.util.IOUtil;
 import dict.util.StringUtil;
 
 public class FullRunAllBooksWithFragments implements IExampleAdditionVerifier {
+	/**
+	 * Usage: FullRunAllBooksWithFragments [--sql] [orderFile]
+	 * Writes XML (default) or SQL to stdout. orderFile defaults to data/commonchar.
+	 */
 	public static void main(String[] args) {
-		new FullRunAllBooksWithFragments().run();
+		String orderFile = "data/commonchar";
+		for( String arg : args ) {
+			if( arg.equals("--sql"))
+				IOUtil.setOut(IOUtil.getSQLOut());
+			else
+				orderFile = arg;
+		}
+		FullRunAllBooksWithFragments runner = new FullRunAllBooksWithFragments();
+		runner.setCommonChars(IOUtil.loadCommonCharsFromFile(orderFile));
+		runner.run();
 	}
 	
 	protected String allChars;
@@ -158,6 +171,6 @@ public class FullRunAllBooksWithFragments implements IExampleAdditionVerifier {
 	}
 	
 	private void handleMissingCharSentence(String s) {
-		System.out.println("ERROR: " + s);
+		System.err.println("ERROR: " + s);
 	}
 }

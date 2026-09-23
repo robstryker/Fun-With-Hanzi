@@ -120,8 +120,12 @@ public class IOUtil {
 
 	public static IOutputMethod getOut() {
 		if (out == null)
-			out = getSQLOut();
+			out = getPrintOut();
 		return out;
+	}
+
+	public static void setOut(IOutputMethod method) {
+		out = method;
 	}
 
 	public static IOutputMethod getSQLOut() {
