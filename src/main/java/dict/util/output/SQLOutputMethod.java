@@ -1,5 +1,8 @@
 package dict.util.output;
 
+import java.util.List;
+import java.util.Map;
+
 import dict.model.DictionaryEntry;
 import dict.util.IOUtil;
 
@@ -72,6 +75,9 @@ public class SQLOutputMethod implements IOutputMethod {
 		sentenceIndex++;
 	}
 	public void endHanzi(int hanziId, char hanzi) {
+	}
+	public void printKnown(Map<Character, List<DictionaryEntry>> known) {
+		// no SQL table for these yet
 	}
 	public void end() {
 	}

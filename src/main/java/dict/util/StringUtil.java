@@ -61,7 +61,7 @@ public class StringUtil {
 	}
 	
 	public static String[] getDefaultZeroDifficultyChineseChars() {
-		return new String[] {"呀","呢","吧"};
+		return new String[] {"啊","呀","呢","吧"};
 	}
 	
 	

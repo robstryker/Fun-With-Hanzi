@@ -3,6 +3,9 @@ package dict.main;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
 import java.util.TreeSet;
 
 import dict.model.DictionaryEntry;
@@ -56,12 +59,27 @@ public class FullRunAllBooksWithFragments implements IExampleAdditionVerifier {
 		examples = loadSortedExamples();
 		
 		IOUtil.getOut().start();
+		IOUtil.getOut().printKnown(knownEntries());
 		for( int i = 0; i < commonChars.length(); i++ ) {
 			runHanziOutput(i);
 		}
 		IOUtil.getOut().end();
 	}
 	
+	/** Dictionary entries for the free mood particles (StringUtil's zero-difficulty chars). */
+	protected Map<Character, List<DictionaryEntry>> knownEntries() {
+		Map<Character, List<DictionaryEntry>> known = new LinkedHashMap<Character, List<DictionaryEntry>>();
+		for( String s : StringUtil.getDefaultZeroDifficultyChineseChars()) {
+			List<DictionaryEntry> entries = new ArrayList<DictionaryEntry>();
+			for( DictionaryEntry e : dict ) {
+				if( e.modern.equals(s))
+					entries.add(e);
+			}
+			known.put(s.charAt(0), entries);
+		}
+		return known;
+	}
+
 	int lastDictEntry = 0;
 	int lastExample = 0;
 	
