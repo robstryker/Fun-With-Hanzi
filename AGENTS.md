@@ -27,7 +27,8 @@ java -cp target/classes dict.main.FullRunAllBooksWithFragments > outputs/regener
 mvn test                                                         # 6 legacy JUnit tests
 ```
 
-PDFs are generated and not committed (`/outputs/*.pdf` is gitignored).
+The PDFs and `outputs/regenerated.xml` are generated and not committed (both
+gitignored); regenerate the XML with the Java command after a fresh checkout.
 The Java run always covers the full order; limit the PDF instead. Run from the
 project root (data paths are relative). `.venv` holds WeasyPrint.
 
