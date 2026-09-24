@@ -1,0 +1,11 @@
+# Hand-written short glosses for print/build_print.py.
+# Format: word<TAB>pinyin (numbered, as in CC-CEDICT)<TAB>gloss
+#   - leave pinyin blank to cover every reading of the word
+#   - use "-" as the gloss to hide that reading entirely
+# Any entry here replaces the automatic trimmed definition.
+的	di2	-
+的	di4	-
+吗	ma3	-
+说	shui4	-
+大家	da4 jia1	everyone
+想	xiang3	to think; to want; to miss

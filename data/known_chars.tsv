@@ -1,0 +1,6 @@
+# Tone words (语气词) known before character #1, shown at the start of the PDF.
+# Format: char<TAB>pinyin (numbered, picks which dictionary reading to show)<TAB>explanation
+啊	a5	Adds warmth or emphasis at the end of a sentence, like "ah!" or "oh!"
+呀	ya5	A cheerful or surprised "oh!"; used like 啊, often after a vowel sound
+呢	ne5	A gentle question: "and ...?", "what about ...?"
+吧	ba5	A suggestion or check: "let's ...", "..., right?", "OK then"
