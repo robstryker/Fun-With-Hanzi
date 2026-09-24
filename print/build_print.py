@@ -254,12 +254,12 @@ CSS = """
         @bottom-center { content: counter(page); font-family: "Noto Sans"; font-size: 8pt; color: #888; } }
 body { font-family: "Noto Sans", "Droid Sans Fallback"; font-size: 9.5pt; color: #222; margin: 0; }
 .char { break-inside: avoid; border-top: 1.2pt solid #333; padding: 2.5mm 0 3mm 0; }
-.head { display: flex; align-items: baseline; gap: 4mm; }
+.head { display: flex; align-items: flex-start; gap: 4mm; }
 .big { font-size: 30pt; line-height: 1; }
-.readings { flex: 1; }
+.readings { flex: 1; padding-top: 4.2mm; }
 .reading { margin-right: 9mm; }
 .py { color: #a33; margin-right: 3mm; }
-.num { font-size: 13pt; font-weight: bold; color: #444; }
+.num { font-size: 13pt; font-weight: bold; color: #444; padding-top: 3.2mm; }
 .words { display: grid; grid-template-columns: 1fr 1fr; column-gap: 6mm; row-gap: 0.6mm; margin-top: 2mm; }
 .word { padding-left: 1.2em; text-indent: -1.2em; }
 .word .hz { font-size: 12pt; }
