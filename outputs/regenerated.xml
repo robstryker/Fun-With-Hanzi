@@ -1803,11 +1803,21 @@
       <sent>“好了,看着我,”</sent>
       <sent>“看着—”</sent>
       <sent>他们也在看着他</sent>
+      <sent>他们在那儿看着，也不说。</sent>
       <sent>他们看着他</sent>
+      <sent>他在中国的时候，时时想着家。</sent>
+      <sent>他想着要去中国看看。</sent>
       <sent>他没着儿了。</sent>
       <sent>他看着他们</sent>
+      <sent>他看着我说：“你好吗？”</sent>
       <sent>他说着说着</sent>
+      <sent>他说着说着就不说了。</sent>
+      <sent>你们看着这个儿子，我一会儿就回来。</sent>
+      <sent>你要看着你的儿子。</sent>
       <sent>你还好着呢</sent>
+      <sent>她看着她的儿子出去了。</sent>
+      <sent>她说着说着就回家去了。</sent>
+      <sent>我想着我的家人。</sent>
       <sent>来看着他。</sent>
       <sent>着......</sent>
       <sent>这下他没着了。</sent>
@@ -1859,14 +1869,18 @@
       <sent>不过这一个</sent>
       <sent>也没有来过这里。</sent>
       <sent>他们也好过不了</sent>
+      <sent>他去过很多国家。</sent>
       <sent>他很多年没来过这里了。</sent>
+      <sent>他过得很好，你不要想他了。</sent>
       <sent>你不是去过她的家吗？</sent>
       <sent>你也见过了</sent>
       <sent>你们见过他</sent>
       <sent>你们过来看。</sent>
+      <sent>你去过中国吗？</sent>
       <sent>你有没有想过</sent>
       <sent>你没看到过她</sent>
       <sent>你看到过她了</sent>
+      <sent>你过来一下，我想看看。</sent>
       <sent>你还没有见过 Healer Smethwyck 吧,是吗?”</sent>
       <sent>在过去的一年里</sent>
       <sent>她说她见过他。</sent>
@@ -1881,6 +1895,8 @@
       <sent>我们过不去</sent>
       <sent>我们过得很好。</sent>
       <sent>我们还没有想到过她</sent>
+      <sent>我去过中国，他没去过。</sent>
+      <sent>我想去，不过他不要我去。</sent>
       <sent>我见过他了</sent>
       <sent>我过一会儿会来看你们的。</sent>
       <sent>是我的过去</sent>
@@ -1890,6 +1906,7 @@
       <sent>过了一会儿</sent>
       <sent>过了一会儿他说</sent>
       <sent>过了不一会儿</sent>
+      <sent>过去我在中国，这一年我在这里。</sent>
       <sent>过去我没见过他。</sent>
       <sent>过去是我们</sent>
       <sent>过来这里一会儿</sent>
@@ -1919,12 +1936,36 @@
       <sent>“他们还是学生。</sent>
       <sent>“我的好学生!”</sent>
       <sent>下学回家。</sent>
+      <sent>他不想上学。</sent>
+      <sent>他们是大学生。</sent>
+      <sent>他在中国上大学。</sent>
+      <sent>他在学，你们出去吧。</sent>
+      <sent>他学得很好。</sent>
       <sent>他这也想学，那也想学。</sent>
+      <sent>你上学了吗？</sent>
+      <sent>你在这里上学吗？</sent>
+      <sent>你学会了吗？</sent>
+      <sent>你学过吗？</sent>
+      <sent>你是学生吗？</sent>
+      <sent>你要学好。</sent>
+      <sent>她去年上中学了。</sent>
       <sent>她是一个很好学的学生。</sent>
+      <sent>她是中学生。</sent>
+      <sent>学生们来了！</sent>
       <sent>年还来不来这里上学, </sent>
       <sent>我们还会有一个学生吗</sent>
       <sent>我们还在学</sent>
+      <sent>我学了一年了。</sent>
+      <sent>我学会了！</sent>
+      <sent>我学到了很多。</sent>
+      <sent>我想去中国上大学。</sent>
+      <sent>我的儿子是学生。</sent>
+      <sent>我的儿子还没上学。</sent>
+      <sent>我还没学会。</sent>
       <sent>的学生了!”</sent>
+      <sent>这个我学过。</sent>
+      <sent>那个人是学生还是大人？</sent>
+      <sent>那个大学很大。</sent>
       <sent>那是个学生吗</sent>
     </sentences>
   </hanzi>
@@ -1981,8 +2022,11 @@
       <sent>他们是多好的一对儿啊。</sent>
       <sent>他们是对的</sent>
       <sent>他们说对了</sent>
+      <sent>他对他的儿子很好。</sent>
       <sent>他对我很好</sent>
       <sent>你们没有对我</sent>
+      <sent>你是中国人，对吗？</sent>
+      <sent>你说得对，我们要回家了。</sent>
       <sent>你说得很对。</sent>
       <sent>啊对,我们有。</sent>
       <sent>她说对了,她说对了。</sent>
@@ -1991,10 +2035,12 @@
       <sent>对他们来说</sent>
       <sent>对你还好吧</sent>
       <sent>对我们来说</sent>
+      <sent>对我来说，这个很好。</sent>
       <sent>我想你们对</sent>
       <sent>我想你是对的</sent>
       <sent>我说的对吗</sent>
       <sent>看来他是对的。</sent>
+      <sent>这个不对，那个对。</sent>
       <sent>那是一对吧</sent>
       <sent>那是不对的</sent>
     </sentences>
@@ -2057,6 +2103,7 @@
       <sent>他们可以回家了。</sent>
       <sent>他们说我可以去。</sent>
       <sent>他可不是。</sent>
+      <sent>他说他会来，可是他没来。</sent>
       <sent>你们不可以出去</sent>
       <sent>你可以去她那儿</sent>
       <sent>你可以来我家。</sent>
@@ -2079,11 +2126,13 @@
       <sent>我可以去吗</sent>
       <sent>我可以看一下吗？</sent>
       <sent>我可以看看你的吗？</sent>
+      <sent>我很想去中国，可是我的儿子不想去。</sent>
       <sent>我想他可以</sent>
       <sent>我想去，可是我不可以去。</sent>
       <sent>我看可以。</sent>
       <sent>没有人可以</sent>
       <sent>要不你可以</sent>
+      <sent>这个很好，可是我不要。</sent>
       <sent>这可不好。</sent>
       <sent>这可不对。</sent>
       <sent>这可不是我的......</sent>
@@ -2103,9 +2152,17 @@
     <word><t>要之</t><m>要之</m><p>yao4 zhi1</p><d>/in brief/in a word/</d></word>
     <sentences>
       <sent>不会在你之上</sent>
+      <sent>中国是很大的国家之一。</sent>
       <sent>中国是我想去的国家之一。</sent>
+      <sent>他们之中有人去过中国。</sent>
       <sent>他们之中没有人想回去。</sent>
+      <sent>他在我之上，我在他之下。</sent>
+      <sent>他学得很好，在我之上。</sent>
       <sent>他是我的家人之一。</sent>
+      <sent>你是我想见的人之一。</sent>
+      <sent>在我们之中，他是大学生，我们是中学生。</sent>
+      <sent>大学生之中有很多中国人。</sent>
+      <sent>她是他的学生之一。</sent>
       <sent>我们之中有一个人是中国人。</sent>
       <sent>这是我的儿子之一。</sent>
     </sentences>
@@ -2133,10 +2190,36 @@
       <sent>“以后你会的。”</sent>
       <sent>“你以后还会来看我吗?”</sent>
       <sent>一会儿之后</sent>
+      <sent>一年以后，他回来了。</sent>
+      <sent>下学以后，你要去那儿吗？</sent>
+      <sent>下学以后，我就回家。</sent>
+      <sent>他上了大学以后，不大回家了。</sent>
+      <sent>他上学以后，家里一个人也没有了。</sent>
       <sent>他们会在多年后</sent>
+      <sent>他出去以后，我一个人在家。</sent>
+      <sent>他到了之后，就去看他的家人了。</sent>
+      <sent>他回国以后，就去上大学了。</sent>
+      <sent>他回家以后，就去看他的家人了。</sent>
+      <sent>他来了之后，大家就好了。</sent>
+      <sent>以后你要好好学。</sent>
+      <sent>以后我想去中国上大学。</sent>
+      <sent>你以后还来吗？</sent>
+      <sent>你到家以后，来看看我吧。</sent>
+      <sent>你想好了以后，就说吧。</sent>
       <sent>你见到他们之后呢</sent>
       <sent>到了那儿之后</sent>
+      <sent>后年我们一家人要去中国。</sent>
+      <sent>后来他去了中国。</sent>
       <sent>后来他想到了</sent>
+      <sent>后来她回国了。</sent>
+      <sent>后来我们就没见过他了。</sent>
+      <sent>后来我们没有见过。</sent>
+      <sent>回家以后，我要看一下我的儿子。</sent>
+      <sent>她说她以后会回来的。</sent>
+      <sent>我们到了那儿之后，他就出去了。</sent>
+      <sent>我们见过他之后，就回家了。</sent>
+      <sent>我到了中国以后，会想你们的。</sent>
+      <sent>我学会了以后，就去中国。</sent>
       <sent>是在我上学后</sent>
       <sent>看了一会儿后</sent>
       <sent>看到这个以后</sent>
@@ -2175,13 +2258,23 @@
       <sent>一个很小的</sent>
       <sent>一小时过去了</sent>
       <sent>一小时过后</sent>
+      <sent>他在这里一个多小时了。</sent>
+      <sent>他的家很小，可是很好。</sent>
       <sent>他还小呢。</sent>
       <sent>他那小小的</sent>
+      <sent>你看过这个小说吗？</sent>
+      <sent>你要大的还是小的？</sent>
       <sent>可是一个小时过去了</sent>
+      <sent>她是小学生，他是中学生。</sent>
+      <sent>小时候我在中国。</sent>
+      <sent>我们过一个小时就回家。</sent>
+      <sent>我小时候很想上学。</sent>
+      <sent>我的小儿子上小学了。</sent>
       <sent>有一小会儿</sent>
       <sent>过一小时回来</sent>
       <sent>过了一个小时</sent>
       <sent>过了一小会儿</sent>
+      <sent>这个小说很好看。</sent>
       <sent>那个小个子</sent>
       <sent>那里有一个小小的</sent>
     </sentences>
@@ -2215,9 +2308,16 @@
       <sent>“小心啊!”</sent>
       <sent>他一心想上大学。</sent>
       <sent>他很小心的说</sent>
+      <sent>他是一个好心人。</sent>
+      <sent>他的心很好。</sent>
       <sent>你们要很小心</sent>
+      <sent>你出去的时候要小心。</sent>
+      <sent>你要小心，不要出去。</sent>
       <sent>可是你要小心</sent>
       <sent>她一心想去。</sent>
+      <sent>她心里想着她的儿子。</sent>
+      <sent>我心里很想家。</sent>
+      <sent>我的心不在这里。</sent>
       <sent>那时就得小心了</sent>
     </sentences>
   </hanzi>
@@ -2252,12 +2352,20 @@
       <sent>“我的天呀!”</sent>
       <sent>”天啊,......</sent>
       <sent>他3天后回来。</sent>
+      <sent>他们在那儿过了一天。</sent>
+      <sent>他天天来看我。</sent>
       <sent>他来的那天</sent>
+      <sent>后天你会来吗？</sent>
+      <sent>后天我们要去中国。</sent>
       <sent>天啊！ 啊呀！</sent>
       <sent>我…的那一天</sent>
+      <sent>我一天没见到他了。</sent>
+      <sent>我们天天上学。</sent>
       <sent>我的天啊......</sent>
       <sent>有一天他会来的。</sent>
+      <sent>有一天我会去中国看看。</sent>
       <sent>过一天是一天</sent>
+      <sent>那天我在家里。</sent>
     </sentences>
   </hanzi>
   <hanzi id="60" char="今">
@@ -2270,13 +2378,26 @@
     <sentences>
       <sent>“看看今天!”</sent>
       <sent>不是今天吧</sent>
+      <sent>今后我会好好学的。</sent>
+      <sent>今天你去上学吗？</sent>
       <sent>今天到会的人有好多？</sent>
+      <sent>今天我不想上学，我想在家里。</sent>
+      <sent>今天我们一家人要去看我的大儿子。</sent>
+      <sent>今天我们在家里看小说。</sent>
+      <sent>今天我很想家。</sent>
       <sent>今天没人来。</sent>
+      <sent>今年我们一家人要回国。</sent>
+      <sent>今年我们家的小儿子上小学了。</sent>
       <sent>今年我们还有</sent>
+      <sent>今年我的儿子上大学了。</sent>
       <sent>今年是我们的</sent>
       <sent>今年过去后</sent>
+      <sent>他今天会回来吗？</sent>
       <sent>他今年回家过年。</sent>
+      <sent>他说他今天要回家，可是他没回来。</sent>
+      <sent>你今天可以来我家吗？</sent>
       <sent>你今天想出去吗？</sent>
+      <sent>我今天不出去了。</sent>
       <sent>我想他今天不会来。</sent>
     </sentences>
   </hanzi>
@@ -2285,9 +2406,21 @@
     <word><t>昨天</t><m>昨天</m><p>zuo2 tian1</p><d>/yesterday/</d></word>
     <sentences>
       <sent>“我昨天看到她了。</sent>
+      <sent>他昨天说他今天会来。</sent>
+      <sent>你昨天在家吗？</sent>
+      <sent>昨天他回来以后，就出去了。</sent>
+      <sent>昨天他没来上学。</sent>
+      <sent>昨天你看见他了吗？</sent>
       <sent>昨天在这里的那个人</sent>
+      <sent>昨天她说她很想家。</sent>
       <sent>昨天她还好好的。</sent>
+      <sent>昨天我们一家人出去了。</sent>
+      <sent>昨天我们去看他的时候，他不在家。</sent>
+      <sent>昨天我去看我的家人了。</sent>
+      <sent>昨天我在家里看了一天小说。</sent>
+      <sent>昨天我没去，今天我要去。</sent>
       <sent>昨天我没有会着他。</sent>
+      <sent>昨天的这个时候，我在大学里。</sent>
     </sentences>
   </hanzi>
   <hanzi id="62" char="能">
@@ -2337,6 +2470,7 @@
       <sent>“那有可能吗?”</sent>
       <sent>…是不大可能的</sent>
       <sent>不可能是他</sent>
+      <sent>今天我不能出去，我要在家里学。</sent>
       <sent>他不可能回来了</sent>
       <sent>他不可能说</sent>
       <sent>他不能......</sent>
@@ -2345,12 +2479,15 @@
       <sent>他也能回来,对吗?”</sent>
       <sent>他们不可能在这里</sent>
       <sent>他们不能的。</sent>
+      <sent>他可能今天不来了。</sent>
       <sent>你不可能想去</sent>
       <sent>你不能看见他们?”</sent>
       <sent>你不能看那</sent>
       <sent>你们不能......</sent>
       <sent>你们可能要</sent>
       <sent>你很可能是对的</sent>
+      <sent>你能不能看一下我的儿子？</sent>
+      <sent>你能来我家吗？</sent>
       <sent>你说有没有可能她没有</sent>
       <sent>到时你能去吗</sent>
       <sent>可是我能看出来</sent>
@@ -2407,9 +2544,12 @@
       <sent>一个人都看不见。</sent>
       <sent>个个都是好人</sent>
       <sent>人们都想......</sent>
+      <sent>今天大家都要去上学。</sent>
       <sent>他们都在那里</sent>
+      <sent>他们都是中国人，我们都不是。</sent>
       <sent>他们都是天生的</sent>
       <sent>他们都看着他</sent>
+      <sent>你们都去过中国吗？</sent>
       <sent>你们都在这儿吗</sent>
       <sent>你们都好吧</sent>
       <sent>你们都说得对</sent>
@@ -2422,11 +2562,13 @@
       <sent>对你我都是。</sent>
       <sent>很多人都说</sent>
       <sent>我一个人都没看见</sent>
+      <sent>我们一家人都很想你。</sent>
       <sent>我们不能都去</sent>
       <sent>我们大家都在这儿。</sent>
       <sent>我们都能看到</sent>
       <sent>我们都还在这儿</sent>
       <sent>我都想好了</sent>
+      <sent>昨天大家都在家里。</sent>
       <sent>看都看不见</sent>
       <sent>那个时候，我们都不会多想。</sent>
       <sent>那里都是我的家</sent>
@@ -2464,10 +2606,28 @@
       <sent>“那天是我的生日!”</sent>
       <sent>今天是他们的好日子。</sent>
       <sent>今天是他的生日</sent>
+      <sent>今天是你儿子的生日，你们要出去吗？</sent>
       <sent>今天是你的生日</sent>
+      <sent>今天是我儿子的生日。</sent>
       <sent>今天是我的生日。</sent>
+      <sent>今天是我的生日，你们都来吧！</sent>
+      <sent>他们一家人的日子过得很好。</sent>
+      <sent>他儿子的生日在年中。</sent>
+      <sent>你儿子的生日是今天吗？</sent>
+      <sent>你的生日是今天吗？</sent>
       <sent>多日不见了，你好吗？</sent>
       <sent>家家都过上了好日子。</sent>
+      <sent>我们去看日出吧！</sent>
+      <sent>我们在中国过了很好的日子。</sent>
+      <sent>我儿子生日的时候，我们一家人去看日出。</sent>
+      <sent>我生日的时候，我的家人都来了。</sent>
+      <sent>我生日那天，大家都来看我。</sent>
+      <sent>我的小儿子今天过生日。</sent>
+      <sent>我的生日过了以后，我就要去上大学了。</sent>
+      <sent>日后你就会看到了。</sent>
+      <sent>昨天是她的生日，我们都去了她家。</sent>
+      <sent>生日以后，我们一家人去了中国。</sent>
+      <sent>生日的时候，我们一家人都回家。</sent>
       <sent>过过好日子</sent>
     </sentences>
   </hanzi>
@@ -2490,11 +2650,30 @@
       <sent>“——你和她!”</sent>
       <sent>“也不能和我们的,”Zacharias 说。</sent>
       <sent>“和你......</sent>
+      <sent>今天和昨天都很好。</sent>
+      <sent>今天我和她要去上学，你呢？</sent>
+      <sent>他们和好了。</sent>
+      <sent>他和他的儿子去中国了。</sent>
+      <sent>他和他的家人在中国过生日。</sent>
+      <sent>他和她昨天去了大学。</sent>
+      <sent>他和我都是大学生。</sent>
+      <sent>他对我和我的家人都很好。</sent>
+      <sent>你和你的家人都好吗？</sent>
+      <sent>你和她是一家人吗？</sent>
       <sent>你和我......</sent>
+      <sent>你要和他去吗？</sent>
       <sent>和......</sent>
       <sent>和Dawlish </sent>
       <sent>和我们过不去呢</sent>
+      <sent>她和她的小儿子在家里。</sent>
       <sent>我不能和你们去</sent>
+      <sent>我不能和你们去，我要上学。</sent>
+      <sent>我们和他们都去过中国。</sent>
+      <sent>我和你都是中国人。</sent>
+      <sent>我和我的家人今天要出去。</sent>
+      <sent>我想和你说一下。</sent>
+      <sent>我的大儿子和小儿子都是学生。</sent>
+      <sent>昨天我见到了他和他的儿子。</sent>
     </sentences>
   </hanzi>
   <hanzi id="66" char="起">
@@ -2538,18 +2717,22 @@
       <sent>他们一起出去了</sent>
       <sent>他会好起来的,是吗?”</sent>
       <sent>他想起来了</sent>
+      <sent>他看起来很小。</sent>
       <sent>你们想起来没</sent>
       <sent>你会好起来的</sent>
       <sent>你想和我一起去吗</sent>
+      <sent>你起来了没有？今天要上学！</sent>
       <sent>和他在一起</sent>
       <sent>回想起来，…</sent>
       <sent>她会好起来的</sent>
+      <sent>对不起，我今天不能来。</sent>
       <sent>就在这里你们一起来吧</sent>
       <sent>想起我来了</sent>
       <sent>我也不会和你一起出去的</sent>
       <sent>我们一起去看</sent>
       <sent>我们不要在一起了。</sent>
       <sent>我们也要一起去</sent>
+      <sent>我们今天一起去上学吧。</sent>
       <sent>我们会和你在一起</sent>
       <sent>我们可以一起去。</sent>
       <sent>我们和你一起去</sent>
@@ -2558,6 +2741,7 @@
       <sent>我可是不和他一起去。</sent>
       <sent>我和他在一起</sent>
       <sent>我想起来了</sent>
+      <sent>我想起来了，他是你的小儿子！</sent>
       <sent>我时时想起她。</sent>
       <sent>我看到过他们在一起</sent>
       <sent>我要和你一起去</sent>
@@ -2581,13 +2765,27 @@
     <word><t>生發</t><m>生发</m><p>sheng1 fa1</p><d>/to emerge and grow/to develop/</d></word>
     <sentences>
       <sent>“就是在这发生的。</sent>
+      <sent>他一出发，我就想他了。</sent>
       <sent>他们一起出发时</sent>
       <sent>他们出发了</sent>
       <sent>他这就出发。</sent>
+      <sent>你们今天出发吗？</sent>
+      <sent>你们今天和我们一起出发吗？</sent>
+      <sent>你们出发了没有？</sent>
+      <sent>你们出发的时候，要小心。</sent>
       <sent>你看吧，我就说会发生的。</sent>
       <sent>出发吧!”</sent>
+      <sent>我们一家人一起出发去中国。</sent>
+      <sent>我们今天出发，后天到家。</sent>
       <sent>我们出发了</sent>
+      <sent>我们出发以后，他就来了。</sent>
       <sent>我们出发吧</sent>
+      <sent>我们都出发了，他还在家里。</sent>
+      <sent>我没想到这会发生。</sent>
+      <sent>日出的时候，我们就出发。</sent>
+      <sent>昨天我们一起出发，今天我们到了。</sent>
+      <sent>生日那天，我们一家人一起出发去看日出。</sent>
+      <sent>这个可能会发生。</sent>
       <sent>那有时是会发生的</sent>
     </sentences>
   </hanzi>
@@ -2614,13 +2812,29 @@
       <sent>“你还没有成年!”</sent>
       <sent>一个有成就的人</sent>
       <sent>了不起的成就</sent>
+      <sent>今天我们一起出发，成不成？</sent>
       <sent>他也不是一个成年人</sent>
+      <sent>他们成天在家里看小说。</sent>
+      <sent>他和她成家了。</sent>
+      <sent>他成天想着去中国。</sent>
+      <sent>他成天看小说，不去上学。</sent>
+      <sent>他成年以后就去了中国。</sent>
+      <sent>他成年以后，就一个人去了大学。</sent>
+      <sent>他的儿子成家了。</sent>
       <sent>他还没有成家。</sent>
       <sent>你不去可不成。</sent>
+      <sent>你们都成年了，可以一个人出去。</sent>
+      <sent>你成家了吗？</sent>
       <sent>你没有成年</sent>
       <sent>你还没成年</sent>
+      <sent>你还没成年，不能一个人去中国。</sent>
+      <sent>她成天想着她的儿子。</sent>
       <sent>学成回国。</sent>
+      <sent>成了！我们可以出发了。</sent>
       <sent>成天不在家</sent>
+      <sent>我的大儿子成家了，小儿子还没有。</sent>
+      <sent>这个小学生成了大学生。</sent>
+      <sent>这个成不成？</sent>
       <sent>这是个了不起的成就</sent>
     </sentences>
   </hanzi>
@@ -2668,15 +2882,18 @@
       <sent>“没你的事!”</sent>
       <sent>“过去的事就过去吧。</sent>
       <sent>不可能的事</sent>
+      <sent>今天我没有事，我们一起出去吧。</sent>
       <sent>他们没事了</sent>
       <sent>他们都会没事的</sent>
       <sent>他会没事的</sent>
+      <sent>他出事了，我们要去看他。</sent>
       <sent>他成不了大事。</sent>
       <sent>会没事,”</sent>
       <sent>你不会有事的</sent>
       <sent>你们没事吧</sent>
       <sent>你会没事的</sent>
       <sent>你就没事了</sent>
+      <sent>你有事就说。</sent>
       <sent>你没事儿吧</sent>
       <sent>你没事吧?"</sent>
       <sent>你没有出事</sent>
@@ -2695,10 +2912,12 @@
       <sent>我们没事的</sent>
       <sent>我们都会没事的</sent>
       <sent>我想他没事了</sent>
+      <sent>昨天发生的事，我都看到了。</sent>
       <sent>有事吗？没事。</sent>
       <sent>这事过去很多年了</sent>
       <sent>这对你来说是好事</sent>
       <sent>这是她的事</sent>
+      <sent>这是我们一家人的事。</sent>
       <sent>这是我的事</sent>
       <sent>这没我的事。</sent>
       <sent>那可不是小事</sent>
@@ -2737,7 +2956,11 @@
       <sent>一只大大的</sent>
       <sent>不只是他的心吧</sent>
       <sent>不过这一只</sent>
+      <sent>今天只有我一个人在家。</sent>
+      <sent>今天我们只能在家里。</sent>
       <sent>他们想要的只是</sent>
+      <sent>他只去了一个小时就回来了。</sent>
+      <sent>他只想回家，不想出去。</sent>
       <sent>他只是看呀看</sent>
       <sent>他只是看着他</sent>
       <sent>他心里只有她。</sent>
@@ -2756,6 +2979,7 @@
       <sent>只有你和我</sent>
       <sent>只有那一个</sent>
       <sent>只要他们想</sent>
+      <sent>只要你来，我就很好。</sent>
       <sent>只要我们有他</sent>
       <sent>只要有我在这</sent>
       <sent>小的那只就是</sent>
@@ -2763,6 +2987,7 @@
       <sent>我们一人一只</sent>
       <sent>我只是在想</sent>
       <sent>我只是想着</sent>
+      <sent>我只有一个儿子。</sent>
       <sent>我只要一会儿</sent>
       <sent>我就只好来了</sent>
       <sent>我想他们只是说说</sent>
@@ -2804,6 +3029,7 @@
       <sent>“我——好吧,但是——”</sent>
       <sent>“是的,但是—”</sent>
       <sent>“是的,但是你不一起去。</sent>
+      <sent>他是中国人，但是他没去过中国。</sent>
       <sent>但不是今天</sent>
       <sent>但不是大很多</sent>
       <sent>但不是对他</sent>
@@ -2851,27 +3077,13 @@
       <sent>但那儿也没人</sent>
       <sent>但那是不可能的</sent>
       <sent>多年来我没回家,但是来年我可能会回去！</sent>
+      <sent>我很想去，但是我今天有事。</sent>
       <sent>我想来，但是有事</sent>
+      <sent>我的儿子想上大学，但是他还小。</sent>
+      <sent>这个小说很好，但是我不想看。</sent>
     </sentences>
   </hanzi>
-  <hanzi id="72" char="作">
-    <word><t>作</t><m>作</m><p>zuo4</p><d>/to do/to grow/to write or compose/to pretend/to regard as/to feel/writings or works/</d></word>
-    <word><t>作下</t><m>作下</m><p>zuo4 xia4</p><d>/to do/to make (usually bad connotation)/</d></word>
-    <word><t>作人</t><m>作人</m><p>zuo4 ren2</p><d>/to conduct oneself/same as 做人/</d></word>
-    <word><t>作出</t><m>作出</m><p>zuo4 chu1</p><d>/to put out/to come up with/to make (a choice, decision, proposal, response, comment etc)/to issue (a permit, statement, explanation, apology, reassurance to the public etc)/to draw (conclusion)/to deliver (speech, judgment)/to devise (explanation)/to extract/</d></word>
-    <word><t>作家</t><m>作家</m><p>zuo4 jia1</p><d>/author/CL:個|个[ge4],位[wei4]/</d></word>
-    <word><t>作對</t><m>作对</m><p>zuo4 dui4</p><d>/set oneself against/oppose/make a pair/</d></word>
-    <word><t>發作</t><m>发作</m><p>fa1 zuo4</p><d>/to flare-up/to break out/</d></word>
-    <word><t>可作</t><m>可作</m><p>ke3 zuo4</p><d>/can be used for/</d></word>
-    <word><t>大作</t><m>大作</m><p>da4 zuo4</p><d>/to make sth big of it/sudden big and impressive event (sound, flash, burst, wind)/to exaggerate/</d></word>
-    <word><t>看作</t><m>看作</m><p>kan4 zuo4</p><d>/look upon as/regard as/</d></word>
-    <sentences>
-      <sent>一下子发作了</sent>
-      <sent>下作小人。</sent>
-      <sent>他是作家。</sent>
-    </sentences>
-  </hanzi>
-  <hanzi id="73" char="当">
+  <hanzi id="72" char="当">
     <word><t>上當</t><m>上当</m><p>shang4 dang4</p><d>/taken in (by sb's deceit)/to be fooled/to be duped/</d></word>
     <word><t>不當</t><m>不当</m><p>bu4 dang4</p><d>/unsuitable/improper/inappropriate/</d></word>
     <word><t>不當一回事</t><m>不当一回事</m><p>bu4 dang4 yi1 hui2 shi4</p><d>/not regard as a matter (of any importance)/</d></word>
@@ -2886,7 +3098,6 @@
     <word><t>當事人</t><m>当事人</m><p>dang1 shi4 ren2</p><d>/persons involved or implicated/party (to an affair)/</d></word>
     <word><t>當事國</t><m>当事国</m><p>dang1 shi4 guo2</p><d>/the countries involved/</d></word>
     <word><t>當今</t><m>当今</m><p>dang1 jin1</p><d>/current/present/now/nowadays/</d></word>
-    <word><t>當作</t><m>当作</m><p>dang4 zuo4</p><d>/treat as/regard as/</d></word>
     <word><t>當兒</t><m>当儿</m><p>dang1 r5</p><d>/the very moment/just then/during (that brief interval)/</d></word>
     <word><t>當回事</t><m>当回事</m><p>dang4 hui2 shi4</p><d>/to take seriously (often with negative expression: "don't take it too seriously")/to treat conscientiously/</d></word>
     <word><t>當回事兒</t><m>当回事儿</m><p>dang4 hui2 shi4 r5</p><d>/erhua variant of 當回事|当回事, to take seriously (often with negative expression: "don't take it too seriously")/to treat conscientiously/</d></word>
@@ -2912,6 +3123,7 @@
       <sent>你们要当心</sent>
       <sent>你可以当天来回。</sent>
       <sent>你当得好不好</sent>
+      <sent>你当心，这里有人。</sent>
       <sent>可当他想起来时</sent>
       <sent>小心上当。</sent>
       <sent>当Gurg 的人。</sent>
@@ -2921,18 +3133,22 @@
       <sent>当他出去的时候</sent>
       <sent>当他到的时候</sent>
       <sent>当他回来的时候</sent>
+      <sent>当他回来的时候，大家都很想见他。</sent>
       <sent>当他见你的时候</sent>
       <sent>当他说到这里</sent>
       <sent>当你看我时</sent>
+      <sent>当天他就回来了。</sent>
       <sent>当她对他们说</sent>
       <sent>当我们还在上大学的时候</sent>
       <sent>当我还很小的时候</sent>
+      <sent>当我还很小的时候，我们一家人在中国。</sent>
+      <sent>当时我不在家。</sent>
       <sent>当时这里小多了</sent>
       <sent>我们不上那个当。</sent>
       <sent>我当你不来了呢</sent>
     </sentences>
   </hanzi>
-  <hanzi id="74" char="然">
+  <hanzi id="73" char="然">
     <word><t>不然</t><m>不然</m><p>bu4 ran2</p><d>/not so/no/or else/otherwise/if not/</d></word>
     <word><t>了然</t><m>了然</m><p>liao3 ran2</p><d>/to understand clearly/evident/</d></word>
     <word><t>瞭然</t><m>了然</m><p>liao3 ran2</p><d>/to understand clearly/evident/</d></word>
@@ -2983,11 +3199,15 @@
       <sent>“这个,当然没有”</sent>
       <sent>“那当然,”</sent>
       <sent>不过当然了</sent>
+      <sent>他上了小学，然后上中学，然后上大学。</sent>
       <sent>他们当然会</sent>
       <sent>他当然不会</sent>
+      <sent>他是中国人，当然想回中国。</sent>
       <sent>你当然不是</sent>
+      <sent>你当然可以来我家！</sent>
       <sent>你当然没有</sent>
       <sent>你当然看不到,”</sent>
+      <sent>你要小心，不然会出事的。</sent>
       <sent>可是当然了</sent>
       <sent>当然,不会在你之上,”</sent>
       <sent>当然不!”</sent>
@@ -2999,6 +3219,8 @@
       <sent>当然我不能</sent>
       <sent>当然我会的</sent>
       <sent>当然是......</sent>
+      <sent>我们今天出发，要不然就到不了了。</sent>
+      <sent>我们去看看他，然后回家。</sent>
       <sent>我们当然可以去</sent>
       <sent>我当然不会</sent>
       <sent>我当然没有</sent>
@@ -3028,14 +3250,13 @@
       <sent>那是当然的</sent>
     </sentences>
   </hanzi>
-  <hanzi id="75" char="文">
+  <hanzi id="74" char="文">
     <word><t>上下文</t><m>上下文</m><p>shang4 xia4 wen2</p><d>/(textual) context/</d></word>
     <word><t>上文</t><m>上文</m><p>shang4 wen2</p><d>/preceding part of the text/</d></word>
     <word><t>中國文學</t><m>中国文学</m><p>zhong1 guo2 wen2 xue2</p><d>/Chinese literature/</d></word>
     <word><t>中文</t><m>中文</m><p>zhong1 wen2</p><d>/Chinese/Chinese written language/Chinese writing/</d></word>
     <word><t>人文</t><m>人文</m><p>ren2 wen2</p><d>/humanities/human affairs/culture/</d></word>
     <word><t>人文學</t><m>人文学</m><p>ren2 wen2 xue2</p><d>/humanities/</d></word>
-    <word><t>作文</t><m>作文</m><p>zuo4 wen2</p><d>/to write an essay/composition (student essay)/CL:篇[pian1]/</d></word>
     <word><t>回文</t><m>回文</m><p>hui2 wen2</p><d>/palindrome/</d></word>
     <word><t>天文</t><m>天文</m><p>tian1 wen2</p><d>/astronomy/</d></word>
     <word><t>天文學</t><m>天文学</m><p>tian1 wen2 xue2</p><d>/astronomy/</d></word>
@@ -3058,7 +3279,7 @@
       <sent>她的中文很好。</sent>
     </sentences>
   </hanzi>
-  <hanzi id="76" char="无">
+  <hanzi id="75" char="无">
     <word><t>不無</t><m>不无</m><p>bu4 wu2</p><d>/not without/</d></word>
     <word><t>可有可無</t><m>可有可无</m><p>ke3 you3 ke3 wu2</p><d>/not essential/dispensable/</d></word>
     <word><t>無</t><m>无</m><p>wu2</p><d>/-less/not to have/no/none/not/to lack/un-/</d></word>
@@ -3083,7 +3304,7 @@
       <sent>时日无多了。</sent>
     </sentences>
   </hanzi>
-  <hanzi id="77" char="开">
+  <hanzi id="76" char="开">
     <word><t>大開</t><m>大开</m><p>da4 kai1</p><d>/to open wide/</d></word>
     <word><t>對開</t><m>对开</m><p>dui4 kai1</p><d>/running in opposite direction (buses, trains, ferries etc)/</d></word>
     <word><t>開</t><m>开</m><p>kai1</p><d>/to open/to start/to turn on/to boil/to write out (a medical prescription)/to operate (vehicle)/abbr. for 開爾文|开尔文 degrees Kelvin/</d></word>
@@ -3114,11 +3335,10 @@
       <sent>还要开心得多</sent>
     </sentences>
   </hanzi>
-  <hanzi id="78" char="手">
+  <hanzi id="77" char="手">
     <word><t>一手</t><m>一手</m><p>yi1 shou3</p><d>/a skill/mastery of a trade/by oneself/without outside help/</d></word>
     <word><t>下手</t><m>下手</m><p>xia4 shou3</p><d>/start/put one's hand to/set about/the seat to the right of the main guest/</d></word>
     <word><t>人手</t><m>人手</m><p>ren2 shou3</p><d>/manpower/staff/</d></word>
-    <word><t>作手</t><m>作手</m><p>zuo4 shou3</p><d>/writer/expert/</d></word>
     <word><t>出手</t><m>出手</m><p>chu1 shou3</p><d>/to put one's hand to sth/</d></word>
     <word><t>好手</t><m>好手</m><p>hao3 shou3</p><d>/expert/professional/</d></word>
     <word><t>對手</t><m>对手</m><p>dui4 shou3</p><d>/opponent/adversary/match/</d></word>
@@ -3140,7 +3360,7 @@
       <sent>在你们手里</sent>
     </sentences>
   </hanzi>
-  <hanzi id="79" char="十">
+  <hanzi id="78" char="十">
     <word><t>十</t><m>十</m><p>shi2</p><d>/ten/10/</d></word>
     <word><t>十一</t><m>十一</m><p>shi2 yi1</p><d>/eleven/11/</d></word>
     <word><t>十一年</t><m>十一年</m><p>shi2 yi1 nian2</p><d>/eleven years/</d></word>
@@ -3151,10 +3371,9 @@
       <sent>这儿有十个。</sent>
     </sentences>
   </hanzi>
-  <hanzi id="80" char="用">
+  <hanzi id="79" char="用">
     <word><t>不中用</t><m>不中用</m><p>bu4 zhong1 yong4</p><d>/unfit for anything/no good/useless/</d></word>
     <word><t>不用</t><m>不用</m><p>bu4 yong4</p><d>/need not/</d></word>
-    <word><t>作用</t><m>作用</m><p>zuo4 yong4</p><d>/to act on/to affect/action/function/activity/impact/result/effect/purpose/intent/to play a role/corresponds to English -ity, -ism, -ization/CL:個|个[ge4]/</d></word>
     <word><t>多用</t><m>多用</m><p>duo1 yong4</p><d>/multipurpose/having several uses/</d></word>
     <word><t>大用</t><m>大用</m><p>da4 yong4</p><d>/to put sb in powerful position/to empower/</d></word>
     <word><t>好用</t><m>好用</m><p>hao3 yong4</p><d>/useful/serviceable/effective/handy/easy to use/</d></word>
@@ -3162,7 +3381,6 @@
     <word><t>手用</t><m>手用</m><p>shou3 yong4</p><d>/hand-used/hand (tool)/</d></word>
     <word><t>無用</t><m>无用</m><p>wu2 yong4</p><d>/useless/worthless/</d></word>
     <word><t>日用</t><m>日用</m><p>ri4 yong4</p><d>/daily expenses/of everyday use/</d></word>
-    <word><t>有作用</t><m>有作用</m><p>you3 zuo4 yong4</p><d>/effective/to have impact/</d></word>
     <word><t>有用</t><m>有用</m><p>you3 yong4</p><d>/useful/</d></word>
     <word><t>沒用</t><m>没用</m><p>mei2 yong4</p><d>/useless/</d></word>
     <word><t>用</t><m>用</m><p>yong4</p><d>/to use/to employ/to have to/to eat or drink/expense or outlay/usefulness/hence/therefore/</d></word>
@@ -3170,7 +3388,6 @@
     <word><t>用不著</t><m>用不着</m><p>yong4 bu5 zhao2</p><d>/not need/have no use for/</d></word>
     <word><t>用人</t><m>用人</m><p>yong4 ren2</p><d>/servant/</d></word>
     <word><t>用以</t><m>用以</m><p>yong4 yi3</p><d>/in order to/so as to/</d></word>
-    <word><t>用作</t><m>用作</m><p>yong4 zuo4</p><d>/to use for the purpose of/to serve as/</d></word>
     <word><t>用得上</t><m>用得上</m><p>yong4 de5 shang4</p><d>/needed/to come in useful/</d></word>
     <word><t>用得著</t><m>用得着</m><p>yong4 de5 zhao2</p><d>/to be able to use/useable/to have a use for sth/</d></word>
     <word><t>用心</t><m>用心</m><p>yong4 xin1</p><d>/motive/intention/to be diligent or attentive/careful/</d></word>
@@ -3181,7 +3398,6 @@
       <sent>(那)不用了</sent>
       <sent>“-我用过-”</sent>
       <sent>“不用,”</sent>
-      <sent>“但你说他们没起作用——”</sent>
       <sent>“我——不,不用了。</sent>
       <sent>“我不能用你。</sent>
       <sent>“我想我们都得用用这个,”</sent>
@@ -3194,17 +3410,14 @@
       <sent>不用,不用......</sent>
       <sent>不用说了。</sent>
       <sent>中看不中用。</sent>
-      <sent>他是有作用的</sent>
       <sent>但是没有用</sent>
       <sent>但是这也没用</sent>
-      <sent>但这不起作用。</sent>
       <sent>你们不会用到的</sent>
       <sent>你吧，就不用来了。</sent>
       <sent>你用不着我啊</sent>
       <sent>你这个没用</sent>
       <sent>只要可以不用</sent>
       <sent>可是,很有用。</sent>
-      <sent>在…中起作用</sent>
       <sent>大家都可以用</sent>
       <sent>我也没有用过</sent>
       <sent>我们用不了</sent>
@@ -3215,14 +3428,12 @@
       <sent>用不了多大会儿</sent>
       <sent>用了......</sent>
       <sent>用他大大的</sent>
-      <sent>起…的作用</sent>
       <sent>这个会有用的</sent>
       <sent>这是没有用的</sent>
-      <sent>那没起作用,不是吗?</sent>
       <sent>那还能用吗</sent>
     </sentences>
   </hanzi>
-  <hanzi id="81" char="主">
+  <hanzi id="80" char="主">
     <word><t>主</t><m>主</m><p>zhu3</p><d>/owner/master/host/individual or party concerned/God/Lord/main/to indicate or signify/trump card (in card games)/</d></word>
     <word><t>主人</t><m>主人</m><p>zhu3 ren2</p><d>/master/host/CL:個|个[ge4]/</d></word>
     <word><t>主子</t><m>主子</m><p>zhu3 zi5</p><d>/Master (term used by servant)/Your Majesty/operator (of machine)/</d></word>
@@ -3230,9 +3441,7 @@
     <word><t>主日學</t><m>主日学</m><p>zhu3 ri4 xue2</p><d>/Sunday School/</d></word>
     <word><t>主要</t><m>主要</m><p>zhu3 yao4</p><d>/main/principal/major/primary/</d></word>
     <word><t>主見</t><m>主见</m><p>zhu3 jian4</p><d>/one's own view/having definite opinions/</d></word>
-    <word><t>作主</t><m>作主</m><p>zuo4 zhu3</p><d>/to decide/to make decisions/to back up sb/support/</d></word>
     <word><t>天主</t><m>天主</m><p>tian1 zhu3</p><d>/Lord of Heaven/the Christian God/abbr. for 天主教, Catholicism/</d></word>
-    <word><t>當家作主</t><m>当家作主</m><p>dang1 jia1 zuo4 zhu3</p><d>/to be in charge in one's own house (idiom)/to be the master of one's own affairs/</d></word>
     <word><t>得主</t><m>得主</m><p>de2 zhu3</p><d>/the recipient (of a prize)/</d></word>
     <word><t>無主見</t><m>无主见</m><p>wu2 zhu3 jian4</p><d>/without one's own opinions/</d></word>
     <word><t>有主見</t><m>有主见</m><p>you3 zhu3 jian4</p><d>/opinionated/having one's own strong views/</d></word>
@@ -3252,16 +3461,13 @@
       <sent>”“我们会的,主人......</sent>
       <sent>主人出去了</sent>
       <sent>主子(ｚｉ)。</sent>
-      <sent>主要作用。</sent>
       <sent>你看过了我的主人</sent>
       <sent>国家的主人。</sent>
-      <sent>当家作主。</sent>
       <sent>心里没主。</sent>
       <sent>我一时心里没主。</sent>
-      <sent>这事我作主。</sent>
     </sentences>
   </hanzi>
-  <hanzi id="82" char="么">
+  <hanzi id="81" char="么">
     <word><t>麼</t><m>么</m><p>ma2</p><d>/exclamatory final particle/</d></word>
     <word><t>麼</t><m>么</m><p>ma5</p><d>/interrogative final particle/</d></word>
     <word><t>麼</t><m>么</m><p>me5</p><d>/suffix, used to form interrogative 甚麼|什么, what?, indefinite 這麼|这么 thus etc/</d></word>
@@ -3353,7 +3559,7 @@
       <sent>？？，是这么回事呀！</sent>
     </sentences>
   </hanzi>
-  <hanzi id="83" char="什">
+  <hanzi id="82" char="什">
     <word><t>什</t><m>什</m><p>shi2</p><d>/ten (used in fractions, writing checks etc)/assorted/miscellaneous/</d></word>
     <word><t>甚</t><m>什</m><p>shen2</p><d>/what/</d></word>
     <word><t>什麼</t><m>什么</m><p>shen2 me5</p><d>/what?/who?/something/anything/</d></word>
@@ -3407,7 +3613,6 @@
       <sent>“他们都在看什么?”</sent>
       <sent>“他出什么事了?”</sent>
       <sent>“但是你看见什么了?”</sent>
-      <sent>“但是你起到了什么作用?”</sent>
       <sent>“你什么?”</sent>
       <sent>“你们在说什么?”</sent>
       <sent>“你们在说什么啊?”</sent>
@@ -3453,7 +3658,6 @@
       <sent>“那么她想过会发生什么吗?”</sent>
       <sent>“那会是什么呢?”</sent>
       <sent>“那你说什么了?”</sent>
-      <sent>“那她都作什么了?”</sent>
       <sent>“那有什么用?”</sent>
       <sent>”“他们是什么人?”</sent>
       <sent>不过他什么也没看到。</sent>
@@ -3491,7 +3695,6 @@
       <sent>他们什么也看不到</sent>
       <sent>他们出了什么事？</sent>
       <sent>他学了什么呢?</sent>
-      <sent>他想对你作什么</sent>
       <sent>他想要说什么</sent>
       <sent>他是什么人啊</sent>
       <sent>他没什么可说的了</sent>
@@ -3601,7 +3804,7 @@
       <sent>那里有什么？</sent>
     </sentences>
   </hanzi>
-  <hanzi id="84" char="为">
+  <hanzi id="83" char="为">
     <word><t>不以為然</t><m>不以为然</m><p>bu4 yi3 wei2 ran2</p><d>/not to accept as correct (idiom); to object/to disapprove/to take exception to/</d></word>
     <word><t>為</t><m>为</m><p>wei2</p><d>/as (in the capacity of)/to take sth as/to act as/to serve as/to behave as/to become/to be/to do/</d></word>
     <word><t>為</t><m>为</m><p>wei4</p><d>/because of/for/to/</d></word>
@@ -3620,8 +3823,6 @@
     <word><t>事在人為</t><m>事在人为</m><p>shi4 zai4 ren2 wei2</p><d>/the matter depends on the individual (idiom); it is a matter for your own effort/With effort, one can achieve anything./</d></word>
     <word><t>人為</t><m>人为</m><p>ren2 wei2</p><d>/artificial/man-made/having human cause or origin/human attempt or effort/</d></word>
     <word><t>以為</t><m>以为</m><p>yi3 wei2</p><d>/to believe/to think/to consider/to be under the impression/</d></word>
-    <word><t>作為</t><m>作为</m><p>zuo4 wei2</p><d>/one's conduct/deed/activity/accomplishment/achievement/to act as/as (in the capacity of)/qua/to view as/to look upon (sth as)/to take sth to be/</d></word>
-    <word><t>大有作為</t><m>大有作为</m><p>da4 you3 zuo4 wei2</p><d>/the prospects are very good/sth well worth doing/</d></word>
     <word><t>大有可為</t><m>大有可为</m><p>da4 you3 ke3 wei2</p><d>/with great prospects for the future (idiom); well worth doing/</d></word>
     <word><t>成為</t><m>成为</m><p>cheng2 wei2</p><d>/to become/to turn into/</d></word>
     <word><t>無為</t><m>无为</m><p>wu2 wei2</p><d>/Wuwei county in Chaohu 巢湖[Chao2 hu2], Anhui/</d></word>
@@ -3692,9 +3893,7 @@
       <sent>你为什么没来？</sent>
       <sent>你为什么要去那儿</sent>
       <sent>你以为我想......</sent>
-      <sent>你会大有作为的</sent>
       <sent>可他就是想不出为什么</sent>
-      <sent>大有作为。</sent>
       <sent>她为什么要在那儿</sent>
       <sent>我以为你不想来呢！</sent>
       <sent>我以为我看见的是他。</sent>
@@ -3710,7 +3909,7 @@
       <sent>那还为什么</sent>
     </sentences>
   </hanzi>
-  <hanzi id="85" char="行">
+  <hanzi id="84" char="行">
     <word><t>一行</t><m>一行</m><p>yi1 xing2</p><d>/party/delegation/</d></word>
     <word><t>上行</t><m>上行</m><p>shang4 xing2</p><d>/up train (i.e. towards the capital)/</d></word>
     <word><t>下行</t><m>下行</m><p>xia4 xing2</p><d>/down train (i.e. away from the capital)/</d></word>
@@ -3767,7 +3966,7 @@
       <sent>那可不行。</sent>
     </sentences>
   </hanzi>
-  <hanzi id="86" char="地">
+  <hanzi id="85" char="地">
     <word><t>出生地</t><m>出生地</m><p>chu1 sheng1 di4</p><d>/birthplace/</d></word>
     <word><t>在地下</t><m>在地下</m><p>zai4 di4 xia4</p><d>/underground/</d></word>
     <word><t>地</t><m>地</m><p>de5</p><d>/-ly/structural particle: used before a verb or adjective, linking it to preceding modifying adverbial adjunct/</d></word>
@@ -3807,7 +4006,7 @@
       <sent>这里的地很大。</sent>
     </sentences>
   </hanzi>
-  <hanzi id="87" char="方">
+  <hanzi id="86" char="方">
     <word><t>一方</t><m>一方</m><p>yi1 fang1</p><d>/a party (in a contract or legal case)/one side/area/region/</d></word>
     <word><t>下方</t><m>下方</m><p>xia4 fang1</p><d>/underneath/below/the underside/world of mortals/to descend to the world of mortals (of Gods)/</d></word>
     <word><t>中方</t><m>中方</m><p>zhong1 fang1</p><d>/the Chinese side (in an international venture)/</d></word>
@@ -3859,7 +4058,7 @@
       <sent>那里的地方不大。</sent>
     </sentences>
   </hanzi>
-  <hanzi id="88" char="又">
+  <hanzi id="87" char="又">
     <word><t>又</t><m>又</m><p>you4</p><d>/(once) again/also/both... and.../again/</d></word>
     <word><t>又來了</t><m>又来了</m><p>you4 lai2 le5</p><d>/Here we go again/</d></word>
     <sentences>
@@ -3894,7 +4093,7 @@
       <sent>那又是什么</sent>
     </sentences>
   </hanzi>
-  <hanzi id="89" char="如">
+  <hanzi id="88" char="如">
     <word><t>不如</t><m>不如</m><p>bu4 ru2</p><d>/not equal to/not as good as/inferior to/it would be better to/</d></word>
     <word><t>大日如來</t><m>大日如来</m><p>da4 ri4 ru2 lai2</p><d>/Vairocana, Buddha of supreme enlightenment/</d></word>
     <word><t>如</t><m>如</m><p>ru2</p><d>/as/as if/such as/</d></word>
@@ -3911,7 +4110,7 @@
       <sent>就如你们看到的</sent>
     </sentences>
   </hanzi>
-  <hanzi id="90" char="前">
+  <hanzi id="89" char="前">
     <word><t>上前</t><m>上前</m><p>shang4 qian2</p><d>/to go forward/front upper/</d></word>
     <word><t>之前</t><m>之前</m><p>zhi1 qian2</p><d>/before/prior to/ago/</d></word>
     <word><t>事前</t><m>事前</m><p>shi4 qian2</p><d>/in advance/before the event/</d></word>
@@ -3973,13 +4172,12 @@
       <sent>这是很多年前的事了</sent>
     </sentences>
   </hanzi>
-  <hanzi id="91" char="所">
+  <hanzi id="90" char="所">
     <word><t>一無所有</t><m>一无所有</m><p>yi1 wu2 suo3 you3</p><d>/not having anything at all (idiom); utterly lacking/without two sticks to rub together/</d></word>
     <word><t>之所以</t><m>之所以</m><p>zhi1 suo3 yi3</p><d>/the reason why/</d></word>
     <word><t>所</t><m>所</m><p>suo3</p><d>/actually/place/classifier for houses, small buildings, institutions etc/that which/particle introducing a relative clause or passive/CL:個|个[ge4]/</d></word>
     <word><t>所為</t><m>所为</m><p>suo3 wei2</p><d>/what one does/doings/</d></word>
     <word><t>所以</t><m>所以</m><p>suo3 yi3</p><d>/therefore/as a result/so/</d></word>
-    <word><t>所作所為</t><m>所作所为</m><p>suo3 zuo4 suo3 wei2</p><d>/one's conduct and deeds/</d></word>
     <word><t>所在</t><m>所在</m><p>suo3 zai4</p><d>/place/location/whereabouts/domicile/to be located/to belong to (organization etc)/</d></word>
     <word><t>所在地</t><m>所在地</m><p>suo3 zai4 di4</p><d>/location/site/</d></word>
     <word><t>所多</t><m>所多</m><p>suo3 duo1</p><d>/Soto/</d></word>
@@ -3994,7 +4192,6 @@
     <word><t>無所不在</t><m>无所不在</m><p>wu2 suo3 bu4 zai4</p><d>/omnipresent/</d></word>
     <word><t>無所不能</t><m>无所不能</m><p>wu2 suo3 bu4 neng2</p><d>/omnipotent/</d></word>
     <word><t>無所事事</t><m>无所事事</m><p>wu2 suo3 shi4 shi4</p><d>/to have nothing to do/to idle one's time away (idiom)/</d></word>
-    <word><t>無所作為</t><m>无所作为</m><p>wu2 suo3 zuo4 wei2</p><d>/attempting nothing and accomplishing nothing (idiom); without any initiative or drive/feckless/</d></word>
     <word><t>無所用心</t><m>无所用心</m><p>wu2 suo3 yong4 xin1</p><d>/not paying attention to anything (idiom); to idle time away/</d></word>
     <word><t>有所</t><m>有所</m><p>you3 suo3</p><d>/somewhat/to some extent/</d></word>
     <sentences>
@@ -4006,7 +4203,6 @@
       <sent>“所以那就是说......</sent>
       <sent>“是的,所有的”</sent>
       <sent>“过来,你们所有的人,”他说。</sent>
-      <sent>一个无所作为的</sent>
       <sent>一如所见。</sent>
       <sent>一无所有。</sent>
       <sent>为什么不是所有的人都会回来?</sent>
@@ -4030,7 +4226,6 @@
       <sent>所以没用的</sent>
       <sent>所以那时起</sent>
       <sent>所有的人。</sent>
-      <sent>有所作为。</sent>
       <sent>这也是我所想的</sent>
       <sent>这就是所有</sent>
       <sent>这是什么所在？</sent>
@@ -4039,7 +4234,7 @@
       <sent>里的所有人</sent>
     </sentences>
   </hanzi>
-  <hanzi id="92" char="本">
+  <hanzi id="91" char="本">
     <word><t>以人為本</t><m>以人为本</m><p>yi3 ren2 wei2 ben3</p><d>/people-oriented/</d></word>
     <word><t>天然本地</t><m>天然本地</m><p>tian1 ran2 ben3 di4</p><d>/natural background/</d></word>
     <word><t>對本</t><m>对本</m><p>dui4 ben3</p><d>/(a return) equal to the capital/100 percent profit/</d></word>
@@ -4083,7 +4278,7 @@
       <sent>这本小说很好看。</sent>
     </sentences>
   </hanzi>
-  <hanzi id="93" char="经">
+  <hanzi id="92" char="经">
     <word><t>不經一事</t><m>不经一事</m><p>bu4 jing1 yi1 shi4</p><d>/You can't gain knowledge without practical experience (common saying); wisdom only comes with experience/</d></word>
     <word><t>今文經</t><m>今文经</m><p>jin1 wen2 jing1</p><d>/former Han dynasty school of Confucian scholars/</d></word>
     <word><t>今文經學</t><m>今文经学</m><p>jin1 wen2 jing1 xue2</p><d>/former Han dynasty school of Confucian scholars/</d></word>
@@ -4105,7 +4300,7 @@
       <sent>经过他们时</sent>
     </sentences>
   </hanzi>
-  <hanzi id="94" char="头">
+  <hanzi id="93" char="头">
     <word><t>一頭</t><m>一头</m><p>yi1 tou2</p><d>/one head/a head full of sth/one end (of a stick)/one side/headlong/directly/rapidly/simultaneously/</d></word>
     <word><t>上頭</t><m>上头</m><p>shang4 tou5</p><d>/above/on top of/on the surface of/</d></word>
     <word><t>不對頭</t><m>不对头</m><p>bu4 dui4 tou2</p><d>/fishy/not right/amiss/</d></word>
@@ -4172,7 +4367,7 @@
       <sent>那是一个人头......</sent>
     </sentences>
   </hanzi>
-  <hanzi id="95" char="面">
+  <hanzi id="94" char="面">
     <word><t>一方面</t><m>一方面</m><p>yi1 fang1 mian4</p><d>/one aspect is/</d></word>
     <word><t>一面</t><m>一面</m><p>yi1 mian4</p><d>/one side/</d></word>
     <word><t>上面</t><m>上面</m><p>shang4 mian5</p><d>/on top of/above-mentioned/</d></word>
@@ -4252,7 +4447,7 @@
       <sent>面对面地说......</sent>
     </sentences>
   </hanzi>
-  <hanzi id="96" char="公">
+  <hanzi id="95" char="公">
     <word><t>不公</t><m>不公</m><p>bu4 gong1</p><d>/unjust/unfair/</d></word>
     <word><t>主人公</t><m>主人公</m><p>zhu3 ren2 gong1</p><d>/hero (of a novel or film)/main protagonist/</d></word>
     <word><t>主公</t><m>主公</m><p>zhu3 gong1</p><d>/Your Highness/Your Majesty/</d></word>
@@ -4280,7 +4475,7 @@
       <sent>她是小说的主人公。</sent>
     </sentences>
   </hanzi>
-  <hanzi id="97" char="同">
+  <hanzi id="96" char="同">
     <word><t>一同</t><m>一同</m><p>yi1 tong2</p><d>/along/together/</d></word>
     <word><t>不同</t><m>不同</m><p>bu4 tong2</p><d>/different/distinct/not the same/not alike/</d></word>
     <word><t>會同</t><m>会同</m><p>hui4 tong2</p><d>/Huitong county in Huaihua 懷化|怀化[Huai2 hua4], Hunan/</d></word>
@@ -4329,7 +4524,7 @@
       <sent>那是不同的</sent>
     </sentences>
   </hanzi>
-  <hanzi id="98" char="三">
+  <hanzi id="97" char="三">
     <word><t>三</t><m>三</m><p>san1</p><d>/three/3/</d></word>
     <word><t>三不</t><m>三不</m><p>san1 bu4</p><d>/the three no's (abbreviated catchphrase)/</d></word>
     <word><t>三十</t><m>三十</m><p>san1 shi2</p><d>/thirty/30/</d></word>
@@ -4370,7 +4565,7 @@
       <sent>那么我会有三十</sent>
     </sentences>
   </hanzi>
-  <hanzi id="99" char="已">
+  <hanzi id="98" char="已">
     <word><t>不已</t><m>不已</m><p>bu4 yi3</p><d>/endlessly/incessantly/</d></word>
     <word><t>不得已</t><m>不得已</m><p>bu4 de2 yi3</p><d>/act against one's will/have no alternative but to/have to/to have no choice/must/</d></word>
     <word><t>已</t><m>已</m><p>yi3</p><d>/already/to stop/then/afterwards/</d></word>
@@ -4424,7 +4619,7 @@
       <sent>那里已经有一个人了</sent>
     </sentences>
   </hanzi>
-  <hanzi id="100" char="老">
+  <hanzi id="99" char="老">
     <word><t>中老年</t><m>中老年</m><p>zhong1 lao3 nian2</p><d>/middle and old age/</d></word>
     <word><t>中老年人</t><m>中老年人</m><p>zhong1 lao3 nian2 ren2</p><d>/middle-aged and elderly people/</d></word>
     <word><t>回老家</t><m>回老家</m><p>hui2 lao3 jia1</p><d>/to go back to one's roots/to return to one's native place/by ext. to join one's ancestors (i.e. to die)/</d></word>
@@ -4467,7 +4662,7 @@
       <sent>老没见你啊。</sent>
     </sentences>
   </hanzi>
-  <hanzi id="101" char="从">
+  <hanzi id="100" char="从">
     <word><t>主從</t><m>主从</m><p>zhu3 cong2</p><d>/master-slave (computing)/client-server (computing)/primary and secondary/</d></word>
     <word><t>人從</t><m>人从</m><p>ren2 cong2</p><d>/retinue/hangers-on/</d></word>
     <word><t>從</t><m>从</m><p>cong2</p><d>/surname Cong/</d></word>
@@ -4539,7 +4734,7 @@
       <sent>那为什么从来就没人见过她</sent>
     </sentences>
   </hanzi>
-  <hanzi id="102" char="而">
+  <hanzi id="101" char="而">
     <word><t>下而上</t><m>下而上</m><p>xia4 er2 shang4</p><d>/bottom to top (of listing)/</d></word>
     <word><t>從而</t><m>从而</m><p>cong2 er2</p><d>/thus/thereby/</d></word>
     <word><t>時而</t><m>时而</m><p>shi2 er2</p><d>/occasionally/from time to time/</d></word>
@@ -4571,7 +4766,7 @@
       <sent>而这个地方</sent>
     </sentences>
   </hanzi>
-  <hanzi id="103" char="动">
+  <hanzi id="102" char="动">
     <word><t>不動</t><m>不动</m><p>bu4 dong4</p><d>/motionless/</d></word>
     <word><t>主動</t><m>主动</m><p>zhu3 dong4</p><d>/to take the initiative/to do sth of one's own accord/spontaneous/active/opposite: passive 被動|被动[bei4 dong4]/drive (of gears and shafts etc)/</d></word>
     <word><t>人手動</t><m>人手动</m><p>ren2 shou3 dong4</p><d>/manually controlled/</d></word>
@@ -4580,7 +4775,6 @@
     <word><t>動</t><m>动</m><p>dong4</p><d>/to use/to act/to move/to change/abbr. for verb 動詞|动词[dong4 ci2]/</d></word>
     <word><t>動不動</t><m>动不动</m><p>dong4 bu5 dong4</p><d>/apt to happen (usually of sth undesirable)/frequently/happening easily (e.g. accident or illness)/</d></word>
     <word><t>動人</t><m>动人</m><p>dong4 ren2</p><d>/touching/moving/</d></word>
-    <word><t>動作</t><m>动作</m><p>dong4 zuo4</p><d>/movement/motion/action/CL:個|个[ge4]/</d></word>
     <word><t>動手</t><m>动手</m><p>dong4 shou3</p><d>/to hit with hands or fists/to start work/to touch/</d></word>
     <word><t>動用</t><m>动用</m><p>dong4 yong4</p><d>/to utilize/to put sth to use/</d></word>
     <word><t>動能</t><m>动能</m><p>dong4 neng2</p><d>/kinetic energy/</d></word>
@@ -4604,7 +4798,6 @@
       <sent>一动也不动</sent>
       <sent>一动也不动地</sent>
       <sent>也没有人动</sent>
-      <sent>人的能动作用</sent>
       <sent>他一动不动</sent>
       <sent>他动不了了。</sent>
       <sent>他动也不动。</sent>
@@ -4623,7 +4816,7 @@
       <sent>是时候行动了</sent>
     </sentences>
   </hanzi>
-  <hanzi id="104" char="两">
+  <hanzi id="103" char="两">
     <word><t>三三兩兩</t><m>三三两两</m><p>san1 san1 liang3 liang3</p><d>/in twos and threes/</d></word>
     <word><t>三天兩頭</t><m>三天两头</m><p>san1 tian1 liang3 tou2</p><d>/lit. twice every three days (idiom); practically every day/frequently/</d></word>
     <word><t>兩</t><m>两</m><p>liang3</p><d>/both/two/ounce/some/a few/tael/weight equal to 50 grams/</d></word>
@@ -4685,7 +4878,7 @@
       <sent>那是两回事</sent>
     </sentences>
   </hanzi>
-  <hanzi id="105" char="长">
+  <hanzi id="104" char="长">
     <word><t>一無所長</t><m>一无所长</m><p>yi1 wu2 suo3 chang2</p><d>/not having any special skill/without any qualifications/</d></word>
     <word><t>會長</t><m>会长</m><p>hui4 zhang3</p><d>/president of a club, committee etc/</d></word>
     <word><t>大長今</t><m>大长今</m><p>da4 chang2 jin1</p><d>/Dae Chang Kum, a Korean Drama (GM)/</d></word>
@@ -4717,7 +4910,6 @@
     <sentences>
       <sent>什么也不会长成</sent>
       <sent>他们已经长大了</sent>
-      <sent>作为一家之长</sent>
       <sent>到那时，你就长大成人了</sent>
       <sent>在他长大成人的时候</sent>
       <sent>她在日本长大。</sent>
@@ -4729,7 +4921,7 @@
       <sent>长大成人。</sent>
     </sentences>
   </hanzi>
-  <hanzi id="106" char="知">
+  <hanzi id="105" char="知">
     <word><t>一無所知</t><m>一无所知</m><p>yi1 wu2 suo3 zhi1</p><d>/not knowing anything at all (idiom); completely ignorant/without an inkling/</d></word>
     <word><t>三不知</t><m>三不知</m><p>san1 bu4 zhi1</p><d>/to know nothing about the beginning, the middle or the end/to know nothing at all/</d></word>
     <word><t>不為人知</t><m>不为人知</m><p>bu4 wei2 ren2 zhi1</p><d>/not known to anyone/secret/unknown/</d></word>
@@ -4763,7 +4955,7 @@
       <sent>这是可想而知的</sent>
     </sentences>
   </hanzi>
-  <hanzi id="107" char="道">
+  <hanzi id="106" char="道">
     <word><t>一道</t><m>一道</m><p>yi1 dao4</p><d>/together/</d></word>
     <word><t>不人道</t><m>不人道</m><p>bu4 ren2 dao4</p><d>/inhuman/</d></word>
     <word><t>人行道</t><m>人行道</m><p>ren2 xing2 dao4</p><d>/sidewalk/</d></word>
@@ -5118,7 +5310,7 @@
       <sent>那我就不知道了</sent>
     </sentences>
   </hanzi>
-  <hanzi id="108" char="民">
+  <hanzi id="107" char="民">
     <word><t>三民</t><m>三民</m><p>san1 min2</p><d>/Sanmin district of Kaohsiung city 高雄市[Gao1 xiong2 shi4], south Taiwan/</d></word>
     <word><t>中國人民</t><m>中国人民</m><p>zhong1 guo2 ren2 min2</p><d>/the Chinese people/</d></word>
     <word><t>中國人民大學</t><m>中国人民大学</m><p>zhong1 guo2 ren2 min2 da4 xue2</p><d>/Renmin University of China/</d></word>
@@ -5138,14 +5330,13 @@
     <word><t>民用</t><m>民用</m><p>min2 yong4</p><d>/(for) civilian use/</d></word>
     <sentences>
       <sent>一心为人民</sent>
-      <sent>人民当家作主。</sent>
       <sent>人民是国家的主人。</sent>
       <sent>人民的天下。</sent>
       <sent>他是回民。</sent>
       <sent>大得民心。</sent>
     </sentences>
   </hanzi>
-  <hanzi id="109" char="样">
+  <hanzi id="108" char="样">
     <word><t>一個樣</t><m>一个样</m><p>yi1 ge5 yang4</p><d>/same as 一樣|一样[yi1 yang4]/the same/</d></word>
     <word><t>一天一個樣</t><m>一天一个样</m><p>yi1 tian1 yi1 ge5 yang4</p><d>/to change from day to day/</d></word>
     <word><t>一樣</t><m>一样</m><p>yi1 yang4</p><d>/same/like/equal to/the same as/just like/</d></word>
@@ -5252,7 +5443,6 @@
       <sent>他就是这样</sent>
       <sent>他看起来和以前一样</sent>
       <sent>他知道这样没用。</sent>
-      <sent>他那样说是有他的作用的。</sent>
       <sent>但是和从前一样</sent>
       <sent>但没有一样是有用的</sent>
       <sent>但这可不一样</sent>
@@ -5343,7 +5533,7 @@
       <sent>都一样。”</sent>
     </sentences>
   </hanzi>
-  <hanzi id="110" char="现">
+  <hanzi id="109" char="现">
     <word><t>出現</t><m>出现</m><p>chu1 xian4</p><d>/to appear/to arise/to emerge/to show up/</d></word>
     <word><t>到現在</t><m>到现在</m><p>dao4 xian4 zai4</p><d>/up until now/to date/</d></word>
     <word><t>發現</t><m>发现</m><p>fa1 xian4</p><d>/to find/to discover/</d></word>
@@ -5500,7 +5690,7 @@
       <sent>那么你们发现了什么吗?”</sent>
     </sentences>
   </hanzi>
-  <hanzi id="111" char="分">
+  <hanzi id="110" char="分">
     <word><t>三分之一</t><m>三分之一</m><p>san1 fen1 zhi1 yi1</p><d>/one third/</d></word>
     <word><t>不分</t><m>不分</m><p>bu4 fen1</p><d>/not divided/irrespective/not distinguishing between/</d></word>
     <word><t>公分</t><m>公分</m><p>gong1 fen1</p><d>/centimeter/gram/</d></word>
@@ -5561,7 +5751,7 @@
       <sent>那得分的就是你。</sent>
     </sentences>
   </hanzi>
-  <hanzi id="112" char="将">
+  <hanzi id="111" char="将">
     <word><t>上將</t><m>上将</m><p>shang4 jiang4</p><d>/general/admiral/air chief marshal/</d></word>
     <word><t>中將</t><m>中将</m><p>zhong1 jiang4</p><d>/lieutenant general/vice admiral/air marshal/</d></word>
     <word><t>大將</t><m>大将</m><p>da4 jiang4</p><d>/a general or admiral/</d></word>
@@ -5598,7 +5788,7 @@
       <sent>那将会发生什么</sent>
     </sentences>
   </hanzi>
-  <hanzi id="113" char="外">
+  <hanzi id="112" char="外">
     <word><t>上外</t><m>上外</m><p>shang4 wai4</p><d>/abbr. for 上海外國語大學|上海外国语大学[Shang4 hai3 Wai4 guo2 yu3 Da4 xue2]/</d></word>
     <word><t>不外</t><m>不外</m><p>bu4 wai4</p><d>/not beyond the scope of/nothing more than/</d></word>
     <word><t>中外</t><m>中外</m><p>zhong1 wai4</p><d>/Sino-foreign/Chinese-foreign/home and abroad/</d></word>
@@ -5661,7 +5851,7 @@
       <sent>那是在外面</sent>
     </sentences>
   </hanzi>
-  <hanzi id="114" char="身">
+  <hanzi id="113" char="身">
     <word><t>一身</t><m>一身</m><p>yi1 shen1</p><d>/whole body/from head to toe/single person/a suit of clothes/</d></word>
     <word><t>上身</t><m>上身</m><p>shang4 shen1</p><d>/upper part of the body/</d></word>
     <word><t>下身</t><m>下身</m><p>xia4 shen1</p><d>/lower part of the body/genitalia/trousers/</d></word>
@@ -5703,7 +5893,7 @@
       <sent>那他为什么到现在还没现身?</sent>
     </sentences>
   </hanzi>
-  <hanzi id="115" char="些">
+  <hanzi id="114" char="些">
     <word><t>一些</t><m>一些</m><p>yi1 xie1</p><d>/some/a few/a little/</d></word>
     <word><t>些</t><m>些</m><p>xie1</p><d>/some/few/several/measure word indicating a small amount or small number (greater than 1)/</d></word>
     <word><t>大一些</t><m>大一些</m><p>da4 yi1 xie1</p><d>/a bit bigger/</d></word>
@@ -5799,7 +5989,7 @@
       <sent>那些过时的</sent>
     </sentences>
   </hanzi>
-  <hanzi id="116" char="与">
+  <hanzi id="115" char="与">
     <word><t>與</t><m>与</m><p>yu2</p><d>/(same as 歟|欤, final particle expression doubt or surprise, similar to 吗 or 呢)/</d></word>
     <word><t>與</t><m>与</m><p>yu3</p><d>/and/to give/together with/</d></word>
     <word><t>與</t><m>与</m><p>yu4</p><d>/take part in/</d></word>
@@ -5815,7 +6005,7 @@
       <sent>这就与十三年来</sent>
     </sentences>
   </hanzi>
-  <hanzi id="117" char="高">
+  <hanzi id="116" char="高">
     <word><t>上高</t><m>上高</m><p>shang4 gao1</p><d>/Shanggao county in Yichun 宜春, Jiangxi/</d></word>
     <word><t>不分高下</t><m>不分高下</m><p>bu4 fen1 gao1 xia4</p><d>/equally matched/not much to distinguish who is stronger/</d></word>
     <word><t>年事已高</t><m>年事已高</m><p>nian2 shi4 yi3 gao1</p><d>/old in years/</d></word>
@@ -5865,7 +6055,7 @@
       <sent>高高在上。</sent>
     </sentences>
   </hanzi>
-  <hanzi id="118" char="意">
+  <hanzi id="117" char="意">
     <word><t>一心一意</t><m>一心一意</m><p>yi1 xin1 yi1 yi4</p><d>/intently/</d></word>
     <word><t>一意</t><m>一意</m><p>yi1 yi4</p><d>/focus/with complete devotion/stubbornly/</d></word>
     <word><t>不中意</t><m>不中意</m><p>bu4 zhong4 yi4</p><d>/not to one's liking/</d></word>
@@ -5984,7 +6174,7 @@
       <sent>那是意外吗</sent>
     </sentences>
   </hanzi>
-  <hanzi id="119" char="进">
+  <hanzi id="118" char="进">
     <word><t>上進</t><m>上进</m><p>shang4 jin4</p><d>/to make progress/to do better/fig. ambitious to improve oneself/to move forwards/</d></word>
     <word><t>前進</t><m>前进</m><p>qian2 jin4</p><d>/to go forward/to forge ahead/to advance/onward/</d></word>
     <word><t>十進</t><m>十进</m><p>shi2 jin4</p><d>/decimal/calculations to base 10/</d></word>
@@ -6035,7 +6225,7 @@
       <sent>那我们进去吧</sent>
     </sentences>
   </hanzi>
-  <hanzi id="120" char="把">
+  <hanzi id="119" char="把">
     <word><t>一把手</t><m>一把手</m><p>yi1 ba3 shou3</p><d>/working hand/member of a work team/participant/</d></word>
     <word><t>個把</t><m>个把</m><p>ge4 ba3</p><d>/one or two/a couple of/</d></word>
     <word><t>把</t><m>把</m><p>ba3</p><d>/to hold/to contain/to grasp/to take hold of/a handle/particle marking the following noun as a direct object/classifier for objects with handle/</d></word>
@@ -6055,18 +6245,16 @@
       <sent>我不能把你</sent>
       <sent>把两方面的意见来了个中和。</sent>
       <sent>把他们两个分开</sent>
-      <sent>把我当作你的知心人吧。</sent>
       <sent>里里外外一把手</sent>
     </sentences>
   </hanzi>
-  <hanzi id="121" char="法">
+  <hanzi id="120" char="法">
     <word><t>不成文法</t><m>不成文法</m><p>bu4 cheng2 wen2 fa3</p><d>/unwritten law/</d></word>
     <word><t>不法</t><m>不法</m><p>bu4 fa3</p><d>/lawless/illegal/unlawful/</d></word>
     <word><t>不法份子</t><m>不法分子</m><p>bu4 fa3 fen4 zi3</p><d>/law-breakers/offenders/</d></word>
     <word><t>兩分法</t><m>两分法</m><p>liang3 fen1 fa3</p><d>/(Maoism) one divides into two/</d></word>
     <word><t>中國法學會</t><m>中国法学会</m><p>zhong1 guo2 fa3 xue2 hui4</p><d>/China Law Society/</d></word>
     <word><t>中法</t><m>中法</m><p>zhong1 fa3</p><d>/China-France (cooperation)/Sino-French/</d></word>
-    <word><t>作法</t><m>作法</m><p>zuo4 fa3</p><d>/course of action/method of doing sth/practice/modus operandi/</d></word>
     <word><t>公法</t><m>公法</m><p>gong1 fa3</p><d>/public law/</d></word>
     <word><t>國法</t><m>国法</m><p>guo2 fa3</p><d>/national law/</d></word>
     <word><t>想法</t><m>想法</m><p>xiang3 fa3</p><d>/idea/notion/train of thought/what sb is thinking/to think of a way (to do sth)/CL:個|个[ge4]/</d></word>
@@ -6115,7 +6303,6 @@
       <sent>可是我没法一个人面对</sent>
       <sent>同样的方法</sent>
       <sent>她知道我对这事的看法。</sent>
-      <sent>小说作法。</sent>
       <sent>很好的想法</sent>
       <sent>想到一个主意；有一个想法</sent>
       <sent>我不同意你的看法</sent>
@@ -6139,7 +6326,7 @@
       <sent>这是个好法子</sent>
     </sentences>
   </hanzi>
-  <hanzi id="122" char="此">
+  <hanzi id="121" char="此">
     <word><t>與此同時</t><m>与此同时</m><p>yu3 ci3 tong2 shi2</p><d>/at the same time/meanwhile/</d></word>
     <word><t>為此</t><m>为此</m><p>wei4 ci3</p><d>/for this reason/with regards to this/in this respect/in order to do this/to this end/</d></word>
     <word><t>從此</t><m>从此</m><p>cong2 ci3</p><d>/from now on/since then/henceforth/</d></word>
@@ -6181,7 +6368,7 @@
       <sent>然而与此同时</sent>
     </sentences>
   </hanzi>
-  <hanzi id="123" char="实">
+  <hanzi id="122" char="实">
     <word><t>事實</t><m>事实</m><p>shi4 shi2</p><d>/fact/CL:個|个[ge4]/</d></word>
     <word><t>事實上</t><m>事实上</m><p>shi4 shi2 shang4</p><d>/in fact/in reality/actually/as a matter of fact/de facto/ipso facto/</d></word>
     <word><t>如實</t><m>如实</m><p>ru2 shi2</p><d>/as things really are/realistic/</d></word>
@@ -6226,7 +6413,6 @@
       <sent>我实在和你过不下去了。</sent>
       <sent>我实在没想到你会来</sent>
       <sent>我说的是事实</sent>
-      <sent>把他当作实行家</sent>
       <sent>然而事实上</sent>
       <sent>知道那是事实</sent>
       <sent>说出事实是不可能的。</sent>
@@ -6236,7 +6422,7 @@
       <sent>面对现实吧</sent>
     </sentences>
   </hanzi>
-  <hanzi id="124" char="二">
+  <hanzi id="123" char="二">
     <word><t>一分為二</t><m>一分为二</m><p>yi1 fen1 wei2 er4</p><d>/one divides into two/to be two-sided/there are two sides to everything/to see both sb's good points and shortcomings (idiom)/</d></word>
     <word><t>一來二去</t><m>一来二去</m><p>yi1 lai2 er4 qu4</p><d>/gradually/little by little/in the course of time/</d></word>
     <word><t>三分之二</t><m>三分之二</m><p>san1 fen1 zhi1 er4</p><d>/two-thirds/</d></word>
@@ -6286,7 +6472,7 @@
       <sent>这是个三心二意的人</sent>
     </sentences>
   </hanzi>
-  <hanzi id="125" char="理">
+  <hanzi id="124" char="理">
     <word><t>不去理</t><m>不去理</m><p>bu4 qu4 li3</p><d>/to leave sth as it is/not to bother to remedy or repair/not to bother with/not to worry about/to ignore/not to associate with sb/</d></word>
     <word><t>不理</t><m>不理</m><p>bu4 li3</p><d>/refuse to acknowledge/pay no attention to/take no notice of/ignore/</d></word>
     <word><t>不理想</t><m>不理想</m><p>bu4 li3 xiang3</p><d>/not ideal/</d></word>
@@ -6302,7 +6488,6 @@
     <word><t>地理學家</t><m>地理学家</m><p>di4 li3 xue2 jia1</p><d>/geographer/</d></word>
     <word><t>大理</t><m>大理</m><p>da4 li3</p><d>/Dali Bai autonomous prefecture 大理白族自治州 in Yunnan/</d></word>
     <word><t>心理</t><m>心理</m><p>xin1 li3</p><d>/mental/psychological/</d></word>
-    <word><t>心理作用</t><m>心理作用</m><p>xin1 li3 zuo4 yong4</p><d>/mental reaction/</d></word>
     <word><t>心理學</t><m>心理学</m><p>xin1 li3 xue2</p><d>/psychology/</d></word>
     <word><t>心理學家</t><m>心理学家</m><p>xin1 li3 xue2 jia1</p><d>/psychologist/</d></word>
     <word><t>文理</t><m>文理</m><p>wen2 li3</p><d>/arts and sciences/</d></word>
@@ -6357,7 +6542,7 @@
       <sent>那是理所当然的</sent>
     </sentences>
   </hanzi>
-  <hanzi id="126" char="美">
+  <hanzi id="125" char="美">
     <word><t>中美</t><m>中美</m><p>zhong1 mei3</p><d>/China-USA/</d></word>
     <word><t>和美</t><m>和美</m><p>he2 mei3</p><d>/Homei town in Changhua county 彰化縣|彰化县[Zhang1 hua4 xian4], Taiwan/</d></word>
     <word><t>和美</t><m>和美</m><p>he2 mei3</p><d>/harmonious/in perfect harmony/</d></word>
@@ -6395,7 +6580,7 @@
       <sent>美好的日子</sent>
     </sentences>
   </hanzi>
-  <hanzi id="127" char="点">
+  <hanzi id="126" char="点">
     <word><t>一點</t><m>一点</m><p>yi1 dian3</p><d>/a bit/a little/one dot/one point/</d></word>
     <word><t>一點一點</t><m>一点一点</m><p>yi1 dian3 yi1 dian3</p><d>/little by little/bit by bit/gradually/</d></word>
     <word><t>一點不</t><m>一点不</m><p>yi1 dian3 bu4</p><d>/not at all/</d></word>
@@ -6503,7 +6688,6 @@
       <sent>十年没见，你还那个样子，一点不见老。</sent>
       <sent>十点以前回来。</sent>
       <sent>只是点了点头</sent>
-      <sent>可是一点作用也没有</sent>
       <sent>呀！已经12点了！</sent>
       <sent>在这一点上我是对的</sent>
       <sent>在那/这一点上</sent>
@@ -6544,7 +6728,7 @@
       <sent>这点事还用得着大家都去吗？</sent>
     </sentences>
   </hanzi>
-  <hanzi id="128" char="月">
+  <hanzi id="127" char="月">
     <word><t>一月</t><m>一月</m><p>yi1 yue4</p><d>/January/first month (of the lunar year)/</d></word>
     <word><t>三月</t><m>三月</m><p>san1 yue4</p><d>/March/third month (of the lunar year)/</d></word>
     <word><t>上個月</t><m>上个月</m><p>shang4 ge4 yue4</p><d>/last month/</d></word>
@@ -6599,7 +6783,7 @@
       <sent>现在可是一月啊</sent>
     </sentences>
   </hanzi>
-  <hanzi id="129" char="明">
+  <hanzi id="128" char="明">
     <word><t>三明</t><m>三明</m><p>san1 ming2</p><d>/Sanming prefecture level city in Fujian/</d></word>
     <word><t>不明</t><m>不明</m><p>bu4 ming2</p><d>/not clear/unknown/fail to understand/</d></word>
     <word><t>不明事理</t><m>不明事理</m><p>bu4 ming2 shi4 li3</p><d>/not understanding things (idiom); devoid of sense/</d></word>
@@ -6672,7 +6856,7 @@
       <sent>那说明不了什么</sent>
     </sentences>
   </hanzi>
-  <hanzi id="130" char="于">
+  <hanzi id="129" char="于">
     <word><t>不下于</t><m>不下于</m><p>bu4 xia4 yu2</p><d>/as many as/no less than/not inferior to/as good as/on a par with/</d></word>
     <word><t>于</t><m>于</m><p>yu2</p><d>/surname Yu/</d></word>
     <word><t>于</t><m>于</m><p>yu2</p><d>/to go/to take/sentence-final interrogative particle/variant of  於|于[yu2]/</d></word>
@@ -6702,7 +6886,7 @@
       <sent>见之于行动</sent>
     </sentences>
   </hanzi>
-  <hanzi id="131" char="其">
+  <hanzi id="130" char="其">
     <word><t>上下其手</t><m>上下其手</m><p>shang4 xia4 qi2 shou3</p><d>/to raise and lower one's hand (idiom); to signal as conspiratorial hint/fig. conspiring to defraud/</d></word>
     <word><t>不知其所以然</t><m>不知其所以然</m><p>bu4 zhi1 qi2 suo3 yi3 ran2</p><d>/not recognized for what it is/</d></word>
     <word><t>與其</t><m>与其</m><p>yu3 qi2</p><d>/rather than.../與其|与其 A 不如 B (rather than A, better to B)/</d></word>
@@ -6733,7 +6917,6 @@
       <sent>他看着其他人</sent>
       <sent>但其实那里什么都没有</sent>
       <sent>但没有其他人在</sent>
-      <sent>作为什么其......</sent>
       <sent>你只知道其中一些</sent>
       <sent>你是一个人啊，和其他的所有人一样。</sent>
       <sent>你还能成为其他什么人吗</sent>
@@ -6769,7 +6952,7 @@
       <sent>那里没有其他人了</sent>
     </sentences>
   </hanzi>
-  <hanzi id="132" char="种">
+  <hanzi id="131" char="种">
     <word><t>一種</t><m>一种</m><p>yi1 zhong3</p><d>/one kind of/one type of/</d></word>
     <word><t>人種</t><m>人种</m><p>ren2 zhong3</p><d>/race (of people)/</d></word>
     <word><t>多種</t><m>多种</m><p>duo1 zhong3</p><d>/many kinds of/multiple/diverse/multi-/</d></word>
@@ -6806,7 +6989,7 @@
       <sent>那种说法是不对的。</sent>
     </sentences>
   </hanzi>
-  <hanzi id="133" char="声">
+  <hanzi id="132" char="声">
     <word><t>一聲</t><m>一声</m><p>yi1 sheng1</p><d>/first tone in Mandarin (high level tone)/</d></word>
     <word><t>上聲</t><m>上声</m><p>shang3 sheng1</p><d>/falling and rising tone/third tone in modern Mandarin/</d></word>
     <word><t>中聲</t><m>中声</m><p>zhong1 sheng1</p><d>/medial (i.e. middle vowel of a syllable in Asian phonetics)/</d></word>
@@ -6839,7 +7022,6 @@
       <sent>他小声说。</sent>
       <sent>他就会出声的</sent>
       <sent>他说得很小声</sent>
-      <sent>但没人作声</sent>
       <sent>你小声一点吧</sent>
       <sent>她大声地说</sent>
       <sent>她大声说着</sent>
@@ -6858,7 +7040,7 @@
       <sent>然后小声说</sent>
     </sentences>
   </hanzi>
-  <hanzi id="134" char="全">
+  <hanzi id="133" char="全">
     <word><t>兩全</t><m>两全</m><p>liang3 quan2</p><d>/to satisfy both sides/to accommodate both (demands)/</d></word>
     <word><t>兩全其美</t><m>两全其美</m><p>liang3 quan2 qi2 mei3</p><d>/to satisfy rival demands/to get the best of both worlds/to have it both ways/to have one's cake and eat it too/</d></word>
     <word><t>全</t><m>全</m><p>quan2</p><d>/surname Quan/</d></word>
@@ -6914,6 +7096,68 @@
       <sent>这还不全是呢</sent>
       <sent>那就全是我的了</sent>
       <sent>里面全是人</sent>
+    </sentences>
+  </hanzi>
+  <hanzi id="134" char="作">
+    <word><t>作</t><m>作</m><p>zuo4</p><d>/to do/to grow/to write or compose/to pretend/to regard as/to feel/writings or works/</d></word>
+    <word><t>作下</t><m>作下</m><p>zuo4 xia4</p><d>/to do/to make (usually bad connotation)/</d></word>
+    <word><t>作為</t><m>作为</m><p>zuo4 wei2</p><d>/one's conduct/deed/activity/accomplishment/achievement/to act as/as (in the capacity of)/qua/to view as/to look upon (sth as)/to take sth to be/</d></word>
+    <word><t>作主</t><m>作主</m><p>zuo4 zhu3</p><d>/to decide/to make decisions/to back up sb/support/</d></word>
+    <word><t>作人</t><m>作人</m><p>zuo4 ren2</p><d>/to conduct oneself/same as 做人/</d></word>
+    <word><t>作出</t><m>作出</m><p>zuo4 chu1</p><d>/to put out/to come up with/to make (a choice, decision, proposal, response, comment etc)/to issue (a permit, statement, explanation, apology, reassurance to the public etc)/to draw (conclusion)/to deliver (speech, judgment)/to devise (explanation)/to extract/</d></word>
+    <word><t>作家</t><m>作家</m><p>zuo4 jia1</p><d>/author/CL:個|个[ge4],位[wei4]/</d></word>
+    <word><t>作對</t><m>作对</m><p>zuo4 dui4</p><d>/set oneself against/oppose/make a pair/</d></word>
+    <word><t>作手</t><m>作手</m><p>zuo4 shou3</p><d>/writer/expert/</d></word>
+    <word><t>作文</t><m>作文</m><p>zuo4 wen2</p><d>/to write an essay/composition (student essay)/CL:篇[pian1]/</d></word>
+    <word><t>作法</t><m>作法</m><p>zuo4 fa3</p><d>/course of action/method of doing sth/practice/modus operandi/</d></word>
+    <word><t>作用</t><m>作用</m><p>zuo4 yong4</p><d>/to act on/to affect/action/function/activity/impact/result/effect/purpose/intent/to play a role/corresponds to English -ity, -ism, -ization/CL:個|个[ge4]/</d></word>
+    <word><t>動作</t><m>动作</m><p>dong4 zuo4</p><d>/movement/motion/action/CL:個|个[ge4]/</d></word>
+    <word><t>發作</t><m>发作</m><p>fa1 zuo4</p><d>/to flare-up/to break out/</d></word>
+    <word><t>可作</t><m>可作</m><p>ke3 zuo4</p><d>/can be used for/</d></word>
+    <word><t>大作</t><m>大作</m><p>da4 zuo4</p><d>/to make sth big of it/sudden big and impressive event (sound, flash, burst, wind)/to exaggerate/</d></word>
+    <word><t>大有作為</t><m>大有作为</m><p>da4 you3 zuo4 wei2</p><d>/the prospects are very good/sth well worth doing/</d></word>
+    <word><t>當作</t><m>当作</m><p>dang4 zuo4</p><d>/treat as/regard as/</d></word>
+    <word><t>當家作主</t><m>当家作主</m><p>dang1 jia1 zuo4 zhu3</p><d>/to be in charge in one's own house (idiom)/to be the master of one's own affairs/</d></word>
+    <word><t>心理作用</t><m>心理作用</m><p>xin1 li3 zuo4 yong4</p><d>/mental reaction/</d></word>
+    <word><t>所作所為</t><m>所作所为</m><p>suo3 zuo4 suo3 wei2</p><d>/one's conduct and deeds/</d></word>
+    <word><t>無所作為</t><m>无所作为</m><p>wu2 suo3 zuo4 wei2</p><d>/attempting nothing and accomplishing nothing (idiom); without any initiative or drive/feckless/</d></word>
+    <word><t>有作用</t><m>有作用</m><p>you3 zuo4 yong4</p><d>/effective/to have impact/</d></word>
+    <word><t>用作</t><m>用作</m><p>yong4 zuo4</p><d>/to use for the purpose of/to serve as/</d></word>
+    <word><t>看作</t><m>看作</m><p>kan4 zuo4</p><d>/look upon as/regard as/</d></word>
+    <sentences>
+      <sent>“但你说他们没起作用——”</sent>
+      <sent>“但是你起到了什么作用?”</sent>
+      <sent>“那她都作什么了?”</sent>
+      <sent>一下子发作了</sent>
+      <sent>一个无所作为的</sent>
+      <sent>下作小人。</sent>
+      <sent>主要作用。</sent>
+      <sent>人民当家作主。</sent>
+      <sent>人的能动作用</sent>
+      <sent>他想对你作什么</sent>
+      <sent>他是一个大作家。</sent>
+      <sent>他是作家。</sent>
+      <sent>他是有作用的</sent>
+      <sent>他那样说是有他的作用的。</sent>
+      <sent>但没人作声</sent>
+      <sent>但这不起作用。</sent>
+      <sent>作为一家之长</sent>
+      <sent>作为什么其......</sent>
+      <sent>你会大有作为的</sent>
+      <sent>可是一点作用也没有</sent>
+      <sent>在…中起作用</sent>
+      <sent>大有作为。</sent>
+      <sent>她的儿子是作家。</sent>
+      <sent>小说作法。</sent>
+      <sent>当家作主。</sent>
+      <sent>我以后想当作家。</sent>
+      <sent>把他当作实行家</sent>
+      <sent>把我当作你的知心人吧。</sent>
+      <sent>有所作为。</sent>
+      <sent>起…的作用</sent>
+      <sent>这个小说是一个中国作家的。</sent>
+      <sent>这事我作主。</sent>
+      <sent>那没起作用,不是吗?</sent>
     </sentences>
   </hanzi>
   <hanzi id="135" char="工">
