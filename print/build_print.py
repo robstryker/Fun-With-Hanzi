@@ -66,20 +66,28 @@ def pinyin_marks(numbered):
 
 # ---------------------------------------------------------------- glosses
 
-def load_glosses(path):
+def load_glosses(path, hidden_words_path=ROOT / "data/hidden_words.txt"):
     """word<TAB>pinyin<TAB>gloss. Blank pinyin matches every reading;
-    a gloss of "-" hides that reading. Lines starting with # are comments."""
+    a gloss of "-" hides that reading. Lines starting with # are comments.
+    Words listed in data/hidden_words.txt (one per line) are hidden entirely,
+    whatever glosses.tsv says about them."""
     glosses = {}
-    if not path.exists():
-        return glosses
-    for line in path.read_text(encoding="utf-8").splitlines():
-        if not line.strip() or line.startswith("#"):
-            continue
-        parts = [p.strip() for p in line.split("\t")]
-        if len(parts) < 3:
-            continue
-        word, pinyin, gloss = parts[0], parts[1].lower(), parts[2]
-        glosses[(word, pinyin)] = gloss
+    if path.exists():
+        for line in path.read_text(encoding="utf-8").splitlines():
+            if not line.strip() or line.startswith("#"):
+                continue
+            parts = [p.strip() for p in line.split("\t")]
+            if len(parts) < 3:
+                continue
+            word, pinyin, gloss = parts[0], parts[1].lower(), parts[2]
+            glosses[(word, pinyin)] = gloss
+    if hidden_words_path.exists():
+        for line in hidden_words_path.read_text(encoding="utf-8").splitlines():
+            word = line.strip()
+            if word and not word.startswith("#"):
+                for key in [k for k in glosses if k[0] == word]:
+                    del glosses[key]
+                glosses[(word, "")] = "-"
     return glosses
 
 
@@ -210,20 +218,24 @@ def load_characters(root, custom_path, hidden_path, first, last, glosses, max_wo
                 seen.add((modern, pinyin))
                 words.append({"hanzi": modern, "pinyin": pinyin_marks(pinyin), "gloss": gloss})
 
-        # The character itself heads the block; the rest go shortest-first.
-        heads = [w for w in words if w["hanzi"] == char]
-        others = sorted((w for w in words if w["hanzi"] != char), key=lambda w: len(w["hanzi"]))
-
-        sentences = sentences_for(hanzi, idx, custom, hidden)
+        sentences = sentences_for(hanzi, idx, custom, hidden)[:max_sentences]
         # With no sentences of its own, point at the next character.
         partner = None
         if not sentences and idx + 1 < len(lessons):
             partner = lessons[idx + 1].get("char"), idx + 2
 
+        # The character itself heads the block. The other words go in order of how many
+        # of the shown sentences use them, so the ones being practised come first;
+        # unused ones follow, shortest first.
+        heads = [w for w in words if w["hanzi"] == char]
+        uses = lambda w: sum(w["hanzi"] in t for t in sentences)
+        others = sorted((w for w in words if w["hanzi"] != char),
+                        key=lambda w: (-uses(w), len(w["hanzi"])))
+
         chars.append({
             "id": idx, "char": char, "heads": heads,
             "words": others[:max_words],
-            "sentences": sentences[:max_sentences],
+            "sentences": sentences,
             "partner": partner,
         })
     return chars
