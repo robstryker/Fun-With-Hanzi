@@ -122,6 +122,12 @@ REPEAT = re.compile(r"([\u3400-\u9fff])\1\1")
 def clean_sentence(text):
     """Trim stray quotes and dangling punctuation; None if not worth showing."""
     text = text.strip().strip(EDGE_PUNCT).strip()
+    # Trimming can cut one half of a quotation (他回答：“对，我爱呢。” loses its ”);
+    # put the missing mark back so the quote stays balanced.
+    if text.count("“") > text.count("”"):
+        text += "”"
+    elif text.count("”") > text.count("“"):
+        text = "“" + text
     # "A/B" alternatives (是他们/她们的) are hard for a child to read.
     if not text or LATIN.search(text) or REPEAT.search(text) or "/" in text or "／" in text:
         return None
@@ -135,7 +141,14 @@ def han_only(text):
 
 
 def is_complete(text):
-    return text[-1] in "。？！.?!"
+    """Ends in sentence punctuation, looking past closing quotes (…我爱呢。”)."""
+    text = text.rstrip("”’\"'」』）)")
+    return bool(text) and text[-1] in "。？！.?!"
+
+
+# A character with at least this many complete sentences (hand-written + corpus)
+# doesn't use corpus fragments to fill its slots. build_print.py --min-complete sets it.
+MIN_COMPLETE = 20
 
 
 def unquote(line):
@@ -267,6 +280,9 @@ def sentences_for(hanzi, idx, custom, hidden):
             found.append(text)
     # Whole sentences before fragments, then richer ones (more distinct characters), then shorter.
     found.sort(key=lambda t: (not is_complete(t), -len(set(han_only(t))), len(t)))
+    complete = [t for t in found if is_complete(t)]
+    if len(mine) + len(complete) >= MIN_COMPLETE:
+        found = complete
     return mine + found
 
 
@@ -371,6 +387,7 @@ def no_sentences_note(c):
 
 
 def main():
+    global MIN_COMPLETE
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--xml", default=ROOT / "outputs/regenerated.xml", type=Path)
     ap.add_argument("--glosses", default=ROOT / "data/glosses.tsv", type=Path)
@@ -384,11 +401,15 @@ def main():
     ap.add_argument("--to", dest="last", type=int, default=300, help="last character number (1-based)")
     ap.add_argument("--max-words", type=int, default=10)
     ap.add_argument("--max-sentences", type=int, default=100)
+    ap.add_argument("--min-complete", type=int, default=MIN_COMPLETE,
+                    help="with this many complete sentences, drop corpus fragments (0 = always drop, "
+                         "a huge number = never)")
     ap.add_argument("--gloss-chars", type=int, default=30, help="length budget for automatic glosses")
     ap.add_argument("--paper", default="A4", help="A4 or Letter")
     ap.add_argument("--out", default=ROOT / "outputs/print.pdf", type=Path)
     ap.add_argument("--html", type=Path, help="also write the intermediate HTML here")
     args = ap.parse_args()
+    MIN_COMPLETE = args.min_complete
 
     glosses = load_glosses(args.glosses)
     root = ET.parse(args.xml).getroot()

@@ -90,7 +90,11 @@ functions, and follow exactly the same rules as the PDF build.
 
 ## Editing rules Rob has set
 
-- At least 4-5 sentences per character wherever possible; thin ones get 15-25+.
+- **At least 20 sentences per character** except where genuinely not feasible
+  (#16 一, #39 中 -- too few characters known; for #1-5 near-duplicates differing
+  only in the tone word -- 不是我啊！/不是我吧！ -- are welcome). The builder
+  drops corpus fragments once a character has 20+ complete sentences
+  (`--min-complete`), so count after the change, not before.
   Prefer complete, slightly longer sentences built on the compounds the
   character unlocks; only a few 3-4 character lines, and only when they clearly
   show a use. No chengyu, dialect, rude or esoteric lines.
