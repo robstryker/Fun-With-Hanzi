@@ -138,6 +138,17 @@ def is_complete(text):
     return text[-1] in "。？！.?!"
 
 
+def unquote(line):
+    """A hand-written line wrapped in one pair of quotes ("是我！") loses them;
+    a line that only ends in a closing quote (他说：“我回来了！”) keeps it."""
+    text = line.strip()
+    pairs = {'"': '"', "'": "'", "“": "”"}
+    if len(text) >= 2 and text[0] in pairs and text[-1] == pairs[text[0]] \
+            and pairs[text[0]] not in text[1:-1]:
+        text = text[1:-1].strip()
+    return text
+
+
 def load_custom_sentences(path, order, free):
     """Hand-written sentences (data/examples/CUSTOM_EXAMPLES), one per line,
     keyed by the index of the character at which each becomes readable.
@@ -146,7 +157,7 @@ def load_custom_sentences(path, order, free):
     if not path.exists():
         return custom
     for line in path.read_text(encoding="utf-8").splitlines():
-        text = line.strip().strip("\"'“”").strip()
+        text = unquote(line)
         chars = [c for c in han_only(text) if c not in free]
         if not chars:
             continue

@@ -69,6 +69,11 @@ functions, and follow exactly the same rules as the PDF build.
 - **`move_char.py X --before Y | --after Y | --to N [--regen] [--dry-run]`** --
   move a character in the order; `--regen` reruns Java afterwards. Custom and
   hidden sentences follow their characters automatically.
+- **`source_report.py [--from A] [--to B] [--source hp|nciku|custom|both] [--min-len N] [--list] [--tsv FILE]`**
+  -- which corpus each sentence shown in the PDF comes from (hand-written,
+  Harry Potter translation, nciku), by length and position. Local only. For
+  public-release copyright review: long hp-only sentences are the risk.
+  #1-1000 takes ~1.5 min.
 - **`build_print.py`** -- options `--from/--to`, `--max-words` (10),
   `--max-sentences` (100), `--paper A4|Letter`, `--html FILE`.
 
