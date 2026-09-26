@@ -11,7 +11,7 @@ Sentences are filed AUTOMATICALLY under the character where they become readable
 - Optional: `.venv/bin/python print/char_report.py <char>` shows a character's most-used words and where they unlock.
 
 ## Batch file format (tab-separated, one edit per line)
-`+N<TAB>sentence` = add a hand-written sentence intended for character #N (the checker verifies it really lands at #N, i.e. N is its highest-numbered character).
+`+N<TAB>sentence` = add a hand-written sentence intended for character #N (the checker errors if it lands EARLIER than #N; if it lands LATER because it uses a later character, it is still accepted and just reported as a "filed later" note -- so a good sentence is never worth throwing away, but prefer sentences that land at #N since those are what the 20-per-character floor counts).
 `-<TAB>sentence` = hide an existing corpus sentence (copy it exactly as shown by show_sentences; matching ignores punctuation).
 
 ## Goals and rules (from the project owner)

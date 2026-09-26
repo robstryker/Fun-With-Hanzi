@@ -7,9 +7,9 @@ A batch file has one edit per line, tab-separated:
     -<TAB>之后呢?                    hide this sentence
 
 Every added sentence is checked before anything is written:
-  - it must land exactly at the given character: its last-taught character
-    (ignoring the free tone words) must be that one, so it uses nothing
-    that hasn't been taught yet
+  - it must not land EARLIER than the given character. If it lands LATER
+    (it uses a character taught after #N) it is still added -- it just won't
+    show until that later character -- and a "filed later" note is printed
   - every character in it must be in the order at all
   - it must not be suppressed by HIDDEN_EXAMPLES or by a hide in the batch
 Sentences already in CUSTOM_EXAMPLES are skipped. If any check fails,
@@ -85,7 +85,7 @@ def main():
     free = {h.get("char") for h in root.findall("known/hanzi")}
     existing = {b.han_only(line) for line in CUSTOM.read_text(encoding="utf-8").splitlines()}
 
-    adds, hides, problems = [], [], 0
+    adds, hides, problems, later = [], [], 0, 0
     for n, line in enumerate(args.batch.read_text(encoding="utf-8").splitlines(), 1):
         if not line.strip():
             continue
@@ -100,13 +100,16 @@ def main():
             continue
         target = int(tag[1:])
         lands, unknown = landing(text, order, free)
-        if lands != target:
+        if lands is None or lands < target:
             problems += 1
             why = f"uses {unknown}, not in the order" if unknown else f"lands at #{lands}"
             print(f"line {n}: #{target} {why}: {text}")
         elif b.han_only(text) in existing:
             print(f"line {n}: already in CUSTOM_EXAMPLES, skipped: {text}")
         else:
+            if lands > target:
+                later += 1
+                print(f"note: line {n}: intended #{target}, filed later at #{lands}: {text}")
             adds.append(text)
 
     hidden = b.load_hidden_sentences(HIDDEN) | {b.han_only(h) for h in hides}
@@ -115,7 +118,7 @@ def main():
             problems += 1
             print(f"would be hidden by HIDDEN_EXAMPLES: {text}")
 
-    print(f"{len(adds)} adds, {len(hides)} hides, {problems} problems")
+    print(f"{len(adds)} adds ({later} filed later than intended), {len(hides)} hides, {problems} problems")
     project(root, order, free, adds, hides, args.range)
     if problems:
         print("nothing written")

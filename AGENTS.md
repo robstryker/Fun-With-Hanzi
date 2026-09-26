@@ -58,9 +58,10 @@ functions, and follow exactly the same rules as the PDF build.
   A..B, numbered, `*` = hand-written, plus every character known before A.
   Read this before writing sentences for a character.
 - **`add_sentences.py batch.tsv [--check]`** -- apply a batch of edits:
-  `+N<TAB>sentence` adds under #N, `-<TAB>sentence` hides. Every add must land
-  exactly at #N (its last-taught character is #N), use only characters in the
-  order, and not be hidden; any problem -> nothing written. Always use this,
+  `+N<TAB>sentence` adds under #N, `-<TAB>sentence` hides. An add may land
+  at #N or LATER (a good sentence using a later character is kept and filed
+  there, with a "filed later" note); landing earlier than #N is an error. Adds
+  must use only characters in the order and not be hidden; any problem -> nothing written. Always use this,
   never append to the data files by hand.
   `--check --range A B` also projects each character's resulting sentence count
   (before -> after, fragment rule included) without writing anything -- use it
@@ -77,6 +78,12 @@ functions, and follow exactly the same rules as the PDF build.
   Harry Potter translation, nciku), by length and position. Local only. For
   public-release copyright review: long hp-only sentences are the risk.
   #1-1000 takes ~1.5 min.
+- **`reuse_stats.py [A B] [--tsv FILE] [--batch FILE] [--short R50 R150 [--only CHARS]]`**
+  -- per character: unlock (complete sentences landing on it), shown (printed),
+  reuse50/reuse150 (sentences containing it that land on the next 50/150
+  characters, i.e. does it keep coming back after being taught). Goal set
+  2026-09-26: reuse50 >= 15 and reuse150 >= 40 for #51-340. `--batch` counts a
+  batch's adds as applied; `--short` lists characters below target. Takes ~1 min.
 - **`gloss_input.py A B [--slices N]`** / **`merge_glosses.py [--keep W P M] [--dry-run]`**
   -- build the input slices for a gloss pass, then validate and append the
   agents' output to data/glosses.tsv (see "Resuming at #251+").
@@ -184,3 +191,17 @@ glossed (~1,300 hand-checked meanings in data/glosses.tsv). #251+ is raw corpus.
   ones (jia1); the builder only lets a *shown* entry block duplicates.
 - `IOUtil.readFile` ignores its encoding argument (Test6 reads GBK) -- known,
   unfixed.
+
+## Reuse pass (2026-09-26)
+
+Method: (1) `reuse_stats.py` flags characters below 15/40; (2) verdict agents
+(`docs/agent_prompts/reuse_verdict.md`) judge each KEEP / DEMOTE / FINE on
+linguistic grounds; (3) demotions are moved just before their partner with
+`move_char.py --before`; (4) KEEP characters get reuse sentences from agents
+(`docs/agent_prompts/reuse.md`, 15 chars each) that land inside each
+character's window. `add_sentences.py` now accepts a sentence that lands LATER
+than its +N (it files there); landing earlier is still an error. A sentence
+filed on the character itself does not count toward that character's reuse.
+30 characters demoted (政 毛 林 建 立 军 将 度 利 光 制 战 ...), 24 characters
+pulled up to #304-340 (怎 孩 友 朋 找 谁 完 办 写 早 钱 校, family/food/colour words).
+Remaining: #296-340 block needs curation, then its own reuse wave.
