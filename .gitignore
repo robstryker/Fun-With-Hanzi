@@ -4,3 +4,5 @@ __pycache__/
 /outputs/*.pdf
 /outputs/regenerated.xml
 /work/
+/radio/out/
+/radio/.venv/
