@@ -18,7 +18,7 @@ Each character was already judged KEEP in an earlier pass (a good, natural chara
 ## Tools
 - `.venv/bin/python print/show_sentences.py A B` -- current sentences and known characters for #A..#B.
 - `.venv/bin/python print/add_sentences.py work/batches/reuse_{K}.tsv --check` -- validates a batch: lines `+N<TAB>sentence` add a sentence intended for #N. A sentence that lands LATER than N is accepted with a "filed later" note (check these notes -- they tell you where it really lands); landing EARLIER than N, or using a character outside the order, is an error. Iterate until 0 problems. Use N = the character you intend it to land on.
-- `.venv/bin/python print/reuse_stats.py 51 340 --batch work/batches/reuse_{K}.tsv --short 15 40 --only "<your characters>"` -- shows which of YOUR characters still fall short if your batch were applied (blank output = all goals met). Iterate until as many as honestly possible are met.
+- `.venv/bin/python print/reuse_stats.py 51 400 --batch work/batches/reuse_{K}.tsv --short 15 40 --only "<your characters>"` -- shows which of YOUR characters still fall short if your batch were applied (blank output = all goals met). Iterate until as many as honestly possible are met.
 - `.venv/bin/python print/char_report.py <char>` -- a character's words and where they unlock.
 Batch format: one `+N<TAB>sentence` per line; no hides needed (you may include `-<TAB>sentence` lines only for junk you find).
 
