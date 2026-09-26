@@ -62,6 +62,9 @@ functions, and follow exactly the same rules as the PDF build.
   exactly at #N (its last-taught character is #N), use only characters in the
   order, and not be hidden; any problem -> nothing written. Always use this,
   never append to the data files by hand.
+  `--check --range A B` also projects each character's resulting sentence count
+  (before -> after, fragment rule included) without writing anything -- use it
+  to confirm every character reaches 20 before applying.
 - **`char_report.py CHAR|N`** -- a character's most-used words (across the whole
   corpus), where each unlocks, and how its later sentences are spread. Use it
   to decide whether a character should move next to its partner. Peaks at
@@ -74,8 +77,69 @@ functions, and follow exactly the same rules as the PDF build.
   Harry Potter translation, nciku), by length and position. Local only. For
   public-release copyright review: long hp-only sentences are the risk.
   #1-1000 takes ~1.5 min.
+- **`gloss_input.py A B [--slices N]`** / **`merge_glosses.py [--keep W P M] [--dry-run]`**
+  -- build the input slices for a gloss pass, then validate and append the
+  agents' output to data/glosses.tsv (see "Resuming at #251+").
 - **`build_print.py`** -- options `--from/--to`, `--max-words` (10),
   `--max-sentences` (100), `--paper A4|Letter`, `--html FILE`.
+
+## Parallel curation with subagents
+
+For big ranges, one subagent per 10 characters writes a batch file to
+`work/batches/A-B.tsv` (gitignored) and validates it with
+`add_sentences.py work/batches/A-B.tsv --check --range A B` -- agents never
+apply batches or edit data/. The main session then reviews each batch and
+applies them one at a time, in order.
+
+## Resuming at #251+ (status as of 2026-09-25)
+
+**Done:** #1-250 curated (20+ sentences each, except #16 一 and #39 中) and
+glossed (~1,300 hand-checked meanings in data/glosses.tsv). #251+ is raw corpus.
+
+**Steps for the next range, in this order:**
+1. `mvn -q compile` and regenerate `outputs/regenerated.xml` if it's missing
+   (it's gitignored).
+2. **Placement first.** Run `char_report.py` on thin characters in the range
+   and decide moves with Rob *before* curating -- a move reshuffles every
+   character after it, so curating first means redoing work (白 was pulled up to
+   #131 for this reason). Use `move_char.py ... --regen`.
+3. **Curate:** one subagent per 10 characters, prompt in
+   `docs/agent_prompts/curate.md` (replace {A}/{B}). They write
+   `work/batches/A-B.tsv`; they never apply.
+4. **Review each batch before applying** (the main session reads every added
+   sentence): cut awkward lines and ones the agent itself flags, add hides for
+   odd corpus lines it kept. Then apply in order with `add_sentences.py`, and
+   back up `CUSTOM_EXAMPLES`/`HIDDEN_EXAMPLES` first.
+5. **Gloss:** `gloss_input.py A B --slices N`, one Sonnet agent per slice with
+   `docs/agent_prompts/glosses.md` (replace {N}), then `merge_glosses.py
+   --dry-run`, decide `--keep` for its "maybe used" list, and merge.
+6. Count (every char >= 20), rebuild sample/print PDFs, let Rob check, commit
+   (never the PDFs or regenerated.xml).
+
+**Known issues / pitfalls:**
+- **Proper-noun collisions (builder bug, unfixed):** the Java side lowercases
+  pinyin, so CC-CEDICT proper-noun entries (现代 "Hyundai", 和平 "Heping
+  district", 大学 "the Great Learning") collide with the ordinary word and can
+  be printed instead. glosses.tsv fixes #1-250 only; the real fix is for the
+  builder to prefer the non-proper-noun entry on a collision.
+- **Automatic meanings can drop the main sense** (十分 showed "to divide into
+  ten parts", 很 lost "very"): CC-CEDICT doesn't order senses by frequency.
+  That's what the gloss pass is for -- don't skip it.
+- **Heading clutter:** extra readings still print (大 dài "doctor", 着's four
+  readings, 看 kān listed before kàn). Hide rare readings in glosses.tsv with "-".
+- **Rob can't verify Chinese past ~#100.** Hand-written sentences are the risk;
+  corpus grammar is native. Planned but not built: English translations
+  (parent edition of the PDF) plus an AI "sounds unnatural?" flag pass, and
+  native review by his family via sentence numbers.
+- **Agents and usage limits:** a batch file written before a rate limit
+  survives -- always re-run `--check --range` on every batch before trusting it.
+  Agents' reports can arrive after the task shows "failed".
+- **Harry Potter density rises past ~#800** (哈 Harry, 恩 Ron, 邓 Dumbledore hit
+  the 100-sentence cap); `source_report.py` measures it.
+- **Tokens:** subagents are cheaper than the main session (fresh context);
+  use Sonnet for mechanical passes like glossing.
+- Sentences are generic examples, not biography -- don't try to make "my
+  daughter" lines agree with each other.
 
 ## How the PDF chooses what to show
 
@@ -97,7 +161,9 @@ functions, and follow exactly the same rules as the PDF build.
   (`--min-complete`), so count after the change, not before.
   Prefer complete, slightly longer sentences built on the compounds the
   character unlocks; only a few 3-4 character lines, and only when they clearly
-  show a use. No chengyu, dialect, rude or esoteric lines.
+  show a use. No chengyu, dialect, esoteric lines, swearing or insults (去你的,
+  下作小人). Everyday words for fighting (他打了我的头) and bodily functions
+  (方便一下 = use the bathroom) are NOT to be hidden -- learners should know them.
 - Hide fragments: dangling clauses (但是..., 如果..., 当...的时候), dialogue-tag
   leftovers, dash-broken lines, slash alternatives.
 - A character whose main word needs a much later partner can move next to it
