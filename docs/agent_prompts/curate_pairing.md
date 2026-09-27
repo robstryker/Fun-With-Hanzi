@@ -1,0 +1,6 @@
+
+## Extra rules for this batch (2026-09-26): pairing + grammar recycling
+This range is a batch of everyday nouns, adjectives and verbs chosen to PAIR with the everyday block just taught at #339-399 (哪 告诉 帮 兴 怕 病 累 药 苦 医 饿 肉 香 鱼 蛋 茶 甜 汤 洗 床 软 椅 硬 桌 灯 亮 窗 暗 衣 脏 鞋 净 纸 穿 贵 云 雨 湿 雪 春 夏 秋 冬 树 绿 草 蓝 猫 慢 牛 鸡 鸟 耳 嘴 脚 腿 跑 唱 跳 红) and #301-338 (喝 睡 玩 忙 买 房 脸 狗 菜 男 晚 热 冷 黄 黑 吃 ...).
+1. **Network effect**: most new sentences should combine the target character with those recent characters (e.g. 酸 with 汤 菜 甜 苦; 旧 with 衣 鞋 桌 椅 床; 疼 with 病 药 医 腿 脚 耳 嘴; 躺 with 床 椅 累 睡; 煮/炒 with 菜 肉 蛋 汤 鱼). Sentences that reuse recent characters count for the project's reuse goals.
+2. **Grammar recycling**: don't let earlier syntax go stale. Where it comes out naturally (never forced, never more than ~1 in 4 sentences), use patterns already taught, as long as every character is known by the target: 对我来说, 对…来说, 比 comparisons, 把 / 被, 是…的, 越…越, 一边…一边, 因为…所以, 如果…就, 只要…就, 一…就, 才 / 就 / 都 / 还 / 又, 不但…而且, 得 complements (跑得快), 了 / 过 / 着, 没有…那么…, 除了…还, 别 / 不要 imperatives, 会 / 能 / 可以 / 应该, 有点儿 / 太…了, question forms (吗 / 呢 / 什么 / 怎么 / 为什么 / 谁 / 哪). Check with show_sentences.py that every character you use is known; drop a pattern rather than use an unknown character.
+3. Vary the patterns across a character's sentences; avoid five sentences with the same frame.

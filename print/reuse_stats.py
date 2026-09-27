@@ -6,25 +6,42 @@ minus hidden) land exactly on it ("unlock"), how many the PDF shows, and how man
 sentences containing it land on the NEXT 50 / NEXT 150 characters ("reuse") --
 i.e. whether the character keeps coming back after it is taught.
 
-Usage: .venv/bin/python print/reuse_stats.py [A B] [--tsv FILE]
+Usage: .venv/bin/python print/reuse_stats.py [A B] [--tsv FILE] [--each]
+    A and B may be position numbers or the characters themselves, e.g.:
+    .venv/bin/python print/reuse_stats.py 该        # single character
+    .venv/bin/python print/reuse_stats.py 230 240 --each   # one line per char
+    .venv/bin/python print/reuse_stats.py 230 240          # 50-wide bucket averages
 """
 import argparse, collections, sys
 import xml.etree.ElementTree as ET
 import build_print as b
 
 ap = argparse.ArgumentParser()
-ap.add_argument("a", type=int, nargs="?", default=1)
-ap.add_argument("z", type=int, nargs="?", default=340)
+ap.add_argument("a", nargs="?", default=None, help="position number or character")
+ap.add_argument("z", nargs="?", default=None, help="position number or character")
 ap.add_argument("--tsv")
 ap.add_argument("--batch", action="append", default=[], help="add_sentences batch file(s) whose +N adds are counted as if applied")
 ap.add_argument("--short", type=int, nargs=2, metavar=("R50", "R150"), help="list characters below these reuse targets")
 ap.add_argument("--only", default="", help="restrict --short output to these characters")
+ap.add_argument("--each", action="store_true", help="print one line per character instead of 50-wide bucket averages")
 args = ap.parse_args()
 
 root = ET.parse(b.ROOT / "outputs/regenerated.xml").getroot()
 lessons = root.findall("hanzi")
 order = [h.get("char") for h in lessons]
 pos = {c: i + 1 for i, c in enumerate(order)}
+
+
+def resolve(token):
+    """A position number or the character itself -> position number."""
+    return pos[token] if token in pos else int(token)
+
+
+if args.a is None:
+    args.a, args.z = 1, 340
+else:
+    args.a = resolve(args.a)
+    args.z = resolve(args.z) if args.z is not None else args.a
 free = {h.get("char") for h in root.findall("known/hanzi")}
 CUSTOM, HIDDEN = b.ROOT / "data/examples/CUSTOM_EXAMPLES", b.ROOT / "data/examples/HIDDEN_EXAMPLES"
 hidden = b.load_hidden_sentences(HIDDEN)
@@ -75,6 +92,10 @@ if args.tsv:
         f.write("pos\tchar\tunlock\tshown\treuse50\treuse150\n")
         for r in rows:
             f.write("\t".join(map(str, r)) + "\n")
+if args.a == args.z or args.each:
+    for p, ch, u, sh, r50, r150 in rows:
+        print(f"#{p} {ch}: sentences {sh}, reuse50 {r50}, reuse150 {r150}")
+    sys.exit(0)
 print("complete sentences; unlock = land here, shown = printed in PDF, reuse = contain char, land in next 50/150")
 for lo in range(args.a, args.z + 1, 50):
     chunk = [r for r in rows if lo <= r[0] < lo + 50]
