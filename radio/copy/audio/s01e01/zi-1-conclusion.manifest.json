@@ -1,0 +1,62 @@
+[
+  {
+    "segment_type": "line",
+    "source_id": "Rob-0baccc1512f2c2ff.mp3",
+    "speaker": "Rob",
+    "text": "Ok, so, do we need to review what we learned?",
+    "duration": 3.004082,
+    "running_start_time": 0.0,
+    "alignment": "Rob-0baccc1512f2c2ff.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 3.004082
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-379de9e3772a6f22.mp3",
+    "speaker": "Sunshine",
+    "text": "[laughs] Well, there's not really that much to review! I think we can just move on to our second character.",
+    "duration": 5.955918,
+    "running_start_time": 3.204082,
+    "alignment": "Sunshine-379de9e3772a6f22.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 9.16
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-1e0a0b4a519b2a02.mp3",
+    "speaker": "Rob",
+    "text": "Yeah, I think so too.",
+    "duration": 1.880816,
+    "running_start_time": 9.36,
+    "alignment": "Rob-1e0a0b4a519b2a02.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 11.240815999999999
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-28c489f40faf6387.mp3",
+    "speaker": "Sunshine",
+    "text": "[warmly] Good, because our next character is super important.",
+    "duration": 4.04898,
+    "running_start_time": 11.440815999999998,
+    "alignment": "Sunshine-28c489f40faf6387.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 15.489795999999998
+  }
+]
