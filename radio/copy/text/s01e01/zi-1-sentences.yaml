@@ -1,0 +1,117 @@
+# s01e01 character 1 sentence dive -- 8 sentences (PDF #1 2 3 4 5 6 8 14), rough draft v1
+# Generated via claude -p (Opus 5.5) from prompts/prompt-3.md (first run); selection in zi-1-sentences.txt.
+# Unedited generated version -- Rob's edits will diff against this commit.
+# Mechanical checks passed: sentence turns verbatim + in order, each announced by PDF number, no Chinese in Rob lines.
+- speaker: Sunshine
+  text: "[brightly] Okay, Rob, here we go. These first three are going to look almost identical on the page, so I'll read them back to back."
+
+- speaker: Sunshine
+  text: "Sentence 1."
+
+- speaker: Sunshine
+  text: "是。"
+
+- speaker: Sunshine
+  text: "That's a plain statement. \"Yes.\" Or \"It is.\" Just calm and flat."
+
+- speaker: Sunshine
+  text: "Sentence 2."
+
+- speaker: Sunshine
+  text: "是？"
+
+- speaker: Sunshine
+  text: "[curious] Now my voice goes up. \"Yes?\" \"Is it?\""
+
+- speaker: Sunshine
+  text: "Sentence 3."
+
+- speaker: Sunshine
+  text: "是！"
+
+- speaker: Sunshine
+  text: "[excitedly] And that's \"Yes!\" Like you really mean it."
+
+- speaker: Rob
+  text: "[dryly] So that's three sentences, one character, and the only thing that changed was the dot at the end."
+
+- speaker: Sunshine
+  text: "[laughs] Exactly. The punctuation does all the work."
+
+- speaker: Rob
+  text: "Which is great for me, because the punctuation is the one part I can actually read."
+
+- speaker: Sunshine
+  text: "Sentence 4."
+
+- speaker: Sunshine
+  text: "是啊！"
+
+- speaker: Rob
+  text: "Okay, that's our word plus the warm one. So something like \"Oh, yes!\" or \"It sure is!\""
+
+- speaker: Sunshine
+  text: "[warmly] Yes, \"It sure is!\" Like when a friend says \"Nice weather today,\" and you agree with them."
+
+- speaker: Sunshine
+  text: "Sentence 5."
+
+- speaker: Sunshine
+  text: "是呀！"
+
+- speaker: Rob
+  text: "That sounded a lot like the last one, just a little brighter. The cheerful, surprised one? \"Oh, yes!\""
+
+- speaker: Sunshine
+  text: "Right. It's basically the same as Sentence 4, just a bit more bouncy. You hear it a lot from kids, and from me."
+
+- speaker: Rob
+  text: "[dryly] I've noticed."
+
+- speaker: Sunshine
+  text: "Sentence 6."
+
+- speaker: Sunshine
+  text: "是吧？"
+
+- speaker: Rob
+  text: "[thoughtfully] That's the checking one, with a question mark. So: \"Right?\" \"It is, isn't it?\""
+
+- speaker: Sunshine
+  text: "Perfect. You're not totally sure, so you want the other person to agree with you."
+
+- speaker: Rob
+  text: "I'll be using that one a lot."
+
+- speaker: Sunshine
+  text: "Sentence 8."
+
+- speaker: Sunshine
+  text: "是呢。"
+
+- speaker: Rob
+  text: "Hm. My notes say that last one is the gentle question, \"what about...?\" But this ends with a period. So, \"Is it... what about it\"? I'm not getting anywhere with that."
+
+- speaker: Sunshine
+  text: "[laughs] Fair, it's a tricky one. With a period, it's not really a question. It's a soft agreement, like you're nodding along. \"Yeah, it is.\""
+
+- speaker: Rob
+  text: "So it's a quieter version of Sentence 4."
+
+- speaker: Sunshine
+  text: "Yes! Sentence 4 is \"It sure is!\" and this one is \"Mm, it is.\""
+
+- speaker: Sunshine
+  text: "Sentence 14."
+
+- speaker: Sunshine
+  text: "是啊，是吧？"
+
+- speaker: Rob
+  text: "Two pieces. The first is the warm \"Oh, yes,\" and the second is the checking one. So: \"Oh yes, it is, right?\""
+
+- speaker: Sunshine
+  text: "[warmly] That's it. You agree, and then you check that they agree with you too."
+
+- speaker: Rob
+  text: "[dryly] Agreeing with myself and then asking for confirmation. Sounds like me in a meeting."

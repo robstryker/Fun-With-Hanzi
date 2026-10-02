@@ -122,8 +122,16 @@ Open questions:
   `running_start_time`) into a whole-episode mix, in the order above.
 
 ## Before public release
-- Corpus sentences include the copyrighted Chinese Harry Potter translation:
-  public episodes may only read hand-written / original sentences.
+- Corpus sentences include the copyrighted Chinese Harry Potter translation.
+  **Copyright pruning happens at the PDF stage, not the audio stage** (Rob,
+  2026-10-02): most Harry Potter sentences were already excluded from the PDF,
+  and the few that remain at early character numbers were analyzed and judged
+  to be very simple sentences anyone would make by combining the first 20-50
+  characters. So the audio/sentence-selection step trusts the PDF's sentence
+  list as already cleared and does NOT re-filter by source -- don't duplicate
+  that work here. Any further pruning belongs in the PDF data
+  (`HIDDEN_EXAMPLES`, see `AGENTS.md`), after which the audio picks it up
+  automatically.
 - CC-CEDICT is CC BY-SA (attribution + share-alike).
 - Use a TTS with commercial terms, not edge-tts -- ElevenLabs (chosen above)
   qualifies once on a paid plan; the free tier blocks API access to any

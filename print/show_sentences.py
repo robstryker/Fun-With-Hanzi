@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Show the example sentences the PDF would print for a range of characters.
 
-For each character: its words, then every sentence in print order, numbered,
+For each character: its words, then every sentence in print order (b.ordered_sentences,
+shared with the PDF builder, so the numbers match the printed PDF), numbered,
 with * marking hand-written ones (CUSTOM_EXAMPLES). The header line lists
 every character already known before the first one shown -- the vocabulary
 available when writing new sentences for it.
@@ -40,7 +41,7 @@ def main():
         mine = set(custom.get(c["id"], []))
         print(f"\n#{c['id'] + 1} {c['char']}  words: "
               + ", ".join(f"{w['hanzi']}={w['gloss'][:18]}" for w in c["heads"] + c["words"]))
-        for i, s in enumerate(c["sentences"], 1):
+        for i, s in enumerate(b.ordered_sentences(c["sentences"]), 1):
             print(f"  {i:2} {'*' if s in mine else ' '} {s}")
         if not c["sentences"]:
             print("  (no sentences)")

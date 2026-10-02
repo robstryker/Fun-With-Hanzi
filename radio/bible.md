@@ -127,6 +127,9 @@ episode-by-episode within these pacing guardrails. Undecided.
 
 ## Sentence-dive rules
 
+- **Sentence numbers are the PDF's printed numbers** — a sentence's position in
+  `build_print.ordered_sentences` (shortest first; `print/show_sentences.py` uses
+  the same function, fixed 2026-10-02 after it drifted from the PDF's order).
 - **Always name the sentence number before reading it** — "Sentence 17,"
   "Moving on to sentence 22..." Never read one cold. This is a hard rule, not
   a style preference: it's spoken for the audience, and it doubles as a
@@ -150,7 +153,8 @@ episode-by-episode within these pacing guardrails. Undecided.
     literal-translation bit (see Rob's persona above) on a compound in that
     sentence before landing on the real meaning.
 - **Selection:** 15-20 sentences out of the full pool the PDF would show for
-  that character, chosen editorially — favor sentences that reuse multiple
+  that character (that pool is already copyright-cleared at the PDF stage --
+  see README "Before public release"; don't re-filter by source here), chosen editorially — favor sentences that reuse multiple
   recently-taught characters (max reuse payoff), and mix quick-read and
   dissect candidates rather than just taking the first N.
 - **Quick read:** no new grammar pattern, every word is either the new

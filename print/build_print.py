@@ -322,6 +322,14 @@ def esc(s):
     return html.escape(s, quote=False)
 
 
+def ordered_sentences(sentences):
+    """The order the PDF prints (and numbers) a character's sentences: shortest first by
+    number of Chinese characters, ties keeping their original order. The number printed
+    next to a sentence is its 1-based position in this list; anything that quotes sentence
+    numbers (e.g. print/show_sentences.py, the radio scripts) must use it too."""
+    return sorted(sentences, key=lambda t: len(han_only(t)))
+
+
 def down_columns(n, cols=2):
     """Grid style that fills each column top to bottom before moving to the next."""
     return (f"grid-template-columns: repeat({cols}, 1fr); grid-auto-flow: column; "
@@ -359,7 +367,7 @@ def render_char(c):
         out.append("</div>")
     if c["sentences"]:
         # Shortest first: short ones in three columns, then longer ones in two, numbered straight through.
-        ordered = sorted(c["sentences"], key=lambda t: len(han_only(t)))
+        ordered = ordered_sentences(c["sentences"])
         short = [t for t in ordered if len(han_only(t)) <= SHORT_SENTENCE]
         long_ = ordered[len(short):]
         n = 1
