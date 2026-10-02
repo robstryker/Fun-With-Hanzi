@@ -2,6 +2,7 @@
 /.venv/
 __pycache__/
 /outputs/*.pdf
+/outputs/*.err
 /outputs/regenerated.xml
 /work/
 /radio/out/

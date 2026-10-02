@@ -77,6 +77,13 @@ always goes into the repo, never scratch/tmp dirs.
 
 Run: `radio/.venv/bin/python radio/scripts/render_episode_segment.py s01e01 intro`
 
+**Clip backup:** `radio/.venv/bin/python radio/scripts/backup_clips.py` copies every
+clip and its alignment sidecar, flat and under its hash filename (no episode
+folders), to `/data/education/learnChinese/radio/`. Copy-only: never
+overwrites or deletes, safe to re-run any time (already-backed-up files are
+skipped). Manifests aren't backed up -- they're in git, and rebuild from the
+YAML plus the clips. Run it after each render session.
+
 ## Episode segment files (decided 2026-09-28; rendering implemented 2026-10-02)
 
 Instead of one monolithic `script.yaml`, each episode's script is authored as
