@@ -1,0 +1,97 @@
+# s01e01 character 2 sentence dive -- 8 sentences (PDF #3 4 5 7 9 12 13 19), rough draft v1
+# Generated via claude -p (Opus 5.5) from prompts/prompt-3.md (second run); selection in zi-2-sentences.txt (6 held for later revisit).
+# Unedited generated version. Groups per Rob: 3-4-5 quick succession; 7-9-12 street-sellers refusals; 13+19 question/answer pair.
+# Mechanical checks: sentence turns verbatim + in order, each announced by PDF number right before; no Chinese in Rob lines.
+# Deviation: announcements for #3, #4, #7 are at the end of a longer turn, not their own short turn.
+- speaker: Sunshine
+  text: "Let's start with three quick ones. It's the same word every time, and only the little tone word on the end changes. Sentence 3."
+
+- speaker: Sunshine
+  text: "不是啊！"
+
+- speaker: Rob
+  text: "\"No, it's not!\" With some feeling behind it."
+
+- speaker: Sunshine
+  text: "Yes, warm and emphatic. Sentence 4."
+
+- speaker: Sunshine
+  text: "不是吧？"
+
+- speaker: Rob
+  text: "That's the \"let's\" or \"right?\" word, plus a question mark. So it's \"It's not... right?\" Someone who doesn't quite believe it."
+
+- speaker: Sunshine
+  text: "[laughs] Exactly. \"No way. Really?\""
+
+- speaker: Sunshine
+  text: "Sentence 5."
+
+- speaker: Sunshine
+  text: "不是呀！"
+
+- speaker: Rob
+  text: "The cheerful, surprised \"oh.\" So: \"Oh, no it's not!\" Correcting somebody, but nicely."
+
+- speaker: Sunshine
+  text: "[excitedly] Three moods from one word! Okay, Rob, have you ever walked through a crowded market where all the sellers are shouting at you?"
+
+- speaker: Rob
+  text: "[dryly] Every vacation I've ever taken. I don't understand a word of it, so I just keep waving and walking."
+
+- speaker: Sunshine
+  text: "[laughs] Then you already know the next three. Sentence 7."
+
+- speaker: Sunshine
+  text: "不，不是。"
+
+- speaker: Rob
+  text: "\"No, it's not.\" That's the first seller, and I'm still being polite. I even finished my sentence with a period."
+
+- speaker: Sunshine
+  text: "Sentence 9."
+
+- speaker: Sunshine
+  text: "不,不,不"
+
+- speaker: Rob
+  text: "\"No, no, no.\" No period this time. I'm not finishing sentences anymore, I'm just walking."
+
+- speaker: Sunshine
+  text: "[laughing] And waving your hand, like you're brushing off a fly."
+
+- speaker: Sunshine
+  text: "Sentence 12."
+
+- speaker: Sunshine
+  text: "不是，不是！"
+
+- speaker: Rob
+  text: "\"No, it's not, it's not!\" With an exclamation point. This guy has followed me past three stalls."
+
+- speaker: Sunshine
+  text: "[laughs] Now you sound annoyed, and that's exactly right. The last two go together: one question, two possible answers."
+
+- speaker: Sunshine
+  text: "Sentence 13."
+
+- speaker: Sunshine
+  text: "是不是？是！"
+
+- speaker: Rob
+  text: "\"Is it or isn't it? It is!\" Yes or no, and the answer is yes."
+
+- speaker: Sunshine
+  text: "[warmly] Right. And to answer, you just pick one half of the question. Here's the other half."
+
+- speaker: Sunshine
+  text: "Sentence 19."
+
+- speaker: Sunshine
+  text: "是不是？不是。"
+
+- speaker: Rob
+  text: "\"Is it? It's not.\" Same question, but this answer gets a period and not an exclamation point. So \"yes\" gets excited, and \"no\" just gets a full stop."
+
+- speaker: Sunshine
+  text: "[laughs] That's very true. Nobody gets excited about saying no."
