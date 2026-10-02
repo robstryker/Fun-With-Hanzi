@@ -8,3 +8,4 @@ __pycache__/
 /radio/out/
 /radio/.venv/
 *.swp
+/radio/copy/audio/experiments/

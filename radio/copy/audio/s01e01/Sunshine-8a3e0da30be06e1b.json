@@ -1,0 +1,89 @@
+{
+  "speaker": "Sunshine",
+  "voice_id": "zmcVlqmyk3Jpn5AVYcAL",
+  "model_id": "eleven_v4",
+  "text": "Sentence 2.",
+  "alignment": {
+    "characters": [
+      "S",
+      "e",
+      "n",
+      "t",
+      "e",
+      "n",
+      "c",
+      "e",
+      " ",
+      "2",
+      "."
+    ],
+    "character_start_times_seconds": [
+      0.0,
+      0.315,
+      0.35,
+      0.385,
+      0.42,
+      0.455,
+      0.49,
+      0.525,
+      0.56,
+      0.64,
+      0.96
+    ],
+    "character_end_times_seconds": [
+      0.315,
+      0.35,
+      0.385,
+      0.42,
+      0.455,
+      0.49,
+      0.525,
+      0.56,
+      0.64,
+      0.96,
+      1.12
+    ]
+  },
+  "normalized_alignment": {
+    "characters": [
+      "S",
+      "e",
+      "n",
+      "t",
+      "e",
+      "n",
+      "c",
+      "e",
+      " ",
+      "2",
+      "."
+    ],
+    "character_start_times_seconds": [
+      0.0,
+      0.315,
+      0.35,
+      0.385,
+      0.42,
+      0.455,
+      0.49,
+      0.525,
+      0.56,
+      0.64,
+      0.96
+    ],
+    "character_end_times_seconds": [
+      0.315,
+      0.35,
+      0.385,
+      0.42,
+      0.455,
+      0.49,
+      0.525,
+      0.56,
+      0.64,
+      0.96,
+      1.12
+    ]
+  },
+  "quality_check": null
+}

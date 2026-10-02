@@ -1,0 +1,25 @@
+{
+  "speaker": "Sunshine",
+  "voice_id": "zmcVlqmyk3Jpn5AVYcAL",
+  "model_id": "eleven_v4",
+  "text": "是？",
+  "hand_edited": true,
+  "derived_from": "copy/audio/experiments/q3-rising-tag.mp3 -> middle third (1.184s start, 1.184s long)",
+  "note": "audio replaced by hand-trimmed experiment; original clip kept as experiments/orig-*",
+  "alignment": {
+    "characters": [
+      "是",
+      "？"
+    ],
+    "character_start_times_seconds": [
+      0.236054,
+      0.887188
+    ],
+    "character_end_times_seconds": [
+      0.887188,
+      0.887188
+    ]
+  },
+  "normalized_alignment": null,
+  "alignment_source": "measured from the audio (not ElevenLabs output): voiced region found with ffmpeg silencedetect noise=-30dB d=0.02. Single-character sentence, so the character spans the voiced region; the punctuation mark is not voiced separately and is zero-length at its end."
+}

@@ -1,0 +1,41 @@
+{
+  "speaker": "Sunshine",
+  "voice_id": "zmcVlqmyk3Jpn5AVYcAL",
+  "model_id": "eleven_v4",
+  "text": "是吧？",
+  "alignment": {
+    "characters": [
+      "是",
+      "吧",
+      "？"
+    ],
+    "character_start_times_seconds": [
+      0.0,
+      0.32,
+      0.56
+    ],
+    "character_end_times_seconds": [
+      0.32,
+      0.56,
+      1.04
+    ]
+  },
+  "normalized_alignment": {
+    "characters": [
+      "是",
+      "吧",
+      "？"
+    ],
+    "character_start_times_seconds": [
+      0.0,
+      0.32,
+      0.56
+    ],
+    "character_end_times_seconds": [
+      0.32,
+      0.56,
+      1.04
+    ]
+  },
+  "quality_check": null
+}

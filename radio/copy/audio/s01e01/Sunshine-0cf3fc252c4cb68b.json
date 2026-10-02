@@ -1,0 +1,35 @@
+{
+  "speaker": "Sunshine",
+  "voice_id": "zmcVlqmyk3Jpn5AVYcAL",
+  "model_id": "eleven_v4",
+  "text": "是。",
+  "alignment": {
+    "characters": [
+      "是",
+      "。"
+    ],
+    "character_start_times_seconds": [
+      0.0,
+      0.48
+    ],
+    "character_end_times_seconds": [
+      0.48,
+      0.96
+    ]
+  },
+  "normalized_alignment": {
+    "characters": [
+      "是",
+      "。"
+    ],
+    "character_start_times_seconds": [
+      0.0,
+      0.48
+    ],
+    "character_end_times_seconds": [
+      0.48,
+      0.96
+    ]
+  },
+  "quality_check": null
+}
