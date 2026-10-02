@@ -1,0 +1,61 @@
+# s01e01 character 2 (不) word unlock: 不是, 是不是, 不是 "fault; blame" -- split from zi-2-char.yaml (Rob's edited version)
+# Follows zi-2-char; precedes the sentence dive (zi-2-sentences).
+- speaker: Sunshine
+  text: "That brings us to our first compound word: 不是."
+
+- speaker: Rob
+  text: "So the pieces are \"not,\" plus the one we just did, \"is.\""
+
+- speaker: Sunshine
+  text: "Right. \"Not\" plus \"is.\""
+
+- speaker: Rob
+  text: "[curious] So literally, \"not is\", but more like \"It's not like that.\""
+
+- speaker: Sunshine
+  text: "[warmly] Yes! 不是 means \"is not,\" or as an answer, just \"no.\" If someone asks whether this is your coffee and it isn't, you say 不是."
+
+- speaker: Rob
+  text: "Fine, but I'm going to hear \"not is\" in my head forever."
+
+- speaker: Sunshine
+  text: "That's okay. One small sound thing: \"Bù\" is a falling tone, but when it comes right before another falling tone, like it does here, it rises instead. So in 不是 the first part goes up and the second part comes down."
+
+- speaker: Rob
+  text: "[dryly] So the word for \"no\" doesn't always follow its own rules. I'm kind of not at all surprised by this, really."
+
+- speaker: Sunshine
+  text: "[laughs] Very wise. Next word: 是不是."
+
+- speaker: Rob
+  text: "Okay, so that's \"is,\" then \"not,\" then \"is\" again. Is, not, is. [thoughtfully] Is... not... is. It sounds like someone who can't make up their mind."
+
+- speaker: Sunshine
+  text: "That's actually really close! It means \"is it, or is it not?\" You use it to ask \"is this true?\" Basically, yes or no."
+
+- speaker: Rob
+  text: "Nailed it."
+
+- speaker: Sunshine
+  text: "You were right by accident. But it counts. Okay, the last one is a little sneaky. 不是."
+
+- speaker: Rob
+  text: "[flatly] You already did that one."
+
+- speaker: Sunshine
+  text: "[laughs] It's the same characters, yes. But when you say the second part light and soft, it means something else: \"fault,\" or \"blame.\" Like, \"it's my fault.\""
+
+- speaker: Rob
+  text: "[incredulous] Is this a common use?"
+
+- speaker: Sunshine
+  text: "Honestly, not really. You'll see the \"is not\" one a hundred times before you see this one."
+
+- speaker: Rob
+  text: "[dryly] So not terribly useful for us, then. So that's four words. And now my daughter will know how to reply in Chinese when I ask her to do something."
+
+- speaker: Sunshine
+  text: "[warmly] She can also ask yes-or-no questions, you know. That's kind of a big deal."
+
+- speaker: Rob
+  text: "[flatly] Yeah... but she won't."

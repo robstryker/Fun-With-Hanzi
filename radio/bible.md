@@ -15,7 +15,13 @@ not the design target.
 ### Rob
 
 Fictionalized version of the creator's real motivation, not his literal
-biography (no direct references to his actual job, family, or daughter).
+biography. No direct references to his actual job or family, with one
+deliberate exception (Rob, 2026-10-02): he may mention "my daughter" as a
+throwaway joke about children in general, the way he might mention a pet or a
+made-up person -- no name, no location, no real behavior or details. He
+expects to mention her more over time. **Claude still flags every mention of
+her when reviewing/generating copy**, on purpose, so Rob can reconsider each
+use; don't silently allow or silently strip it.
 Backstory: he wanted to learn Chinese as an adult but found most courses
 either started with vocabulary that wasn't useful day to day (animals, toys)
 while glossing over the basics, or beelined for travel/business phrases at

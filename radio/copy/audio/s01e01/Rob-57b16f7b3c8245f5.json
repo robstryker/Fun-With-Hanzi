@@ -1,0 +1,83 @@
+{
+  "speaker": "Rob",
+  "voice_id": "uh5qBlKfjqFl7XXhFnJi",
+  "model_id": "eleven_v4",
+  "text": "Nailed it.",
+  "alignment": {
+    "characters": [
+      "N",
+      "a",
+      "i",
+      "l",
+      "e",
+      "d",
+      " ",
+      "i",
+      "t",
+      "."
+    ],
+    "character_start_times_seconds": [
+      0.0,
+      0.24,
+      0.288,
+      0.336,
+      0.384,
+      0.432,
+      0.48,
+      0.56,
+      0.64,
+      0.72
+    ],
+    "character_end_times_seconds": [
+      0.24,
+      0.288,
+      0.336,
+      0.384,
+      0.432,
+      0.48,
+      0.56,
+      0.64,
+      0.72,
+      1.04
+    ]
+  },
+  "normalized_alignment": {
+    "characters": [
+      "N",
+      "a",
+      "i",
+      "l",
+      "e",
+      "d",
+      " ",
+      "i",
+      "t",
+      "."
+    ],
+    "character_start_times_seconds": [
+      0.0,
+      0.24,
+      0.288,
+      0.336,
+      0.384,
+      0.432,
+      0.48,
+      0.56,
+      0.64,
+      0.72
+    ],
+    "character_end_times_seconds": [
+      0.24,
+      0.288,
+      0.336,
+      0.384,
+      0.432,
+      0.48,
+      0.56,
+      0.64,
+      0.72,
+      1.04
+    ]
+  },
+  "quality_check": null
+}

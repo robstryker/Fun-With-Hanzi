@@ -2,77 +2,24 @@
 # Generated via claude -p (Opus 5.5) from prompts/prompt-2.md, adapted for character 2 (see prompts/runs/s01e02-zi-2-char.prompt.txt).
 # Character + word unlock in one file (words: 不, 不是, 是不是, 不是 "fault; blame"). Unedited generated version.
 # Isolated 不 is written as quoted pinyin "Bù" per the README heuristic. Follows zi-1-conclusion.
+# NOTE: the word unlock is split out to zi-2-words.yaml (split at the "first compound word" transition turn).
 - speaker: Sunshine
   text: "[excitedly] Character number two is \"Bù.\" Fourth tone, the falling one. It means \"not,\" or just \"no.\" This is the super important part: it's the other half of yes and no."
 
 - speaker: Rob
-  text: "[dryly] So we learned yes, and now we're learning no. Very balanced show."
+  text: "This used to be my daughter's favorite word. It still is, but it used to be, too. [dryly] So we learned yes, and now we're learning no. Seems like a very balanced show, we're making here."
 
 - speaker: Sunshine
-  text: "[laughs] Exactly. Put the two together and you can ask real questions and answer them. But first, look at it."
+  text: "[laughs] Exactly. Put the two together and you can ask real questions and answer them. But first, let's look at it."
 
 - speaker: Rob
   text: "[thoughtfully] Okay. There's a flat line across the top and a stroke dropping down from the middle. Then two little strokes kick out underneath, one left, one right. It looks like a tiny tree. Or a coat rack."
 
 - speaker: Sunshine
-  text: "A tree is good! Some people see a bird with its wings spread out. Here's a memory trick. It's not real history, just a trick. Imagine something flying up and hitting that flat line on top, like a ceiling. It can't get through. So: no. Not."
+  text: "A tree is good! Some people see a bird with its wings spread out. Here's a memory trick. Imagine a bird flying up and hitting something flat above it, like a ceiling. It can't get through. So: no. Not."
 
 - speaker: Rob
-  text: "The bird is denied. I can remember that."
+  text: "Denied, rejected, no way José. I can remember that."
 
 - speaker: Sunshine
-  text: "Good. \"Bù\" works on its own. If someone asks you something, you can just answer \"Bù.\" No. Or you put it in front of another word to make that word negative. That brings us to our first word: 不是."
-
-- speaker: Rob
-  text: "So the pieces are \"not,\" plus the one we just did, \"is.\""
-
-- speaker: Sunshine
-  text: "Right. \"Not\" plus \"is.\""
-
-- speaker: Rob
-  text: "[curious] So literally, \"not is.\" I love that, because it sounds like a caveman correcting you. But I'm guessing it really just means \"is not.\" Or \"no, it isn't.\""
-
-- speaker: Sunshine
-  text: "[warmly] Yes! 不是 means \"is not,\" or as an answer, just \"no.\" If someone asks whether this is your coffee and it isn't, you say 不是."
-
-- speaker: Rob
-  text: "Fine, but I'm going to hear \"not is\" in my head forever."
-
-- speaker: Sunshine
-  text: "That's okay. One small sound thing: \"Bù\" is a falling tone, but when it comes right before another falling tone, like it does here, it rises instead. So in 不是 the first part goes up and the second part comes down."
-
-- speaker: Rob
-  text: "[dryly] So the word for \"no\" doesn't always follow its own rules. Noted. I'll leave the pronouncing to you."
-
-- speaker: Sunshine
-  text: "[laughs] Very wise. Next word: 是不是."
-
-- speaker: Rob
-  text: "Okay, so that's \"is,\" then \"not,\" then \"is\" again. Is, not, is. [thoughtfully] Is... not... is. I've got nothing. It sounds like someone who can't make up their mind."
-
-- speaker: Sunshine
-  text: "That's actually really close! It means \"is it, or is it not?\" You use it to ask \"is it true that...?\" Basically, yes or no?"
-
-- speaker: Rob
-  text: "Oh. So the question is sitting on the fence, waiting for you to pick a side. I was right by accident."
-
-- speaker: Sunshine
-  text: "You were right by accident. It counts. Okay, the last one is a little sneaky. 不是."
-
-- speaker: Rob
-  text: "[flatly] You already did that one."
-
-- speaker: Sunshine
-  text: "[laughs] It's the same characters, yes. But when you say the second part light and soft, it means something else: \"fault,\" or \"blame.\" Like, \"it's my fault.\""
-
-- speaker: Rob
-  text: "[incredulous] Same spelling, completely different meaning. How am I supposed to know which one it is?"
-
-- speaker: Sunshine
-  text: "From context, plus that softer second sound. Honestly, you'll see the \"is not\" one a hundred times before you see this one."
-
-- speaker: Rob
-  text: "[dryly] Then the one-in-a-hundred meaning can wait. So that's four words, one little tree, and now we can say no."
-
-- speaker: Sunshine
-  text: "[warmly] And ask yes-or-no questions. That's a big day."
+  text: "Good. \"Bù\" works on its own. If someone asks you something, you can just answer \"Bù.\" No. Or you put it in front of another word to make that word negative."
