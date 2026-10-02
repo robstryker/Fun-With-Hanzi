@@ -2,8 +2,14 @@
 # Generated via claude -p (Opus 5.5) from prompts/prompt-3.md (first run); selection in zi-1-sentences.txt.
 # Unedited generated version -- Rob's edits will diff against this commit.
 # Mechanical checks passed: sentence turns verbatim + in order, each announced by PDF number, no Chinese in Rob lines.
+- speaker: Rob
+  text: "Okay, so, I should explain something first. We're going to start reading out example sentences now. These come from a document I made with LOTS of example sentences. I'll try to make these available, but haven't figured out how yet."
+
 - speaker: Sunshine
-  text: "[brightly] Okay, Rob, here we go. These first three are going to look almost identical on the page, so I'll read them back to back."
+  text: "[brightly] Sure, Rob. But I DO have the sentences, so we can just jump right in."
+
+- speaker: Sunshine
+  text: "[brightly] These first three are going to look almost identical on the page, so I'll read them back to back."
 
 - speaker: Sunshine
   text: "Sentence 1."
@@ -33,7 +39,7 @@
   text: "[excitedly] And that's \"Yes!\" Like you really mean it."
 
 - speaker: Rob
-  text: "[dryly] So that's three sentences, one character, and the only thing that changed was the dot at the end."
+  text: "[dryly] So that's three sentences, one character, and the only thing that changed was the punctuation."
 
 - speaker: Sunshine
   text: "[laughs] Exactly. The punctuation does all the work."
@@ -48,10 +54,10 @@
   text: "是啊！"
 
 - speaker: Rob
-  text: "Okay, that's our word plus the warm one. So something like \"Oh, yes!\" or \"It sure is!\""
+  text: "Okay, that's our word plus the warm tone. So something like \"Oh, yes!\" or \"It sure is!\""
 
 - speaker: Sunshine
-  text: "[warmly] Yes, \"It sure is!\" Like when a friend says \"Nice weather today,\" and you agree with them."
+  text: "[warmly] Yep, \"It sure is!\" Like when a friend says \"Nice weather today,\" and you agree with them."
 
 - speaker: Sunshine
   text: "Sentence 5."
