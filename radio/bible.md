@@ -212,6 +212,19 @@ fallback. Neither requires redoing the script.
 
 ## Open TODOs
 
+- **Likely future change (logged 2026-10-02, Rob): relax the "Rob never says
+  Chinese" rule.** For longer sentences it will be very hard for Rob to break
+  them down and translate them without naming the Chinese pieces he's
+  talking about. Plan: tests first, then start *manual* -- Rob adds a bit of
+  hanzi to his own lines by hand when a sentence needs it -- and only later
+  expand the generation prompts (prompt-2/3 currently hard-ban hanzi/pinyin in
+  Rob's lines). Until then the rule above stands and the mechanical "zero
+  hanzi in Rob lines" check stays on. When it does change, also revisit: the
+  isolated-character TTS issue (a bare hanzi may be read as English), and
+  whether Rob's pronunciation matters (his voice, James, may not render
+  Mandarin well). Not decided: which hanzi he may say (single characters,
+  words, quoted fragments).
+
 - Sunshine's per-episode "tells" for the reveal arc: fixed list vs.
   improvised (see above).
 - How a batch of ≥5 new characters maps to episodes — one episode per new

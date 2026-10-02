@@ -4,7 +4,7 @@
 # Mechanical checks: sentence turns verbatim + in order, each announced by PDF number right before; no Chinese in Rob lines.
 # Deviation: announcements for #3, #4, #7 are at the end of a longer turn, not their own short turn.
 - speaker: Sunshine
-  text: "Let's start with three quick ones. It's the same word every time, and only the little tone word on the end changes. Sentence 3."
+  text: "Time for sentences. Let's start with three quick ones. It's the same word every time, and only the little tone word on the end changes. Sentence 3."
 
 - speaker: Sunshine
   text: "不是啊！"
@@ -13,7 +13,10 @@
   text: "\"No, it's not!\" With some feeling behind it."
 
 - speaker: Sunshine
-  text: "Yes, warm and emphatic. Sentence 4."
+  text: "Yes, warm and emphatic."
+ 
+- speaker: Sunshine
+  text: "Sentence 4."
 
 - speaker: Sunshine
   text: "不是吧？"
@@ -34,7 +37,7 @@
   text: "The cheerful, surprised \"oh.\" So: \"Oh, no it's not!\" Correcting somebody, but nicely."
 
 - speaker: Sunshine
-  text: "[excitedly] Three moods from one word! Okay, Rob, have you ever walked through a crowded market where all the sellers are shouting at you?"
+  text: "[excitedly] Three moods from one word! Okay, Rob, have you ever walked through a crowded market where all the sellers are shouting at you, trying to get your attention, to buy stuff?"
 
 - speaker: Rob
   text: "[dryly] Every vacation I've ever taken. I don't understand a word of it, so I just keep waving and walking."
@@ -55,10 +58,10 @@
   text: "不,不,不"
 
 - speaker: Rob
-  text: "\"No, no, no.\" No period this time. I'm not finishing sentences anymore, I'm just walking."
+  text: "\"No, no, no.\" No period this time. [rushed] I'm not finishing sentences anymore, I'm just walking."
 
 - speaker: Sunshine
-  text: "[laughing] And waving your hand, like you're brushing off a fly."
+  text: "[laughing] And waving your hand, like you're brushing off a fly. And..."
 
 - speaker: Sunshine
   text: "Sentence 12."
@@ -67,10 +70,10 @@
   text: "不是，不是！"
 
 - speaker: Rob
-  text: "\"No, it's not, it's not!\" With an exclamation point. This guy has followed me past three stalls."
+  text: "\"No, it's not, it's not!\" With an exclamation point. This guy has followed me past three stalls already!"
 
 - speaker: Sunshine
-  text: "[laughs] Now you sound annoyed, and that's exactly right. The last two go together: one question, two possible answers."
+  text: "[laughs] Now you sound annoyed, and that's exactly right. The last two go together: one question, two possible answers. Away from the crowded market, just with friends."
 
 - speaker: Sunshine
   text: "Sentence 13."
@@ -91,7 +94,10 @@
   text: "是不是？不是。"
 
 - speaker: Rob
-  text: "\"Is it? It's not.\" Same question, but this answer gets a period and not an exclamation point. So \"yes\" gets excited, and \"no\" just gets a full stop."
+  text: "\"Is it? It's not.\" Same question, but this time the answer is no. The period here means it's calmer, right?"
 
 - speaker: Sunshine
-  text: "[laughs] That's very true. Nobody gets excited about saying no."
+  text: "That's right. [laughs] There's no reason to get mad when talking with friends or family."
+
+- speaker: Rob
+  text: "I think my daughter didn't get the memo."

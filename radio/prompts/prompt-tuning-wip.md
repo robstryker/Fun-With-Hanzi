@@ -44,6 +44,16 @@ Implication for the candidate rules below: #2, #3 and #6 are mostly about
 length and hit rate, not a rule against humor. If we change a prompt, aim at
 "tighter and shorter", not "fewer jokes".
 
+## Planned future prompt change (Rob, 2026-10-02)
+
+Not from diffs -- stated in advance. Rob expects to **relax the ban on Rob
+speaking hanzi** in later, longer sentences, since he can't break a long
+sentence down and translate it without naming the pieces. Order of work:
+tests first, then manual hanzi in Rob's lines when needed, and only *later*
+expand the prompts (prompt-2/3 currently forbid any hanzi/pinyin in Rob's
+lines, and the mechanical check enforces it). Don't change the prompts yet.
+See bible.md Open TODOs for the side issues to check.
+
 ## Candidate rules and evidence
 
 "Evidence" lists the scripts where the pattern appeared. Confidence is my
