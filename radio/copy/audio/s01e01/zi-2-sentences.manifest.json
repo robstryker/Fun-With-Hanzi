@@ -1,0 +1,497 @@
+[
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-1af467ec89a34ec7.mp3",
+    "speaker": "Sunshine",
+    "text": "Time for sentences. Let's start with three quick ones. It's the same word every time, and only the little tone word on the end changes. Sentence 3.",
+    "duration": 9.639184,
+    "running_start_time": 0.0,
+    "alignment": "Sunshine-1af467ec89a34ec7.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 9.639184
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-9fdfb10c49913907.mp3",
+    "speaker": "Sunshine",
+    "text": "不是啊！",
+    "duration": 1.149388,
+    "running_start_time": 9.839184,
+    "alignment": "Sunshine-9fdfb10c49913907.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 10.988572
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-0d348a1a733c7b4c.mp3",
+    "speaker": "Rob",
+    "text": "\"No, it's not!\" With some feeling behind it.",
+    "duration": 3.474286,
+    "running_start_time": 11.188571999999999,
+    "alignment": "Rob-0d348a1a733c7b4c.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 14.662858
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-75692fab67bbe864.mp3",
+    "speaker": "Sunshine",
+    "text": "Yes, warm and emphatic.",
+    "duration": 2.690612,
+    "running_start_time": 14.862858,
+    "alignment": "Sunshine-75692fab67bbe864.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 17.553469999999997
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-ddfb85057da94ec4.mp3",
+    "speaker": "Sunshine",
+    "text": "Sentence 4.",
+    "duration": 1.410612,
+    "running_start_time": 17.753469999999997,
+    "alignment": "Sunshine-ddfb85057da94ec4.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 19.164081999999997
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-f8c3a4f9cef7002f.mp3",
+    "speaker": "Sunshine",
+    "text": "不是吧？",
+    "duration": 1.227755,
+    "running_start_time": 19.364081999999996,
+    "alignment": "Sunshine-f8c3a4f9cef7002f.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 20.591836999999995
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-49fcfb97c0e1617e.mp3",
+    "speaker": "Rob",
+    "text": "That's the \"let's\" or \"right?\" word, plus a question mark. So it's \"It's not... right?\" Someone who doesn't quite believe it.",
+    "duration": 9.560816,
+    "running_start_time": 20.791836999999994,
+    "alignment": "Rob-49fcfb97c0e1617e.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 30.352652999999997
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-c65d548e47a1160b.mp3",
+    "speaker": "Sunshine",
+    "text": "[laughs] Exactly. \"No way. Really?\"",
+    "duration": 4.127347,
+    "running_start_time": 30.552652999999996,
+    "alignment": "Sunshine-c65d548e47a1160b.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 34.67999999999999
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-dd7e4cc4feeaf0bf.mp3",
+    "speaker": "Sunshine",
+    "text": "Sentence 5.",
+    "duration": 1.306122,
+    "running_start_time": 34.879999999999995,
+    "alignment": "Sunshine-dd7e4cc4feeaf0bf.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 36.186122
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-556930929fa6f986.mp3",
+    "speaker": "Sunshine",
+    "text": "不是呀！",
+    "duration": 1.149388,
+    "running_start_time": 36.386122,
+    "alignment": "Sunshine-556930929fa6f986.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 37.53551
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-59ffa1736685a022.mp3",
+    "speaker": "Rob",
+    "text": "The cheerful, surprised \"oh.\" So: \"Oh, no it's not!\" Correcting somebody, but nicely.",
+    "duration": 7.079184,
+    "running_start_time": 37.735510000000005,
+    "alignment": "Rob-59ffa1736685a022.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 44.814694
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-a62078262d49058c.mp3",
+    "speaker": "Sunshine",
+    "text": "[excitedly] Three moods from one word! Okay, Rob, have you ever walked through a crowded market where all the sellers are shouting at you, trying to get your attention, to buy stuff?",
+    "duration": 9.952653,
+    "running_start_time": 45.014694000000006,
+    "alignment": "Sunshine-a62078262d49058c.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 54.967347000000004
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-39ad9c75f12a8fc0.mp3",
+    "speaker": "Rob",
+    "text": "[dryly] Every vacation I've ever taken. I don't understand a word of it, so I just keep waving and walking.",
+    "duration": 6.269388,
+    "running_start_time": 55.16734700000001,
+    "alignment": "Rob-39ad9c75f12a8fc0.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 61.436735000000006
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-9214a0483195ee08.mp3",
+    "speaker": "Sunshine",
+    "text": "[laughs] Then you already know the next three. Sentence 7.",
+    "duration": 4.519184,
+    "running_start_time": 61.63673500000001,
+    "alignment": "Sunshine-9214a0483195ee08.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 66.15591900000001
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-290f2d1ab33068fa.mp3",
+    "speaker": "Sunshine",
+    "text": "不，不是。",
+    "duration": 1.567347,
+    "running_start_time": 66.35591900000001,
+    "alignment": "Sunshine-290f2d1ab33068fa.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 67.92326600000001
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-8fdc1cf3ec574c93.mp3",
+    "speaker": "Rob",
+    "text": "\"No, it's not.\" That's the first seller, and I'm still being polite. I even finished my sentence with a period.",
+    "duration": 7.314286,
+    "running_start_time": 68.12326600000002,
+    "alignment": "Rob-8fdc1cf3ec574c93.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 75.43755200000001
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-960e383de00045b6.mp3",
+    "speaker": "Sunshine",
+    "text": "Sentence 9.",
+    "duration": 1.48898,
+    "running_start_time": 75.63755200000001,
+    "alignment": "Sunshine-960e383de00045b6.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 77.12653200000001
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-f29597550a7f8c5a.mp3",
+    "speaker": "Sunshine",
+    "text": "不,不,不",
+    "duration": 1.567347,
+    "running_start_time": 77.32653200000001,
+    "alignment": "Sunshine-f29597550a7f8c5a.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 78.89387900000001
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-2a29b108995f57c2.mp3",
+    "speaker": "Rob",
+    "text": "\"No, no, no.\" No period this time. [rushed] I'm not finishing sentences anymore, I'm just walking.",
+    "duration": 5.799184,
+    "running_start_time": 79.09387900000002,
+    "alignment": "Rob-2a29b108995f57c2.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 84.89306300000001
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-a9058e6a7098a251.mp3",
+    "speaker": "Sunshine",
+    "text": "[laughing] And waving your hand, like you're brushing off a fly. And...",
+    "duration": 5.32898,
+    "running_start_time": 85.09306300000001,
+    "alignment": "Sunshine-a9058e6a7098a251.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 90.42204300000002
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-f5da29c1518fed64.mp3",
+    "speaker": "Sunshine",
+    "text": "Sentence 12.",
+    "duration": 1.410612,
+    "running_start_time": 90.62204300000002,
+    "alignment": "Sunshine-f5da29c1518fed64.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 92.03265500000002
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-b3c7e02960ac948f.mp3",
+    "speaker": "Sunshine",
+    "text": "不是，不是！",
+    "duration": 1.802449,
+    "running_start_time": 92.23265500000002,
+    "alignment": "Sunshine-b3c7e02960ac948f.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 94.03510400000002
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-d2fcf8860e81a5c1.mp3",
+    "speaker": "Rob",
+    "text": "\"No, it's not, it's not!\" With an exclamation point. This guy has followed me past three stalls already!",
+    "duration": 6.922449,
+    "running_start_time": 94.23510400000002,
+    "alignment": "Rob-d2fcf8860e81a5c1.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 101.15755300000002
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-8d2f3ca7d11a7aab.mp3",
+    "speaker": "Sunshine",
+    "text": "[laughs] Now you sound annoyed, and that's exactly right. The last two go together: one question, two possible answers. Away from the crowded market, just with friends.",
+    "duration": 12.120816,
+    "running_start_time": 101.35755300000002,
+    "alignment": "Sunshine-8d2f3ca7d11a7aab.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 113.47836900000003
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-230307629ebfb8a0.mp3",
+    "speaker": "Sunshine",
+    "text": "Sentence 13.",
+    "duration": 1.567347,
+    "running_start_time": 113.67836900000003,
+    "alignment": "Sunshine-230307629ebfb8a0.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 115.24571600000003
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-90c2278342b1f312.mp3",
+    "speaker": "Sunshine",
+    "text": "是不是？是！",
+    "duration": 1.959184,
+    "running_start_time": 115.44571600000003,
+    "alignment": "Sunshine-90c2278342b1f312.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 117.40490000000003
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-a9f15fdfb9a8c99c.mp3",
+    "speaker": "Rob",
+    "text": "\"Is it or isn't it? It is!\" Yes or no, and the answer is yes.",
+    "duration": 5.720816,
+    "running_start_time": 117.60490000000003,
+    "alignment": "Rob-a9f15fdfb9a8c99c.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 123.32571600000003
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-0f76fe3d5f66b06c.mp3",
+    "speaker": "Sunshine",
+    "text": "[warmly] Right. And to answer, you just pick one half of the question. Here's the other half.",
+    "duration": 5.564082,
+    "running_start_time": 123.52571600000003,
+    "alignment": "Sunshine-0f76fe3d5f66b06c.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 129.08979800000003
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-fa4ba6258c62abc6.mp3",
+    "speaker": "Sunshine",
+    "text": "Sentence 19.",
+    "duration": 1.48898,
+    "running_start_time": 129.28979800000002,
+    "alignment": "Sunshine-fa4ba6258c62abc6.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 130.77877800000002
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-a446ffbf3f07f808.mp3",
+    "speaker": "Sunshine",
+    "text": "是不是？不是。",
+    "duration": 2.115918,
+    "running_start_time": 130.978778,
+    "alignment": "Sunshine-a446ffbf3f07f808.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 133.094696
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-e1418a1c1a5fd503.mp3",
+    "speaker": "Rob",
+    "text": "\"Is it? It's not.\" Same question, but this time the answer is no. The period here means it's calmer, right?",
+    "duration": 7.967347,
+    "running_start_time": 133.294696,
+    "alignment": "Rob-e1418a1c1a5fd503.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 141.26204299999998
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-baaa2736f61f1cdb.mp3",
+    "speaker": "Sunshine",
+    "text": "That's right. [laughs] There's no reason to get mad when talking with friends or family.",
+    "duration": 4.989388,
+    "running_start_time": 141.46204299999997,
+    "alignment": "Sunshine-baaa2736f61f1cdb.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 146.45143099999996
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-d996515f755e1f59.mp3",
+    "speaker": "Rob",
+    "text": "I think my daughter didn't get the memo.",
+    "duration": 2.272653,
+    "running_start_time": 146.65143099999995,
+    "alignment": "Rob-d996515f755e1f59.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 148.92408399999994
+  }
+]

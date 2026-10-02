@@ -1,0 +1,53 @@
+{
+  "speaker": "Sunshine",
+  "voice_id": "zmcVlqmyk3Jpn5AVYcAL",
+  "model_id": "eleven_v4",
+  "text": "不,不,不",
+  "alignment": {
+    "characters": [
+      "不",
+      ",",
+      "不",
+      ",",
+      "不"
+    ],
+    "character_start_times_seconds": [
+      0.0,
+      0.32,
+      0.56,
+      0.88,
+      1.04
+    ],
+    "character_end_times_seconds": [
+      0.32,
+      0.56,
+      0.88,
+      1.04,
+      1.6
+    ]
+  },
+  "normalized_alignment": {
+    "characters": [
+      "不",
+      ",",
+      "不",
+      ",",
+      "不"
+    ],
+    "character_start_times_seconds": [
+      0.0,
+      0.32,
+      0.56,
+      0.88,
+      1.04
+    ],
+    "character_end_times_seconds": [
+      0.32,
+      0.56,
+      0.88,
+      1.04,
+      1.6
+    ]
+  },
+  "quality_check": null
+}
