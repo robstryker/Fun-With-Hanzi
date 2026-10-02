@@ -1,0 +1,47 @@
+{
+  "speaker": "Rob",
+  "voice_id": "uh5qBlKfjqFl7XXhFnJi",
+  "model_id": "eleven_v4",
+  "text": "Yes.",
+  "alignment": {
+    "characters": [
+      "Y",
+      "e",
+      "s",
+      "."
+    ],
+    "character_start_times_seconds": [
+      0.0,
+      0.32,
+      0.4,
+      0.48
+    ],
+    "character_end_times_seconds": [
+      0.32,
+      0.4,
+      0.48,
+      0.72
+    ]
+  },
+  "normalized_alignment": {
+    "characters": [
+      "Y",
+      "e",
+      "s",
+      "."
+    ],
+    "character_start_times_seconds": [
+      0.0,
+      0.32,
+      0.4,
+      0.48
+    ],
+    "character_end_times_seconds": [
+      0.32,
+      0.4,
+      0.48,
+      0.72
+    ]
+  },
+  "quality_check": null
+}

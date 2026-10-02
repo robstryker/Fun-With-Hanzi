@@ -1,0 +1,557 @@
+[
+  {
+    "segment_type": "line",
+    "source_id": "Rob-565d551c49c3c6b1.mp3",
+    "speaker": "Rob",
+    "text": "[sheepishly] Okay. So. About what I said earlier. One character at a time, nothing you haven't covered yet. [hesitates] We need to make an exception.",
+    "duration": 10.44898,
+    "running_start_time": 0.0,
+    "alignment": "Rob-565d551c49c3c6b1.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 10.44898
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-cc4c9422e258dffd.mp3",
+    "speaker": "Sunshine",
+    "text": "[laughs] Rob! You can't do that! [exasperated] It's the very first episode, and you're already breaking the entire premise of the show!",
+    "duration": 8.124082,
+    "running_start_time": 10.64898,
+    "alignment": "Sunshine-cc4c9422e258dffd.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 18.773062
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-fb0aba525045823b.mp3",
+    "speaker": "Rob",
+    "text": "[urgently] I know! But these words don't mean anything! They're just noises you make at the end of a sentence! They're more of a feeling than anything!",
+    "duration": 7.627755,
+    "running_start_time": 18.973062,
+    "alignment": "Rob-fb0aba525045823b.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 26.600817
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-1453b50b486508d9.mp3",
+    "speaker": "Sunshine",
+    "text": "[sighs] Do they have a character that's drawn?",
+    "duration": 3.395918,
+    "running_start_time": 26.800817,
+    "alignment": "Sunshine-1453b50b486508d9.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 30.196734999999997
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-8d3770bf8c29e64a.mp3",
+    "speaker": "Rob",
+    "text": "Yes.",
+    "duration": 0.679184,
+    "running_start_time": 30.396734999999996,
+    "alignment": "Rob-8d3770bf8c29e64a.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 31.075918999999995
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-28a52ba96b71003b.mp3",
+    "speaker": "Sunshine",
+    "text": "[reluctantly] And do they need to be read?",
+    "duration": 3.474286,
+    "running_start_time": 31.275918999999995,
+    "alignment": "Sunshine-28a52ba96b71003b.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 34.750204999999994
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-f1b88f82265963c1.mp3",
+    "speaker": "Rob",
+    "text": "[sheepishly] ...Um... Yes.",
+    "duration": 2.429388,
+    "running_start_time": 34.950205,
+    "alignment": "Rob-f1b88f82265963c1.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 37.379593
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-45934e199735d30c.mp3",
+    "speaker": "Sunshine",
+    "text": "[defeated] Ugh. This gives me the ick. Okay, how many are there?",
+    "duration": 4.989388,
+    "running_start_time": 37.579593,
+    "alignment": "Sunshine-45934e199735d30c.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 42.568981
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-00accf2742ca3043.mp3",
+    "speaker": "Rob",
+    "text": "[brightly] Four. Think of it as character zero. A warm-up.",
+    "duration": 3.709388,
+    "running_start_time": 42.768981000000004,
+    "alignment": "Rob-00accf2742ca3043.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 46.478369
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-177ac9aabd842d4d.mp3",
+    "speaker": "Sunshine",
+    "text": "[laughs] I think you mean Characters zero. There's more than one, remember?",
+    "duration": 5.250612,
+    "running_start_time": 46.678369,
+    "alignment": "Sunshine-177ac9aabd842d4d.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 51.92898100000001
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-8d4528b0e7242e6a.mp3",
+    "speaker": "Rob",
+    "text": "[embarrassed] Oh, yeah... right...",
+    "duration": 2.429388,
+    "running_start_time": 52.12898100000001,
+    "alignment": "Rob-8d4528b0e7242e6a.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 54.55836900000001
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-31c50c9aa85f4ff6.mp3",
+    "speaker": "Sunshine",
+    "text": "[warmly] Okay, let me get a look at them. These four are... well, they're sentence-ending particles. They don't have a meaning of their own, they add a mood. All four are neutral tone, so they're light and quick, and they tuck in right at the end of a sentence. And look, they all start with the same piece.",
+    "duration": 18.364082,
+    "running_start_time": 54.758369000000016,
+    "alignment": "Sunshine-31c50c9aa85f4ff6.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 73.12245100000001
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-cbb300c00b27960b.mp3",
+    "speaker": "Rob",
+    "text": "[curious] The little square box on the left? It looks like an open mouth.",
+    "duration": 3.970612,
+    "running_start_time": 73.32245100000002,
+    "alignment": "Rob-cbb300c00b27960b.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 77.29306300000002
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-90c02854cbfd77f8.mp3",
+    "speaker": "Sunshine",
+    "text": "Exactly. That's the mouth radical. It makes sense, since these are all sounds you make with your mouth. The right side is a hint at the sound.",
+    "duration": 8.907755,
+    "running_start_time": 77.49306300000002,
+    "alignment": "Sunshine-90c02854cbfd77f8.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 86.40081800000002
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-6eddfe6e224b2766.mp3",
+    "speaker": "Rob",
+    "text": "Because humans make sounds with mouths, right?",
+    "duration": 3.160816,
+    "running_start_time": 86.60081800000002,
+    "alignment": "Rob-6eddfe6e224b2766.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 89.76163400000002
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-5e9d7c3ac3535136.mp3",
+    "speaker": "Sunshine",
+    "text": "[brightly] That's what I've been told! Okay, so, if you're going to break a rule by introducing four characters at once, I'm going to cheat too and use some sentences so the listeners can get a feel for what these words sound like.",
+    "duration": 12.277551,
+    "running_start_time": 89.96163400000002,
+    "alignment": "Sunshine-5e9d7c3ac3535136.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 102.23918500000002
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-27e5fd4c867399d6.mp3",
+    "speaker": "Rob",
+    "text": "That sounds fair...",
+    "duration": 1.306122,
+    "running_start_time": 102.43918500000002,
+    "alignment": "Rob-27e5fd4c867399d6.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 103.74530700000003
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-410293cf72fe092d.mp3",
+    "speaker": "Sunshine",
+    "text": "First, \"啊\". It adds warmth or surprise, like an extra little \"oh!\" on the end. Listen.",
+    "duration": 7.810612,
+    "running_start_time": 103.94530700000003,
+    "alignment": "Sunshine-410293cf72fe092d.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 111.75591900000003
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-1d6a393a30c9c9af.mp3",
+    "speaker": "Sunshine",
+    "text": "好啊！",
+    "duration": 0.757551,
+    "running_start_time": 111.95591900000004,
+    "alignment": "Sunshine-1d6a393a30c9c9af.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 112.71347000000004
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-149a9ac077972c9a.mp3",
+    "speaker": "Rob",
+    "text": "Okay, so that definitely sounds surprised...",
+    "duration": 3.082449,
+    "running_start_time": 112.91347000000005,
+    "alignment": "Rob-149a9ac077972c9a.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 115.99591900000004
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-b160fe1a0b9cd88b.mp3",
+    "speaker": "Sunshine",
+    "text": "Next, \"呢\". It turns a sentence into a gentle follow-up question, like \"and what about...?\"",
+    "duration": 7.47102,
+    "running_start_time": 116.19591900000005,
+    "alignment": "Sunshine-b160fe1a0b9cd88b.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 123.66693900000004
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-c1bed85db0e84e5f.mp3",
+    "speaker": "Sunshine",
+    "text": "你呢？",
+    "duration": 0.835918,
+    "running_start_time": 123.86693900000004,
+    "alignment": "Sunshine-c1bed85db0e84e5f.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 124.70285700000005
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-e33d3c719bf2b4e3.mp3",
+    "speaker": "Rob",
+    "text": "Sounds soft and gentle really... I guess asking what your choice would be?",
+    "duration": 5.485714,
+    "running_start_time": 124.90285700000005,
+    "alignment": "Rob-e33d3c719bf2b4e3.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 130.38857100000004
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-b546094463986e17.mp3",
+    "speaker": "Sunshine",
+    "text": "Pretty much, yeah. The third, \"呀\". It makes a greeting or a call sound friendly. The right side here is the character for tooth.",
+    "duration": 9.874286,
+    "running_start_time": 130.58857100000003,
+    "alignment": "Sunshine-b546094463986e17.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 140.46285700000004
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-3d93c6117ceca405.mp3",
+    "speaker": "Rob",
+    "text": "[amused] A mouth with a tooth in it. Okay, that's a good picture.",
+    "duration": 4.519184,
+    "running_start_time": 140.66285700000003,
+    "alignment": "Rob-3d93c6117ceca405.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 145.18204100000003
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-229497fa77dfedb0.mp3",
+    "speaker": "Sunshine",
+    "text": "[laughs] Now listen.",
+    "duration": 1.880816,
+    "running_start_time": 145.38204100000002,
+    "alignment": "Sunshine-229497fa77dfedb0.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 147.26285700000003
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-fae2d9192588ff89.mp3",
+    "speaker": "Sunshine",
+    "text": "你好呀！",
+    "duration": 0.992653,
+    "running_start_time": 147.462857,
+    "alignment": "Sunshine-fae2d9192588ff89.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 148.45551
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-37ef4ecc33c21d06.mp3",
+    "speaker": "Rob",
+    "text": "Definitely showing a lot of friendliness in that one.",
+    "duration": 3.004082,
+    "running_start_time": 148.65551,
+    "alignment": "Rob-37ef4ecc33c21d06.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 151.659592
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-ea4daaae23cec2f1.mp3",
+    "speaker": "Sunshine",
+    "text": "And last, \"吧\". It softens a suggestion, like \"let's\" or \"how about.\"",
+    "duration": 6.530612,
+    "running_start_time": 151.859592,
+    "alignment": "Sunshine-ea4daaae23cec2f1.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 158.39020399999998
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-2dbc00bc4f916cca.mp3",
+    "speaker": "Sunshine",
+    "text": "我们走吧。",
+    "duration": 1.149388,
+    "running_start_time": 158.59020399999997,
+    "alignment": "Sunshine-2dbc00bc4f916cca.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 159.73959199999996
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-7df45f758af3e1dd.mp3",
+    "speaker": "Rob",
+    "text": "It almost sounds like a command, but maybe a little less forceful. Like \"Let's go.\"",
+    "duration": 5.642449,
+    "running_start_time": 159.93959199999995,
+    "alignment": "Rob-7df45f758af3e1dd.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 165.58204099999995
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-e430445b5807f867.mp3",
+    "speaker": "Rob",
+    "text": "[brightly] See, that wasn't so bad! We've already finished character zero!",
+    "duration": 4.205714,
+    "running_start_time": 165.78204099999994,
+    "alignment": "Rob-e430445b5807f867.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 169.98775499999994
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-530107dae52e48d4.mp3",
+    "speaker": "Sunshine",
+    "text": "[warmly] I think you mean characters zero, plural. But yeah, that's four little feelings that don't mean anything on their own.",
+    "duration": 7.47102,
+    "running_start_time": 170.18775499999992,
+    "alignment": "Sunshine-530107dae52e48d4.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 177.65877499999993
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-eec3d7cc810922a1.mp3",
+    "speaker": "Rob",
+    "text": "[dryly] And now we can go back to doing this properly.",
+    "duration": 2.847347,
+    "running_start_time": 177.85877499999992,
+    "alignment": "Rob-eec3d7cc810922a1.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 180.70612199999994
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-22ffd4a7588bcb6f.mp3",
+    "speaker": "Sunshine",
+    "text": "[teasing] Are you sure there won't be any more exceptions?",
+    "duration": 3.317551,
+    "running_start_time": 180.90612199999993,
+    "alignment": "Sunshine-22ffd4a7588bcb6f.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 184.22367299999993
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-8fe3d58af6c4aa63.mp3",
+    "speaker": "Rob",
+    "text": "[dryly] Yeah I'm positive. Mostly. Okay, let's move on to character one, singular!",
+    "duration": 6.347755,
+    "running_start_time": 184.42367299999992,
+    "alignment": "Rob-8fe3d58af6c4aa63.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 190.77142799999993
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-a21c196f6d317b29.mp3",
+    "speaker": "Sunshine",
+    "text": "It better be.",
+    "duration": 1.306122,
+    "running_start_time": 190.97142799999992,
+    "alignment": "Sunshine-a21c196f6d317b29.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 192.2775499999999
+  }
+]

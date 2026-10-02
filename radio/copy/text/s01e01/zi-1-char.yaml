@@ -1,0 +1,61 @@
+# s01e01 character 1 -- 是 (shi, 4th tone, "to be" / "yes"), rough draft v1
+# Generated via claude -p (Opus 5.5) from prompts/prompt-2.md, adapted for the first character:
+# 是 unlocks no compounds, so character + word segments are one file (no zi-1-words.yaml needed).
+# Isolated 是 is written as quoted pinyin "Shì" per the README heuristic; hanzi only inside parts (日, 正).
+# Follows zi-0-char. Sentences are a separate segment (zi-1-sentences.yaml).
+- speaker: Sunshine
+  text: "[brightly] Okay! Character number one. And this time it really is just one. \"Shì.\" Fourth tone, the falling one. Say it like you're completely sure of yourself."
+
+- speaker: Rob
+  text: "[dryly] Character one. Singular. I'd like the record to show we got here eventually."
+
+- speaker: Sunshine
+  text: "[laughs] Barely. It means \"to be.\" Is, are, am."
+
+- speaker: Rob
+  text: "All three?"
+
+- speaker: Sunshine
+  text: "All three. I am, you are, he is, they are. Same character every time. It never changes."
+
+- speaker: Rob
+  text: "[suspicious] Nothing on the end? No different form for \"I\" versus \"they\"? No past tense version?"
+
+- speaker: Sunshine
+  text: "Nothing. If you want to show when something happened, other words in the sentence do that. This one just stays the same."
+
+- speaker: Rob
+  text: "[slowly] So English makes everyone memorize am, is, are, was, were, been, being. And Chinese hands you one word and walks off."
+
+- speaker: Sunshine
+  text: "[laughing] Exactly. Enjoy it."
+
+- speaker: Rob
+  text: "[thoughtfully] I don't trust it. Okay, I'm looking at it on the screen. There's a little box at the top with a line across the middle, like a window. And underneath there's something flat and stacked, with a little foot sticking out."
+
+- speaker: Sunshine
+  text: "[delighted] Good eye! The box on top is 日, the sun. The part underneath is a form like 正, which means \"correct,\" or \"straight.\""
+
+- speaker: Rob
+  text: "The sun... over \"correct.\""
+
+- speaker: Sunshine
+  text: "Here's a memory trick. It's a folk explanation, not real history, but it helps. The sun is straight overhead at noon, and nothing is in doubt. \"That's right. It is so.\""
+
+- speaker: Rob
+  text: "[dryly] The sun is directly above me, so things exist. Fine. I can work with that."
+
+- speaker: Sunshine
+  text: "[excitedly] And that's the other meaning! It can also mean \"yes,\" or \"that's right.\" Someone asks you something, and you can answer with just this."
+
+- speaker: Rob
+  text: "So it's \"to be\" and it's \"yes.\" For a first character, that's a pretty good deal."
+
+- speaker: Sunshine
+  text: "That's why it goes first. Nothing else is unlocked yet, so today's whole word list is just \"Shì,\" on its own."
+
+- speaker: Rob
+  text: "One character, one word. Character one, singular, and it actually stayed singular. [warmly] I'm proud of us."
+
+- speaker: Sunshine
+  text: "[laughs] Don't get used to it."

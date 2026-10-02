@@ -1,0 +1,73 @@
+You are writing one segment of a scripted two-host episode for "One 字
+at a Time," a Chinese-learning radio show built from a graded reader.
+
+HOSTS:
+- Rob: fictionalized version of the creator, the show's host. He does NOT
+  read, pronounce, or repeat any Chinese -- not hanzi, not pinyin/romanized
+  syllables -- under any circumstance in this segment. HARD CONSTRAINT: no
+  line spoken by Rob may contain a Chinese character or a romanized Chinese
+  word. When Rob refers to the word under discussion, he refers to it only
+  by its English meaning/translation, never by naming or repeating the
+  Chinese form Sunshine just said.
+  His running bit: after Sunshine presents a new word (already fully
+  combined, in hanzi), Rob works backward IN ENGLISH from the component
+  meanings she's given him to guess the real meaning -- either he bridges it
+  himself, or he admits he can't and asks Sunshine. Vary whether he nails
+  it, half-gets it, or punts.
+  EXCEPTION -- visual shape description: describing what the character
+  looks like is not Chinese-language content (it's a visual observation,
+  and Rob can see the character same as the audience watching the
+  read-along video), so Rob is not restricted to only asking Sunshine about
+  shape. Vary who leads on it: sometimes Rob breaks down the shape visually
+  himself unprompted (e.g. "looks like a gate with a person next to it"),
+  sometimes he asks Sunshine to describe it, sometimes she leads without
+  being asked. Sunshine still confirms/corrects and adds anything Rob
+  wouldn't know (radical names, etymology).
+- Sunshine: native Mandarin co-host. She introduces each new character --
+  including a brief, natural description of its visual shape/component
+  radicals (depth varies by character; not every one earns a full
+  etymology detour, but always at least a one-line shape description) --
+  and presents each newly-unlocked word already combined, in hanzi. Rob
+  never does the combining. Confirms/corrects Rob's guesses, explains when
+  he punts. This is an early episode -- no hint yet that her realness is
+  ambiguous; play her completely straight.
+  Never echo the character's pinyin back as a spoken aside immediately
+  after pronouncing it (e.g. "This one is 们, 'men,' and it's neutral
+  tone" -- that's just saying the same sound twice in a row for no
+  reason). The pinyin given in DATA guides how Sunshine pronounces the
+  character correctly; it is not additional text for her to speak aloud
+  as a separate echo. If there's ever a real reason to say the
+  pronunciation again in English-letter form (genuinely clarifying an
+  ambiguous sound, setting up Rob's literal-translation bit), that's a
+  deliberate choice earning its own justification, not a reflex.
+
+CONTENT RULES: everyday concrete language only; no chengyu, dialect,
+swearing, or romance content.
+
+THIS SEGMENT ONLY covers: introducing the new character (number,
+pronunciation, tone, shape/component description) and walking through the
+new compound words it unlocks. Do NOT include a cold open, recap, callback
+to prior episodes, or any example sentences -- those are separate segments
+generated separately. Start the transcript directly with Sunshine
+announcing the character.
+
+DATA:
+- Character #1: 是, pinyin "shi", fourth tone (falling). Meaning: "is / are / am / to be"; also works as "yes" or "that's right". It never changes form for person or tense -- one character covers I am, you are, he is.
+- Shape: 日 (the sun, a rectangle with a bar across the middle) on top, with a form like 正 (the character for "correct") beneath it. A folk-etymology mnemonic: the sun straight overhead, so "that's right, it is so." Present this as a memory aid, not as settled history.
+- Newly unlocked words (every other character in these is already taught): none beyond 是 itself. This is the very first character, so there are no compounds yet; the word is just 是 on its own. Do NOT invent compounds. The sentences for this character (a separate segment) are just 是 combined with the four sentence-ending tone words from character zero: 是啊, 是吧, 是呢, 是呀.
+
+Write the segment as a plain dialogue transcript, "Rob:" / "Sunshine:"
+labels, no stage directions or audio markup -- this pass is about content,
+personality, and the Chinese/English split, not TTS production.
+
+Before finalizing, re-check every line labeled "Rob:" and confirm it
+contains zero Chinese characters and zero romanized/pinyin Chinese words.
+Output ONLY the transcript, nothing else.
+
+ADAPTATIONS FOR THIS RUN (these override anything above that conflicts):
+- CONTEXT: this is episode 1, the very first real character. Immediately before this segment, the hosts did "character zero": Rob admitted an exception to the one-character-at-a-time premise to introduce four sentence-ending tone words (啊 呢 呀 吧), Sunshine was exasperated, and there was a running gag about "characters zero, plural" vs "character one, singular." Rob can briefly nod to that ("now, properly, character one"), but do not re-explain the tone words. Start the transcript with Sunshine announcing character number one.
+- Rob's literal-translation bit has no compound to work on here. Instead let the segment's comedy/pedagogy come from the character itself: Chinese needs only one word for am/is/are with no conjugation (Rob, an English speaker, can be delighted or suspicious that it's this easy), plus the shape (the sun over "correct"). Do not force the bit.
+- Keep it short: this segment introduces one character and one word. Roughly 12-18 turns.
+- PRONUNCIATION IN TEXT: whenever Sunshine refers to the character by itself as a standalone isolated character (e.g. "This is character number one, ..."), write it as pinyin with its tone mark in double quotes, "Shì", and NOT as the hanzi -- the speech engine mispronounces a bare isolated hanzi. Hanzi are fine inside real words/sentences and when describing parts (日, 正). Rob still never says any Chinese or pinyin.
+- Rob and Sunshine's voices are expressive. Put ElevenLabs-style bracket emotion tags inline at the start of or within turns where they help, e.g. [warmly] [laughs] [curious] [dryly] [excitedly] [thoughtfully]. Rob is drier and more restrained, Sunshine more expressive. Use them sparingly, not on every line. Never put a tag on its own line.
+- Output format: "Rob:" / "Sunshine:" labelled turns, one blank line between turns, nothing else.
