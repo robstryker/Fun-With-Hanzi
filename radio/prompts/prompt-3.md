@@ -7,7 +7,7 @@ character introduction or word unlock (prompts 1/2), and no conclusion
 (a separate segment).
 
 **Inputs:** the selected sentences, one per line, in
-`copy/text/<episode>/zi-N-sentences.txt`, each paired with its PDF number
+`copy/text/<episode>/zi-NNNN-sentences.txt`, each paired with its PDF number
 (`build_print.ordered_sentences` position -- see bible.md's sentence-dive
 rules). The selection is made before this prompt runs; this prompt does not
 choose sentences.
@@ -18,7 +18,7 @@ prompt-2's first run, so generated output stays comparable while the
 `prompt-tuning-wip.md` patterns accumulate.
 
 **Mechanical checks after a run** (done when converting the transcript to
-`zi-N-sentences.yaml`): every pure-Chinese Sunshine turn must equal one of the
+`zi-NNNN-sentences.yaml`): every pure-Chinese Sunshine turn must equal one of the
 selected sentences verbatim, in order, with each selected sentence read
 exactly once; each is preceded by an announcement turn naming its PDF number;
 zero hanzi or pinyin in any Rob line.

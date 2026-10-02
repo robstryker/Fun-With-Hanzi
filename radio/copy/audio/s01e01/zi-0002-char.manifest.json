@@ -4,7 +4,7 @@
     "source_id": "Sunshine-5ba62a25e984d47a.mp3",
     "speaker": "Sunshine",
     "text": "[excitedly] Character number two is \"Bù.\" Fourth tone, the falling one. It means \"not,\" or just \"no.\" This is the super important part: it's the other half of yes and no.",
-    "duration": 12.434286,
+    "duration": 12.4,
     "running_start_time": 0.0,
     "alignment": "Sunshine-5ba62a25e984d47a.json"
   },
@@ -12,96 +12,96 @@
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 12.434286
+    "running_start_time": 12.4
   },
   {
     "segment_type": "line",
     "source_id": "Rob-fa89485efeb38e97.mp3",
     "speaker": "Rob",
     "text": "This used to be my daughter's favorite word. It still is, but it used to be, too. [dryly] So we learned yes, and now we're learning no. Seems like a very balanced show, we're making here.",
-    "duration": 11.154286,
-    "running_start_time": 12.634286,
+    "duration": 11.12,
+    "running_start_time": 12.6,
     "alignment": "Rob-fa89485efeb38e97.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 23.788572000000002
+    "running_start_time": 23.72
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-f2d5f1de02a8ee5c.mp3",
     "speaker": "Sunshine",
     "text": "[laughs] Exactly. Put the two together and you can ask real questions and answer them. But first, let's look at it.",
-    "duration": 7.88898,
-    "running_start_time": 23.988572,
+    "duration": 7.84,
+    "running_start_time": 23.919999999999998,
     "alignment": "Sunshine-f2d5f1de02a8ee5c.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 31.877552
+    "running_start_time": 31.759999999999998
   },
   {
     "segment_type": "line",
     "source_id": "Rob-b8c63568f5b6d03b.mp3",
     "speaker": "Rob",
     "text": "[thoughtfully] Okay. There's a flat line across the top and a stroke dropping down from the middle. Then two little strokes kick out underneath, one left, one right. It looks like a tiny tree. Or a coat rack.",
-    "duration": 13.479184,
-    "running_start_time": 32.077552000000004,
+    "duration": 13.44,
+    "running_start_time": 31.959999999999997,
     "alignment": "Rob-b8c63568f5b6d03b.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 45.556736
+    "running_start_time": 45.4
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-fcb2d29027f6d086.mp3",
     "speaker": "Sunshine",
     "text": "A tree is good! Some people see a bird with its wings spread out. Here's a memory trick. Imagine a bird flying up and hitting something flat above it, like a ceiling. It can't get through. So: no. Not.",
-    "duration": 14.915918,
-    "running_start_time": 45.756736000000004,
+    "duration": 14.88,
+    "running_start_time": 45.6,
     "alignment": "Sunshine-fcb2d29027f6d086.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 60.672654
+    "running_start_time": 60.480000000000004
   },
   {
     "segment_type": "line",
     "source_id": "Rob-e49780fccd9a32d5.mp3",
     "speaker": "Rob",
     "text": "Denied, rejected, no way José. I can remember that.",
-    "duration": 4.440816,
-    "running_start_time": 60.872654000000004,
+    "duration": 4.4,
+    "running_start_time": 60.68000000000001,
     "alignment": "Rob-e49780fccd9a32d5.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 65.31347000000001
+    "running_start_time": 65.08000000000001
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-1387341c19e45942.mp3",
     "speaker": "Sunshine",
     "text": "Good. \"Bù\" works on its own. If someone asks you something, you can just answer \"Bù.\" No. Or you put it in front of another word to make that word negative.",
-    "duration": 11.467755,
-    "running_start_time": 65.51347000000001,
+    "duration": 11.44,
+    "running_start_time": 65.28000000000002,
     "alignment": "Sunshine-1387341c19e45942.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 76.98122500000001
+    "running_start_time": 76.72000000000001
   }
 ]

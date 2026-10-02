@@ -4,7 +4,7 @@
     "source_id": "Sunshine-5483bfed74ff30ba.mp3",
     "speaker": "Sunshine",
     "text": "That brings us to our first compound word: 不是.",
-    "duration": 3.787755,
+    "duration": 3.76,
     "running_start_time": 0.0,
     "alignment": "Sunshine-5483bfed74ff30ba.json"
   },
@@ -12,291 +12,291 @@
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 3.787755
+    "running_start_time": 3.76
   },
   {
     "segment_type": "line",
     "source_id": "Rob-60e50e3dc6c701a1.mp3",
     "speaker": "Rob",
     "text": "So the pieces are \"not,\" plus the one we just did, \"is.\"",
-    "duration": 4.519184,
-    "running_start_time": 3.9877550000000004,
+    "duration": 4.48,
+    "running_start_time": 3.96,
     "alignment": "Rob-60e50e3dc6c701a1.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 8.506939000000001
+    "running_start_time": 8.440000000000001
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-f9215d6ef5276d7c.mp3",
     "speaker": "Sunshine",
     "text": "Right. \"Not\" plus \"is.\"",
-    "duration": 2.925714,
-    "running_start_time": 8.706939,
+    "duration": 2.88,
+    "running_start_time": 8.64,
     "alignment": "Sunshine-f9215d6ef5276d7c.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 11.632653000000001
+    "running_start_time": 11.52
   },
   {
     "segment_type": "line",
     "source_id": "Rob-489f1094e2b6d941.mp3",
     "speaker": "Rob",
     "text": "[curious] So literally, \"not is\", but more like \"It's not like that.\"",
-    "duration": 4.91102,
-    "running_start_time": 11.832653,
+    "duration": 4.88,
+    "running_start_time": 11.719999999999999,
     "alignment": "Rob-489f1094e2b6d941.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 16.743673
+    "running_start_time": 16.599999999999998
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-8bd437a99a510ef0.mp3",
     "speaker": "Sunshine",
     "text": "[warmly] Yes! 不是 means \"is not,\" or as an answer, just \"no.\" If someone asks whether this is your coffee and it isn't, you say 不是.",
-    "duration": 12.042449,
-    "running_start_time": 16.943673,
+    "duration": 12.0,
+    "running_start_time": 16.799999999999997,
     "alignment": "Sunshine-8bd437a99a510ef0.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 28.986122
+    "running_start_time": 28.799999999999997
   },
   {
     "segment_type": "line",
     "source_id": "Rob-bc05ffc94a50bfaa.mp3",
     "speaker": "Rob",
     "text": "Fine, but I'm going to hear \"not is\" in my head forever.",
-    "duration": 4.519184,
-    "running_start_time": 29.186122,
+    "duration": 4.48,
+    "running_start_time": 28.999999999999996,
     "alignment": "Rob-bc05ffc94a50bfaa.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 33.705306
+    "running_start_time": 33.48
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-96c031a49863a3a4.mp3",
     "speaker": "Sunshine",
     "text": "That's okay. One small sound thing: \"Bù\" is a falling tone, but when it comes right before another falling tone, like it does here, it rises instead. So in 不是 the first part goes up and the second part comes down.",
-    "duration": 15.960816,
-    "running_start_time": 33.905306,
+    "duration": 15.92,
+    "running_start_time": 33.68,
     "alignment": "Sunshine-96c031a49863a3a4.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 49.866122000000004
+    "running_start_time": 49.6
   },
   {
     "segment_type": "line",
     "source_id": "Rob-77a45a84753e1a97.mp3",
     "speaker": "Rob",
     "text": "[dryly] So the word for \"no\" doesn't always follow its own rules. I'm kind of not at all surprised by this, really.",
-    "duration": 7.000816,
-    "running_start_time": 50.06612200000001,
+    "duration": 6.96,
+    "running_start_time": 49.800000000000004,
     "alignment": "Rob-77a45a84753e1a97.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 57.06693800000001
+    "running_start_time": 56.760000000000005
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-82e18a249abf39c4.mp3",
     "speaker": "Sunshine",
     "text": "[laughs] Very wise. Next word: 是不是.",
-    "duration": 4.597551,
-    "running_start_time": 57.26693800000001,
+    "duration": 4.56,
+    "running_start_time": 56.96000000000001,
     "alignment": "Sunshine-82e18a249abf39c4.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 61.86448900000001
+    "running_start_time": 61.52000000000001
   },
   {
     "segment_type": "line",
     "source_id": "Rob-16e75650f42675bd.mp3",
     "speaker": "Rob",
     "text": "Okay, so that's \"is,\" then \"not,\" then \"is\" again. Is, not, is. [thoughtfully] Is... not... is. It sounds like someone who can't make up their mind.",
-    "duration": 13.479184,
-    "running_start_time": 62.064489000000016,
+    "duration": 13.44,
+    "running_start_time": 61.72000000000001,
     "alignment": "Rob-16e75650f42675bd.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 75.54367300000001
+    "running_start_time": 75.16000000000001
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-3f9bd71da042c14b.mp3",
     "speaker": "Sunshine",
     "text": "That's actually really close! It means \"is it, or is it not?\" You use it to ask \"is this true?\" Basically, yes or no.",
-    "duration": 9.560816,
-    "running_start_time": 75.74367300000002,
+    "duration": 9.52,
+    "running_start_time": 75.36000000000001,
     "alignment": "Sunshine-3f9bd71da042c14b.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 85.30448900000002
+    "running_start_time": 84.88000000000001
   },
   {
     "segment_type": "line",
     "source_id": "Rob-57b16f7b3c8245f5.mp3",
     "speaker": "Rob",
     "text": "Nailed it.",
-    "duration": 0.992653,
-    "running_start_time": 85.50448900000002,
+    "duration": 0.96,
+    "running_start_time": 85.08000000000001,
     "alignment": "Rob-57b16f7b3c8245f5.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 86.49714200000003
+    "running_start_time": 86.04
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-c18477e30da0b803.mp3",
     "speaker": "Sunshine",
     "text": "You were right by accident. But it counts. Okay, the last one is a little sneaky. 不是.",
-    "duration": 7.392653,
-    "running_start_time": 86.69714200000003,
+    "duration": 7.36,
+    "running_start_time": 86.24000000000001,
     "alignment": "Sunshine-c18477e30da0b803.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 94.08979500000002
+    "running_start_time": 93.60000000000001
   },
   {
     "segment_type": "line",
     "source_id": "Rob-582e835864ea4d27.mp3",
     "speaker": "Rob",
     "text": "[flatly] You already did that one.",
-    "duration": 1.880816,
-    "running_start_time": 94.28979500000003,
+    "duration": 1.84,
+    "running_start_time": 93.80000000000001,
     "alignment": "Rob-582e835864ea4d27.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 96.17061100000002
+    "running_start_time": 95.64000000000001
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-6bd8c8177dbb49cd.mp3",
     "speaker": "Sunshine",
     "text": "[laughs] It's the same characters, yes. But when you say the second part light and soft, it means something else: \"fault,\" or \"blame.\" Like, \"it's my fault.\"",
-    "duration": 12.434286,
-    "running_start_time": 96.37061100000003,
+    "duration": 12.4,
+    "running_start_time": 95.84000000000002,
     "alignment": "Sunshine-6bd8c8177dbb49cd.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 108.80489700000003
+    "running_start_time": 108.24000000000002
   },
   {
     "segment_type": "line",
     "source_id": "Rob-1a595bd76aaf5555.mp3",
     "speaker": "Rob",
     "text": "[incredulous] Is this a common use?",
-    "duration": 1.880816,
-    "running_start_time": 109.00489700000003,
+    "duration": 1.84,
+    "running_start_time": 108.44000000000003,
     "alignment": "Rob-1a595bd76aaf5555.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 110.88571300000002
+    "running_start_time": 110.28000000000003
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-1c3ac6d442db35f0.mp3",
     "speaker": "Sunshine",
     "text": "Honestly, not really. You'll see the \"is not\" one a hundred times before you see this one.",
-    "duration": 6.112653,
-    "running_start_time": 111.08571300000003,
+    "duration": 6.08,
+    "running_start_time": 110.48000000000003,
     "alignment": "Sunshine-1c3ac6d442db35f0.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 117.19836600000002
+    "running_start_time": 116.56000000000003
   },
   {
     "segment_type": "line",
     "source_id": "Rob-e2f7b9188725d699.mp3",
     "speaker": "Rob",
     "text": "[dryly] So not terribly useful for us, then. So that's four words. And now my daughter will know how to reply in Chinese when I ask her to do something.",
-    "duration": 8.829388,
-    "running_start_time": 117.39836600000002,
+    "duration": 8.8,
+    "running_start_time": 116.76000000000003,
     "alignment": "Rob-e2f7b9188725d699.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 126.22775400000002
+    "running_start_time": 125.56000000000003
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-d5ef67a3adf2f6e9.mp3",
     "speaker": "Sunshine",
     "text": "[warmly] She can also ask yes-or-no questions, you know. That's kind of a big deal.",
-    "duration": 4.675918,
-    "running_start_time": 126.42775400000002,
+    "duration": 4.64,
+    "running_start_time": 125.76000000000003,
     "alignment": "Sunshine-d5ef67a3adf2f6e9.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 131.10367200000002
+    "running_start_time": 130.40000000000003
   },
   {
     "segment_type": "line",
     "source_id": "Rob-ab8b372fb188cb12.mp3",
     "speaker": "Rob",
     "text": "[flatly] Yeah... but she won't.",
-    "duration": 2.272653,
-    "running_start_time": 131.303672,
+    "duration": 2.24,
+    "running_start_time": 130.60000000000002,
     "alignment": "Rob-ab8b372fb188cb12.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 133.576325
+    "running_start_time": 132.84000000000003
   }
 ]

@@ -1,8 +1,8 @@
 # s01e01 character 1 -- 是 (shi, 4th tone, "to be" / "yes"), rough draft v1
 # Generated via claude -p (Opus 5.5) from prompts/prompt-2.md, adapted for the first character:
-# 是 unlocks no compounds, so character + word segments are one file (no zi-1-words.yaml needed).
+# 是 unlocks no compounds, so character + word segments are one file (no zi-0001-words.yaml needed).
 # Isolated 是 is written as quoted pinyin "Shì" per the README heuristic; hanzi only inside parts (日, 正).
-# Follows zi-0-char. Sentences are a separate segment (zi-1-sentences.yaml).
+# Follows zi-0000-char. Sentences are a separate segment (zi-0001-sentences.yaml).
 - speaker: Sunshine
   text: "[brightly] Okay! Character number one. \"Shì.\" Fourth tone, the falling one. Say it like you're completely sure of yourself."
 

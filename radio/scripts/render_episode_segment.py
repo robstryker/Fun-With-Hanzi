@@ -1,5 +1,5 @@
-"""Real-production renderer for ONE SEGMENT of an episode (intro, zi-0-char,
-zi-1-char, ...) -- text -> per-line audio -> timing manifest -> concatenated
+"""Real-production renderer for ONE SEGMENT of an episode (intro, zi-0000-char,
+zi-0001-char, ...) -- text -> per-line audio -> timing manifest -> concatenated
 segment mix. Not a whole-episode render: each segment YAML is rendered on its
 own, so a segment can be drafted, listened to and re-taken independently.
 
@@ -86,11 +86,23 @@ def find_elsewhere(name, here):
     return None
 
 def duration(path):
-    out = subprocess.run(
-        ["ffprobe", "-v", "error", "-show_entries", "format=duration",
-         "-of", "csv=p=0", str(path)],
-        capture_output=True, text=True, check=True)
-    return float(out.stdout.strip())
+    """Length in seconds of the audio that actually DECODES from the clip.
+
+    Not ffprobe's format.duration: for these mp3s that figure includes encoder
+    padding and runs ~0.03-0.04s longer than the decoded audio, per clip. Summed
+    into manifest running_start_time it drifted ~6s over a 170-line episode and
+    would misalign any highlighting built on the manifest. So decode to raw
+    samples and count them.
+    """
+    info = subprocess.run(
+        ["ffprobe", "-v", "error", "-select_streams", "a:0", "-show_entries",
+         "stream=sample_rate,channels", "-of", "csv=p=0", str(path)],
+        capture_output=True, text=True, check=True).stdout.strip().split(",")
+    rate, channels = int(info[0]), int(info[1])
+    raw = subprocess.run(
+        ["ffmpeg", "-v", "error", "-i", str(path), "-f", "s16le", "-"],
+        capture_output=True, check=True).stdout
+    return len(raw) / (2 * channels) / rate
 
 def main(episode, segment):
     root = RADIO / "copy"
@@ -165,5 +177,5 @@ def main(episode, segment):
 if __name__ == "__main__":
     if len(sys.argv) != 3:
         sys.exit("usage: render_episode_segment.py <episode, e.g. s01e01> "
-                 "<segment, e.g. intro | zi-0-char | zi-1-char>")
+                 "<segment, e.g. intro | zi-0000-char | zi-0001-char>")
     main(sys.argv[1], sys.argv[2])

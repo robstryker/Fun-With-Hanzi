@@ -15,7 +15,7 @@ Audience: public release (not the daughter -- she gets the PDF). See
 | `scripts/` | Voice/engine experiments and POC dialogue generators (renamed from `smoke/` 2026-09-28 -- outgrew "throwaway smoke test only") | yes |
 | `bible.md` | Show bible (personas, tone, rules) -- added in phase 0 | yes |
 | `prompts/prompt-N.md` | Saved per-segment prompt templates, hand-run examples included -- see bible.md's "Per-episode generation pipeline" | yes |
-| `copy/text/<episode>/<segment>.yaml` | Real per-segment script (`intro`, `zi-0-char`, `zi-1-char`, ...), S/E-keyed episode dir (e.g. `s01e01`) -- see "Episode segment files" below; replaces the earlier planned monolithic `script.yaml` / `episodes/NNN.yaml` | yes |
+| `copy/text/<episode>/<segment>.yaml` | Real per-segment script (`intro`, `zi-0000-char`, `zi-0001-char`, ...), S/E-keyed episode dir (e.g. `s01e01`) -- see "Episode segment files" below; replaces the earlier planned monolithic `script.yaml` / `episodes/NNN.yaml` | yes |
 | `copy/audio/<episode>/` | Rendered per-line clips (`<Speaker>-<hash>.mp3`, content-addressed) + `.json` alignment sidecars + one `<segment>.manifest.json` timing manifest per segment | yes -- persisted, not just regenerated on demand |
 | `copy/final/<episode>/` | Concatenated per-segment mixes (`<segment>-compiled.mp3`); the whole-episode mix is a later assembly step | yes |
 | `out/` | Throwaway smoke-test/POC output, not real episodes | **no** (gitignored) |
@@ -77,6 +77,25 @@ always goes into the repo, never scratch/tmp dirs.
 
 Run: `radio/.venv/bin/python radio/scripts/render_episode_segment.py s01e01 intro`
 
+**Episode assembly** (2026-10-02): `radio/.venv/bin/python radio/scripts/assemble_episode.py s01e01`
+joins the episode's rendered segments, in order -- `intro`, then
+`zi-NNNN-char/words/sentences/conclusion` ascending (the 4-digit NNNN is what makes
+the names sort), then `outro`; segments that don't exist yet are skipped and
+the list used is printed. It reads the segment manifests and clips (never calls
+the TTS API), refuses to build if a segment's YAML was edited after its last
+render, and writes `copy/audio/<episode>/<episode>.manifest.json` (merged,
+every entry tagged with its `segment`, offsets across the whole episode) and
+`copy/final/<episode>/<episode>-compiled.mp3`. Clips are joined directly in one
+encode, with the usual 0.2s turn gap plus an extra `--segment-gap` (default 0.6s)
+between segments.
+
+**Manifest durations are decoded lengths, not ffprobe's** (fixed 2026-10-02):
+an mp3's probed `format.duration` runs ~0.03-0.04s longer than the audio that
+actually decodes (encoder padding), which drifted the manifest ~6s over a
+170-line episode. `duration()` now counts decoded samples, and the segment
+manifests were rebuilt (no credits). The assembler checks the mix length against
+the manifest total.
+
 **Clip backup:** `radio/.venv/bin/python radio/scripts/backup_clips.py` copies every
 clip and its alignment sidecar, flat and under its hash filename (no episode
 folders), to `/data/education/learnChinese/radio/`. Copy-only: never
@@ -97,15 +116,16 @@ Episode order:
 | File | Once per | Segment (see bible.md "Show structure") |
 |---|---|---|
 | `intro.yaml` | episode | Welcome / cold open (recap from last episode goes here) |
-| `zi-0-char.yaml` | s01e01 only | One-off: the four sentence-ending particles 啊 呢 呀 吧 ("character 0" in the PDF), introduced by shape and pronunciation with a made-up demo sentence each. No words/sentences/conclusion files. Sits between `intro` and `zi-1-char` |
-| `zi-N-char.yaml` | character | New character: shape, origin, pronunciation, tone |
-| `zi-N-words.yaml` | character | Word unlock: newly-unlocked compounds |
-| `zi-N-sentences.yaml` | character | Sentence dive for that character |
-| `zi-N-conclusion.yaml` | character | Short wrap-up of that character: what we learned from the character, its new words, and the sentences |
+| `zi-0000-char.yaml` | s01e01 only | One-off: the four sentence-ending particles 啊 呢 呀 吧 ("character 0" in the PDF), introduced by shape and pronunciation with a made-up demo sentence each. No words/sentences/conclusion files. Sits between `intro` and `zi-0001-char` |
+| `zi-NNNN-char.yaml` | character | New character: shape, origin, pronunciation, tone |
+| `zi-NNNN-words.yaml` | character | Word unlock: newly-unlocked compounds |
+| `zi-NNNN-sentences.yaml` | character | Sentence dive for that character |
+| `zi-NNNN-conclusion.yaml` | character | Short wrap-up of that character: what we learned from the character, its new words, and the sentences |
 | `outro.yaml` | episode | Final outro / sign-off |
 
-`N` is the character's position within the episode (`zi-1-char`,
-`zi-1-words`, `zi-1-sentences`, `zi-1-conclusion`, then `zi-2-char`, ...), repeated for as many
+`NNNN` is the character's position within the episode, zero-padded to 4 digits
+(so the filenames sort in teaching order) (`zi-0001-char`,
+`zi-0001-words`, `zi-0001-sentences`, `zi-0001-conclusion`, then `zi-0002-char`, ...), repeated for as many
 characters as the episode teaches ("a few times each episode" per the intro).
 `intro.yaml` (renamed from `intro-draft.yaml` 2026-10-02, old `.bak` drafts
 deleted) is the settled s01e01 intro.
@@ -116,10 +136,8 @@ Open questions:
   sentences before moving on. Keep them short. The episode-level sign-off
   lives in `outro.yaml`; bible.md's "Closing rules" (currently one episode-level
   "Closing" segment) needs updating to split recap from sign-off.
-- `render_episode_segment.py` renders one segment at a time. Still missing: a
-  small assembler that concatenates the per-segment `<segment>-compiled.mp3`
-  mixes (and merges the per-segment manifests, offsetting
-  `running_start_time`) into a whole-episode mix, in the order above.
+- `render_episode_segment.py` renders one segment at a time; `assemble_episode.py`
+  joins them (see "Episode assembly" below).
 
 ## Before public release
 - Corpus sentences include the copyrighted Chinese Harry Potter translation.

@@ -1,5 +1,5 @@
 # s01e01 character 1 sentence dive -- 8 sentences (PDF #1 2 3 4 5 6 8 14), rough draft v1
-# Generated via claude -p (Opus 5.5) from prompts/prompt-3.md (first run); selection in zi-1-sentences.txt.
+# Generated via claude -p (Opus 5.5) from prompts/prompt-3.md (first run); selection in zi-0001-sentences.txt.
 # Unedited generated version -- Rob's edits will diff against this commit.
 # Mechanical checks passed: sentence turns verbatim + in order, each announced by PDF number, no Chinese in Rob lines.
 - speaker: Rob

@@ -1,8 +1,8 @@
 # s01e01 character 2 -- 不 (bu, 4th tone, "not; no") + its words, rough draft v1
-# Generated via claude -p (Opus 5.5) from prompts/prompt-2.md, adapted for character 2 (see prompts/runs/s01e02-zi-2-char.prompt.txt).
+# Generated via claude -p (Opus 5.5) from prompts/prompt-2.md, adapted for character 2 (see prompts/runs/s01e01-zi-0002-char.prompt.txt).
 # Character + word unlock in one file (words: 不, 不是, 是不是, 不是 "fault; blame"). Unedited generated version.
-# Isolated 不 is written as quoted pinyin "Bù" per the README heuristic. Follows zi-1-conclusion.
-# NOTE: the word unlock is split out to zi-2-words.yaml (split at the "first compound word" transition turn).
+# Isolated 不 is written as quoted pinyin "Bù" per the README heuristic. Follows zi-0001-conclusion.
+# NOTE: the word unlock is split out to zi-0002-words.yaml (split at the "first compound word" transition turn).
 - speaker: Sunshine
   text: "[excitedly] Character number two is \"Bù.\" Fourth tone, the falling one. It means \"not,\" or just \"no.\" This is the super important part: it's the other half of yes and no."
 

@@ -1,5 +1,5 @@
 # s01e01 character 0 -- the sentence-ending particles 啊 呢 呀 吧, rough draft v2
-# One-off segment (s01e01 only): follows intro, precedes zi-1-char. No words/sentence-dive/conclusion files.
+# One-off segment (s01e01 only): follows intro, precedes zi-0001-char. No words/sentence-dive/conclusion files.
 # Sunshine makes up one demo sentence per particle -- a deliberate, justified exception (bible: she normally doesn't).
 # Isolated characters are quoted hanzi (all four are neutral tone, so no tone-mark pinyin fallback) -- TTS test needed.
 - speaker: Rob

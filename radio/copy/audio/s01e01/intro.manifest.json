@@ -4,7 +4,7 @@
     "source_id": "Rob-efe33cb5fcb284de.mp3",
     "speaker": "Rob",
     "text": "[warmly] Hello, and welcome. This is One \"Zì\" at a Time, the show where we learn to read Chinese starting from absolute zero, one character at a time. I'm Rob, and with me is my co-host, Sunshine.",
-    "duration": 12.59102,
+    "duration": 12.56,
     "running_start_time": 0.0,
     "alignment": null
   },
@@ -12,186 +12,186 @@
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 12.59102
+    "running_start_time": 12.56
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-5c0dca3d232d08b6.mp3",
     "speaker": "Sunshine",
     "text": "[warmly] Hi, Rob. Hi, everyone. I'm so happy to be here.",
-    "duration": 4.597551,
-    "running_start_time": 12.79102,
+    "duration": 4.56,
+    "running_start_time": 12.76,
     "alignment": null
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 17.388571
+    "running_start_time": 17.32
   },
   {
     "segment_type": "line",
     "source_id": "Rob-ff872687911d787f.mp3",
     "speaker": "Rob",
     "text": "And I'm happy you said yes.",
-    "duration": 1.959184,
-    "running_start_time": 17.588570999999998,
+    "duration": 1.92,
+    "running_start_time": 17.52,
     "alignment": null
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 19.547755
+    "running_start_time": 19.439999999999998
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-77a0e0805449a39c.mp3",
     "speaker": "Sunshine",
     "text": "[chuckles] Of course I did! This is a good idea. So, this whole show is Rob's. He came to me with a different way of teaching Chinese and asked if I'd help him build it. [curious] But Rob, I don't think I ever heard the whole story. How did you come up with this?",
-    "duration": 16.666122,
-    "running_start_time": 19.747754999999998,
+    "duration": 16.64,
+    "running_start_time": 19.639999999999997,
     "alignment": null
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 36.413877
+    "running_start_time": 36.28
   },
   {
     "segment_type": "line",
     "source_id": "Rob-6e4e878b3da01173.mp3",
     "speaker": "Rob",
     "text": "[thoughtfully] Well... [chuckles] that's a story for another episode. Right now I'd rather just show you. The idea is simple. We go one character at a time, starting from zero.",
-    "duration": 10.605714,
-    "running_start_time": 36.613877,
+    "duration": 10.56,
+    "running_start_time": 36.480000000000004,
     "alignment": null
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 47.219591
+    "running_start_time": 47.040000000000006
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-837dda0af64bf0ef.mp3",
     "speaker": "Sunshine",
     "text": "[playfully] Oh, so the history is a mystery, eh? Fine, I'll allow it. So one at a time from zero? [curious] And we'll never have to read or repeat something we haven't covered yet, right?",
-    "duration": 11.31102,
-    "running_start_time": 47.419591000000004,
+    "duration": 11.28,
+    "running_start_time": 47.24000000000001,
     "alignment": null
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 58.730611
+    "running_start_time": 58.52000000000001
   },
   {
     "segment_type": "line",
     "source_id": "Rob-a34a011f08a14181.mp3",
     "speaker": "Rob",
     "text": "Right. Every sentence has exactly one character you don't already know.",
-    "duration": 4.989388,
-    "running_start_time": 58.930611000000006,
+    "duration": 4.96,
+    "running_start_time": 58.72000000000001,
     "alignment": null
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 63.919999000000004
+    "running_start_time": 63.680000000000014
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-cf8a8e14d585b5ef.mp3",
     "speaker": "Sunshine",
     "text": "[warmly] I love that. So, how is each episode going to work?",
-    "duration": 4.284082,
-    "running_start_time": 64.119999,
+    "duration": 4.24,
+    "running_start_time": 63.88000000000002,
     "alignment": null
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 68.404081
+    "running_start_time": 68.12000000000002
   },
   {
     "segment_type": "line",
     "source_id": "Rob-e1c0727e996a30de.mp3",
     "speaker": "Rob",
     "text": "[brightly] Okay. In every episode, Sunshine, you'll introduce one new character, and we'll talk about what it looks like and where it comes from. Then you'll tell us about any new words it unlocks. And then you'll read us a good number of sentences, and I'll do my best to translate them, before we move on to the next character. We'll do that a few times each episode.",
-    "duration": 18.677551,
-    "running_start_time": 68.60408100000001,
+    "duration": 18.64,
+    "running_start_time": 68.32000000000002,
     "alignment": null
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 87.281632
+    "running_start_time": 86.96000000000002
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-eccb3227a54d7757.mp3",
     "speaker": "Sunshine",
     "text": "[excited] One character, the words it unlocks, and lots of sentences. I like it. And you get to be the one who has to guess what everything means.",
-    "duration": 8.75102,
-    "running_start_time": 87.481632,
+    "duration": 8.72,
+    "running_start_time": 87.16000000000003,
     "alignment": null
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 96.232652
+    "running_start_time": 95.88000000000002
   },
   {
     "segment_type": "line",
     "source_id": "Rob-b7d63e8603fda3f6.mp3",
     "speaker": "Rob",
     "text": "[dryly] I'm going to be humbled, aren't I.",
-    "duration": 2.586122,
-    "running_start_time": 96.432652,
+    "duration": 2.56,
+    "running_start_time": 96.08000000000003,
     "alignment": null
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 99.01877400000001
+    "running_start_time": 98.64000000000003
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-4042fbb0ab33d57e.mp3",
     "speaker": "Sunshine",
     "text": "[laughs] A little. [excited] I'm ready to try it. Shall we start?",
-    "duration": 4.519184,
-    "running_start_time": 99.21877400000001,
+    "duration": 4.48,
+    "running_start_time": 98.84000000000003,
     "alignment": null
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 103.737958
+    "running_start_time": 103.32000000000004
   },
   {
     "segment_type": "line",
     "source_id": "Rob-eb378479c2d7f592.mp3",
     "speaker": "Rob",
     "text": "[grins] [brightly] Yeah. Let's get started!",
-    "duration": 3.004082,
-    "running_start_time": 103.93795800000001,
+    "duration": 2.96,
+    "running_start_time": 103.52000000000004,
     "alignment": null
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 106.94204
+    "running_start_time": 106.48000000000003
   }
 ]

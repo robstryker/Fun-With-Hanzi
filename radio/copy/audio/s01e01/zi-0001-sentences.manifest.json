@@ -4,7 +4,7 @@
     "source_id": "Rob-b831da381e0e7af6.mp3",
     "speaker": "Rob",
     "text": "Okay, so, I should explain something first. We're going to start reading out example sentences now. These come from a document I made with LOTS of example sentences. I'll try to make these available, but haven't figured out how yet.",
-    "duration": 13.479184,
+    "duration": 13.44,
     "running_start_time": 0.0,
     "alignment": "Rob-b831da381e0e7af6.json"
   },
@@ -12,591 +12,591 @@
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 13.479184
+    "running_start_time": 13.44
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-23a9c2758b965b75.mp3",
     "speaker": "Sunshine",
     "text": "[brightly] Sure, Rob. But I DO have the sentences, so we can just jump right in.",
-    "duration": 5.250612,
-    "running_start_time": 13.679184,
+    "duration": 5.2,
+    "running_start_time": 13.639999999999999,
     "alignment": "Sunshine-23a9c2758b965b75.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 18.929796
+    "running_start_time": 18.84
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-cbf98268b2066c00.mp3",
     "speaker": "Sunshine",
     "text": "[brightly] These first three are going to look almost identical on the page, so I'll read them back to back.",
-    "duration": 5.32898,
-    "running_start_time": 19.129796,
+    "duration": 5.28,
+    "running_start_time": 19.04,
     "alignment": "Sunshine-cbf98268b2066c00.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 24.458776
+    "running_start_time": 24.32
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-45394309b941817c.mp3",
     "speaker": "Sunshine",
     "text": "Sentence 1.",
-    "duration": 1.149388,
-    "running_start_time": 24.658776,
+    "duration": 1.12,
+    "running_start_time": 24.52,
     "alignment": "Sunshine-45394309b941817c.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 25.808163999999998
+    "running_start_time": 25.64
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-0cf3fc252c4cb68b.mp3",
     "speaker": "Sunshine",
     "text": "是。",
-    "duration": 0.914286,
-    "running_start_time": 26.008163999999997,
+    "duration": 0.88,
+    "running_start_time": 25.84,
     "alignment": "Sunshine-0cf3fc252c4cb68b.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 26.922449999999998
+    "running_start_time": 26.72
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-35cbed2e9ae9493a.mp3",
     "speaker": "Sunshine",
     "text": "That's a plain statement. \"Yes.\" Or \"It is.\" Just calm and flat.",
-    "duration": 5.877551,
-    "running_start_time": 27.122449999999997,
+    "duration": 5.84,
+    "running_start_time": 26.919999999999998,
     "alignment": "Sunshine-35cbed2e9ae9493a.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 33.000001
+    "running_start_time": 32.76
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-8a3e0da30be06e1b.mp3",
     "speaker": "Sunshine",
     "text": "Sentence 2.",
-    "duration": 1.306122,
-    "running_start_time": 33.200001,
+    "duration": 1.28,
+    "running_start_time": 32.96,
     "alignment": "Sunshine-8a3e0da30be06e1b.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 34.506123
+    "running_start_time": 34.24
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-ede5c329bc455f7a.mp3",
     "speaker": "Sunshine",
     "text": "是？",
-    "duration": 1.227755,
-    "running_start_time": 34.706123000000005,
+    "duration": 1.18421768707483,
+    "running_start_time": 34.440000000000005,
     "alignment": "Sunshine-ede5c329bc455f7a.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 35.93387800000001
+    "running_start_time": 35.62421768707483
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-3606f15843875458.mp3",
     "speaker": "Sunshine",
     "text": "[curious] Now my voice goes up. \"Yes?\" \"Is it?\"",
-    "duration": 3.552653,
-    "running_start_time": 36.13387800000001,
+    "duration": 3.52,
+    "running_start_time": 35.824217687074835,
     "alignment": "Sunshine-3606f15843875458.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 39.68653100000001
+    "running_start_time": 39.34421768707484
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-f7a53de4486629df.mp3",
     "speaker": "Sunshine",
     "text": "Sentence 3.",
-    "duration": 1.306122,
-    "running_start_time": 39.88653100000001,
+    "duration": 1.28,
+    "running_start_time": 39.54421768707484,
     "alignment": "Sunshine-f7a53de4486629df.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 41.192653000000014
+    "running_start_time": 40.82421768707484
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-abeadda0e4cb2054.mp3",
     "speaker": "Sunshine",
     "text": "是！",
-    "duration": 0.940408,
-    "running_start_time": 41.39265300000002,
+    "duration": 0.9,
+    "running_start_time": 41.024217687074845,
     "alignment": "Sunshine-abeadda0e4cb2054.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 42.333061000000015
+    "running_start_time": 41.924217687074844
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-e550cdeeaf7d9814.mp3",
     "speaker": "Sunshine",
     "text": "[excitedly] And that's \"Yes!\" Like you really mean it.",
-    "duration": 3.160816,
-    "running_start_time": 42.53306100000002,
+    "duration": 3.12,
+    "running_start_time": 42.12421768707485,
     "alignment": "Sunshine-e550cdeeaf7d9814.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 45.693877000000015
+    "running_start_time": 45.244217687074844
   },
   {
     "segment_type": "line",
     "source_id": "Rob-70643afa4ff5d2ba.mp3",
     "speaker": "Rob",
     "text": "[dryly] So that's three sentences, one character, and the only thing that changed was the punctuation.",
-    "duration": 5.799184,
-    "running_start_time": 45.89387700000002,
+    "duration": 5.76,
+    "running_start_time": 45.44421768707485,
     "alignment": "Rob-70643afa4ff5d2ba.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 51.693061000000014
+    "running_start_time": 51.204217687074845
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-5c8053307c0c2333.mp3",
     "speaker": "Sunshine",
     "text": "[laughs] Exactly. The punctuation does all the work.",
-    "duration": 3.970612,
-    "running_start_time": 51.89306100000002,
+    "duration": 3.92,
+    "running_start_time": 51.40421768707485,
     "alignment": "Sunshine-5c8053307c0c2333.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 55.86367300000002
+    "running_start_time": 55.32421768707485
   },
   {
     "segment_type": "line",
     "source_id": "Rob-a3b32154b398a51a.mp3",
     "speaker": "Rob",
     "text": "Which is great for me, because the punctuation is the one part I can actually read.",
-    "duration": 4.754286,
-    "running_start_time": 56.06367300000002,
+    "duration": 4.72,
+    "running_start_time": 55.52421768707485,
     "alignment": "Rob-a3b32154b398a51a.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 60.81795900000002
+    "running_start_time": 60.24421768707485
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-ddfb85057da94ec4.mp3",
     "speaker": "Sunshine",
     "text": "Sentence 4.",
-    "duration": 1.410612,
-    "running_start_time": 61.017959000000026,
+    "duration": 1.36,
+    "running_start_time": 60.444217687074854,
     "alignment": "Sunshine-ddfb85057da94ec4.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 62.42857100000003
+    "running_start_time": 61.80421768707485
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-b6bc2d498551a257.mp3",
     "speaker": "Sunshine",
     "text": "是啊！",
-    "duration": 0.992653,
-    "running_start_time": 62.62857100000003,
+    "duration": 0.96,
+    "running_start_time": 62.004217687074856,
     "alignment": "Sunshine-b6bc2d498551a257.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 63.621224000000026
+    "running_start_time": 62.96421768707486
   },
   {
     "segment_type": "line",
     "source_id": "Rob-e7381e560f2b42fe.mp3",
     "speaker": "Rob",
     "text": "Okay, that's our word plus the warm tone. So something like \"Oh, yes!\" or \"It sure is!\"",
-    "duration": 7.314286,
-    "running_start_time": 63.82122400000003,
+    "duration": 7.28,
+    "running_start_time": 63.16421768707486,
     "alignment": "Rob-e7381e560f2b42fe.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 71.13551000000002
+    "running_start_time": 70.44421768707485
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-f28931c36ead0621.mp3",
     "speaker": "Sunshine",
     "text": "[warmly] Yep, \"It sure is!\" Like when a friend says \"Nice weather today,\" and you agree with them.",
-    "duration": 6.530612,
-    "running_start_time": 71.33551000000003,
+    "duration": 6.48,
+    "running_start_time": 70.64421768707486,
     "alignment": "Sunshine-f28931c36ead0621.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 77.86612200000003
+    "running_start_time": 77.12421768707486
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-dd7e4cc4feeaf0bf.mp3",
     "speaker": "Sunshine",
     "text": "Sentence 5.",
-    "duration": 1.306122,
-    "running_start_time": 78.06612200000004,
+    "duration": 1.28,
+    "running_start_time": 77.32421768707486,
     "alignment": "Sunshine-dd7e4cc4feeaf0bf.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 79.37224400000004
+    "running_start_time": 78.60421768707486
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-2b2a2f1bd84ea22e.mp3",
     "speaker": "Sunshine",
     "text": "是呀！",
-    "duration": 0.992653,
-    "running_start_time": 79.57224400000004,
+    "duration": 0.96,
+    "running_start_time": 78.80421768707487,
     "alignment": "Sunshine-2b2a2f1bd84ea22e.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 80.56489700000004
+    "running_start_time": 79.76421768707486
   },
   {
     "segment_type": "line",
     "source_id": "Rob-935dce9171feae17.mp3",
     "speaker": "Rob",
     "text": "That sounded a lot like the last one, just a little brighter. The cheerful, surprised one? \"Oh, yes!\"",
-    "duration": 7.079184,
-    "running_start_time": 80.76489700000005,
+    "duration": 7.04,
+    "running_start_time": 79.96421768707486,
     "alignment": "Rob-935dce9171feae17.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 87.84408100000005
+    "running_start_time": 87.00421768707487
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-b05c718a724fb310.mp3",
     "speaker": "Sunshine",
     "text": "Right. It's basically the same as Sentence 4, just a bit more bouncy. You hear it a lot from kids, and from me.",
-    "duration": 7.627755,
-    "running_start_time": 88.04408100000005,
+    "duration": 7.6,
+    "running_start_time": 87.20421768707487,
     "alignment": "Sunshine-b05c718a724fb310.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 95.67183600000004
+    "running_start_time": 94.80421768707487
   },
   {
     "segment_type": "line",
     "source_id": "Rob-a4533b4007cef5ee.mp3",
     "speaker": "Rob",
     "text": "[dryly] I've noticed.",
-    "duration": 1.48898,
-    "running_start_time": 95.87183600000004,
+    "duration": 1.44,
+    "running_start_time": 95.00421768707487,
     "alignment": "Rob-a4533b4007cef5ee.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 97.36081600000004
+    "running_start_time": 96.44421768707487
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-c9c60b5ce0a428ba.mp3",
     "speaker": "Sunshine",
     "text": "Sentence 6.",
-    "duration": 1.306122,
-    "running_start_time": 97.56081600000005,
+    "duration": 1.28,
+    "running_start_time": 96.64421768707487,
     "alignment": "Sunshine-c9c60b5ce0a428ba.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 98.86693800000005
+    "running_start_time": 97.92421768707487
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-5ec0f5ea99bb71e7.mp3",
     "speaker": "Sunshine",
     "text": "是吧？",
-    "duration": 1.07102,
-    "running_start_time": 99.06693800000005,
+    "duration": 1.04,
+    "running_start_time": 98.12421768707488,
     "alignment": "Sunshine-5ec0f5ea99bb71e7.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 100.13795800000005
+    "running_start_time": 99.16421768707488
   },
   {
     "segment_type": "line",
     "source_id": "Rob-ee1515d61bcbc63d.mp3",
     "speaker": "Rob",
     "text": "[thoughtfully] That's the checking one, with a question mark. So: \"Right?\" \"It is, isn't it?\"",
-    "duration": 6.347755,
-    "running_start_time": 100.33795800000006,
+    "duration": 6.32,
+    "running_start_time": 99.36421768707488,
     "alignment": "Rob-ee1515d61bcbc63d.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 106.68571300000006
+    "running_start_time": 105.68421768707489
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-4a80e36a3bb21ef2.mp3",
     "speaker": "Sunshine",
     "text": "Perfect. You're not totally sure, so you want the other person to agree with you.",
-    "duration": 5.067755,
-    "running_start_time": 106.88571300000007,
+    "duration": 5.04,
+    "running_start_time": 105.8842176870749,
     "alignment": "Sunshine-4a80e36a3bb21ef2.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 111.95346800000007
+    "running_start_time": 110.9242176870749
   },
   {
     "segment_type": "line",
     "source_id": "Rob-f013294363e7829f.mp3",
     "speaker": "Rob",
     "text": "I'll be using that one a lot.",
-    "duration": 1.959184,
-    "running_start_time": 112.15346800000007,
+    "duration": 1.92,
+    "running_start_time": 111.1242176870749,
     "alignment": "Rob-f013294363e7829f.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 114.11265200000007
+    "running_start_time": 113.0442176870749
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-504b0d9864160585.mp3",
     "speaker": "Sunshine",
     "text": "Sentence 8.",
-    "duration": 1.410612,
-    "running_start_time": 114.31265200000007,
+    "duration": 1.36,
+    "running_start_time": 113.24421768707491,
     "alignment": "Sunshine-504b0d9864160585.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 115.72326400000007
+    "running_start_time": 114.60421768707491
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-6e20e5f529a9213b.mp3",
     "speaker": "Sunshine",
     "text": "是呢。",
-    "duration": 1.07102,
-    "running_start_time": 115.92326400000007,
+    "duration": 1.04,
+    "running_start_time": 114.80421768707491,
     "alignment": "Sunshine-6e20e5f529a9213b.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 116.99428400000008
+    "running_start_time": 115.84421768707492
   },
   {
     "segment_type": "line",
     "source_id": "Rob-a9d8aabaceec0d1e.mp3",
     "speaker": "Rob",
     "text": "Hm. My notes say that last one is the gentle question, \"what about...?\" But this ends with a period. So, \"Is it... what about it\"? I'm not getting anywhere with that.",
-    "duration": 12.042449,
-    "running_start_time": 117.19428400000008,
+    "duration": 12.0,
+    "running_start_time": 116.04421768707492,
     "alignment": "Rob-a9d8aabaceec0d1e.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 129.23673300000007
+    "running_start_time": 128.04421768707493
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-9329081b06a61177.mp3",
     "speaker": "Sunshine",
     "text": "[laughs] Fair, it's a tricky one. With a period, it's not really a question. It's a soft agreement, like you're nodding along. \"Yeah, it is.\"",
-    "duration": 10.684082,
-    "running_start_time": 129.43673300000006,
+    "duration": 10.64,
+    "running_start_time": 128.24421768707492,
     "alignment": "Sunshine-9329081b06a61177.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 140.12081500000005
+    "running_start_time": 138.8842176870749
   },
   {
     "segment_type": "line",
     "source_id": "Rob-db75b1a73a52466c.mp3",
     "speaker": "Rob",
     "text": "So it's a quieter version of Sentence 4.",
-    "duration": 2.76898,
-    "running_start_time": 140.32081500000004,
+    "duration": 2.72,
+    "running_start_time": 139.0842176870749,
     "alignment": "Rob-db75b1a73a52466c.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 143.08979500000004
+    "running_start_time": 141.8042176870749
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-f2faab30e90d726a.mp3",
     "speaker": "Sunshine",
     "text": "Yes! Sentence 4 is \"It sure is!\" and this one is \"Mm, it is.\"",
-    "duration": 7.079184,
-    "running_start_time": 143.28979500000003,
+    "duration": 7.04,
+    "running_start_time": 142.00421768707488,
     "alignment": "Sunshine-f2faab30e90d726a.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 150.36897900000002
+    "running_start_time": 149.04421768707488
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-2bd1e1d323dc3945.mp3",
     "speaker": "Sunshine",
     "text": "Sentence 14.",
-    "duration": 1.410612,
-    "running_start_time": 150.568979,
+    "duration": 1.36,
+    "running_start_time": 149.24421768707487,
     "alignment": "Sunshine-2bd1e1d323dc3945.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 151.979591
+    "running_start_time": 150.60421768707488
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-d5269c09f9d4145a.mp3",
     "speaker": "Sunshine",
     "text": "是啊，是吧？",
-    "duration": 1.802449,
-    "running_start_time": 152.179591,
+    "duration": 1.76,
+    "running_start_time": 150.80421768707487,
     "alignment": "Sunshine-d5269c09f9d4145a.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 153.98203999999998
+    "running_start_time": 152.56421768707486
   },
   {
     "segment_type": "line",
     "source_id": "Rob-c4b550ab0b94409c.mp3",
     "speaker": "Rob",
     "text": "Two pieces. The first is the warm \"Oh, yes,\" and the second is the checking one. So: \"Oh yes, it is, right?\"",
-    "duration": 9.090612,
-    "running_start_time": 154.18203999999997,
+    "duration": 9.04,
+    "running_start_time": 152.76421768707485,
     "alignment": "Rob-c4b550ab0b94409c.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 163.27265199999997
+    "running_start_time": 161.80421768707484
   },
   {
     "segment_type": "line",
     "source_id": "Sunshine-d2d1ab80482a4ec6.mp3",
     "speaker": "Sunshine",
     "text": "[warmly] That's it. You agree, and then you check that they agree with you too.",
-    "duration": 4.832653,
-    "running_start_time": 163.47265199999995,
+    "duration": 4.8,
+    "running_start_time": 162.00421768707483,
     "alignment": "Sunshine-d2d1ab80482a4ec6.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 168.30530499999995
+    "running_start_time": 166.80421768707484
   },
   {
     "segment_type": "line",
     "source_id": "Rob-de9c3889f8a8cc93.mp3",
     "speaker": "Rob",
     "text": "[dryly] Agreeing with myself and then asking for confirmation. Sounds like me in a meeting.",
-    "duration": 5.250612,
-    "running_start_time": 168.50530499999994,
+    "duration": 5.2,
+    "running_start_time": 167.00421768707483,
     "alignment": "Rob-de9c3889f8a8cc93.json"
   },
   {
     "segment_type": "gap",
     "source_id": null,
     "duration": 0.2,
-    "running_start_time": 173.75591699999993
+    "running_start_time": 172.20421768707482
   }
 ]
