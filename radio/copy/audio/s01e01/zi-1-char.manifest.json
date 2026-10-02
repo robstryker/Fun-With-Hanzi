@@ -1,0 +1,227 @@
+[
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-f117a66c8b62e05b.mp3",
+    "speaker": "Sunshine",
+    "text": "[brightly] Okay! Character number one. \"Shì.\" Fourth tone, the falling one. Say it like you're completely sure of yourself.",
+    "duration": 7.967347,
+    "running_start_time": 0.0,
+    "alignment": "Sunshine-f117a66c8b62e05b.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 7.967347
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-9029f945cd24e7ed.mp3",
+    "speaker": "Rob",
+    "text": "[dryly] Character one. Singular. What's it mean?",
+    "duration": 3.395918,
+    "running_start_time": 8.167347,
+    "alignment": "Rob-9029f945cd24e7ed.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 11.563265
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-6bf9186c7bc3ade6.mp3",
+    "speaker": "Sunshine",
+    "text": "It means \"to be.\" Is, are, am.",
+    "duration": 4.205714,
+    "running_start_time": 11.763264999999999,
+    "alignment": "Sunshine-6bf9186c7bc3ade6.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 15.968979
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-3a69f564b6a05c5a.mp3",
+    "speaker": "Rob",
+    "text": "All three?",
+    "duration": 0.914286,
+    "running_start_time": 16.168979,
+    "alignment": "Rob-3a69f564b6a05c5a.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 17.083265
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-8e4785389885034e.mp3",
+    "speaker": "Sunshine",
+    "text": "All three. I am, you are, he is, they are. Same character every time. It never changes.",
+    "duration": 8.359184,
+    "running_start_time": 17.283265,
+    "alignment": "Sunshine-8e4785389885034e.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 25.642449
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-2fab5a71b2223087.mp3",
+    "speaker": "Rob",
+    "text": "[suspicious] Nothing on the end? No different form for \"I\" or \"they\"? No past tense version? [slowly] English has am, is, are, was, were, been, being. But Chinese hands you one word and walks off?",
+    "duration": 15.386122,
+    "running_start_time": 25.842449,
+    "alignment": "Rob-2fab5a71b2223087.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 41.228571
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-765a4ff7cd552025.mp3",
+    "speaker": "Sunshine",
+    "text": "Exactly. If you want to show WHEN something happened, other words in the sentence do that. This one just stays the same.",
+    "duration": 7.549388,
+    "running_start_time": 41.428571000000005,
+    "alignment": "Sunshine-765a4ff7cd552025.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 48.977959000000006
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-4aca694772ec8c97.mp3",
+    "speaker": "Rob",
+    "text": "[thoughtfully] I don't trust it. Okay, I'm looking at it on the screen. There's a little box at the top with a line across the middle, like a window. And underneath there's... a lot to look at.",
+    "duration": 12.59102,
+    "running_start_time": 49.17795900000001,
+    "alignment": "Rob-4aca694772ec8c97.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 61.76897900000001
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-77f94b9d5fbf0c74.mp3",
+    "speaker": "Sunshine",
+    "text": "Well, the box on top is the sun. The part underneath is related to \"correct,\" or \"straight.\"",
+    "duration": 7.000816,
+    "running_start_time": 61.96897900000001,
+    "alignment": "Sunshine-77f94b9d5fbf0c74.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 68.969795
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-52d7ec79289f015e.mp3",
+    "speaker": "Rob",
+    "text": "The sun... on top of \"correct.\"",
+    "duration": 3.160816,
+    "running_start_time": 69.16979500000001,
+    "alignment": "Rob-52d7ec79289f015e.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 72.330611
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-403e43b576132d83.mp3",
+    "speaker": "Sunshine",
+    "text": "Here's an old folk history trick. It's like, the sun is straight overhead at noon, and nothing is in doubt. \"That's right. It is so.\" And that's the other meaning. It can also mean \"yes,\" or \"that's right.\" Someone asks you something, and you can answer with just this.",
+    "duration": 17.71102,
+    "running_start_time": 72.53061100000001,
+    "alignment": "Sunshine-403e43b576132d83.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 90.24163100000001
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-022e63fcc42c2e52.mp3",
+    "speaker": "Rob",
+    "text": "So it's \"to be\" and it's \"yes.\" For a first character, that's a pretty good deal.",
+    "duration": 5.485714,
+    "running_start_time": 90.44163100000002,
+    "alignment": "Rob-022e63fcc42c2e52.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 95.92734500000002
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-c0170b406f8cd4fa.mp3",
+    "speaker": "Sunshine",
+    "text": "That's why it goes first. Nothing else is unlocked yet, so today's whole word list is just \"Shì,\" on its own.",
+    "duration": 7.314286,
+    "running_start_time": 96.12734500000002,
+    "alignment": "Sunshine-c0170b406f8cd4fa.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 103.44163100000002
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-64429c030d73affd.mp3",
+    "speaker": "Rob",
+    "text": "One character, one word. Character one, singular, and it actually stayed singular. [warmly] I'm proud of us.",
+    "duration": 7.810612,
+    "running_start_time": 103.64163100000002,
+    "alignment": "Rob-64429c030d73affd.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 111.45224300000002
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-66e1536eb80bb0cf.mp3",
+    "speaker": "Sunshine",
+    "text": "[laughs] Don't get used to it.",
+    "duration": 2.507755,
+    "running_start_time": 111.65224300000003,
+    "alignment": "Sunshine-66e1536eb80bb0cf.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 114.15999800000003
+  }
+]

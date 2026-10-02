@@ -43,7 +43,7 @@ read of how likely it is a real preference, not a decision.
 
 ## Notes / things to check when listening
 
-- Typo to fix in zi-1-char line 9: "Wel,," (should be "Well,").
+- Rob's zi-1-char edits had a "Wel,," typo (line 9) that he fixed to "Well," before the audio was rendered.
 - zi-1-char lines 8-9: Rob's "...a lot to look at" followed by Sunshine's
-  "Wel,, the box on top is the sun" may read as answering a different
+  "Well, the box on top is the sun" may read as answering a different
   question. Check on playback.
