@@ -3,7 +3,7 @@
 add_gaps(text, ms) escapes the text and wraps each Chinese run in breaks, so
 "Okay, so 不 means 'not'" no longer runs together as "sobu".
 
-Run from the project root:  PYTHONPATH=radio/smoke radio/.venv/bin/python radio/smoke/azure_gaps.py
+Run from the project root:  PYTHONPATH=radio/scripts radio/.venv/bin/python radio/scripts/azure_gaps.py
 Writes radio/out/smoke/gap-<ms>-<voice>.mp3 for several gap sizes.
 """
 import pathlib, re, urllib.error, urllib.request

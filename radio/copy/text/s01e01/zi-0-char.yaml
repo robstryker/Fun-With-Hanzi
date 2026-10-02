@@ -1,0 +1,113 @@
+# s01e01 character 0 -- the sentence-ending particles 啊 呢 呀 吧, rough draft v2
+# One-off segment (s01e01 only): follows intro, precedes zi-1-char. No words/sentence-dive/conclusion files.
+# Sunshine makes up one demo sentence per particle -- a deliberate, justified exception (bible: she normally doesn't).
+# Isolated characters are quoted hanzi (all four are neutral tone, so no tone-mark pinyin fallback) -- TTS test needed.
+- speaker: Rob
+  text: "[sheepishly] Okay. So. About what I said earlier. One character at a time, nothing you haven't covered yet. [hesitates] We need to make an exception."
+
+- speaker: Sunshine
+  text: "[laughs] Rob! You can't do that! [exasperated] It's the very first episode, and you're already breaking the entire premise of the show!"
+
+- speaker: Rob
+  text: "[urgently] I know! But these words don't mean anything! They're just noises you make at the end of a sentence! They're more of a feeling than anything!"
+
+- speaker: Sunshine
+  text: "[sighs] Do they have a character that's drawn?"
+
+- speaker: Rob
+  text: "Yes."
+
+- speaker: Sunshine
+  text: "[reluctantly] And do they need to be read?"
+
+- speaker: Rob
+  text: "[sheepishly] ...Um... Yes."
+
+- speaker: Sunshine
+  text: "[defeated] Ugh. This gives me the ick. Okay, how many are there?"
+
+- speaker: Rob
+  text: "[brightly] Four. Think of it as character zero. A warm-up."
+
+- speaker: Sunshine
+  text: "[laughs] I think you mean Characters zero. There's more than one, remember?"
+- speaker: Rob
+  text: "[embarrassed] Oh, yeah... right..."
+
+- speaker: Sunshine
+  text: "[warmly] Okay, let me get a look at them. These four are... well, they're sentence-ending particles. They don't have a meaning of their own, they add a mood. All four are neutral tone, so they're light and quick, and they tuck in right at the end of a sentence. And look, they all start with the same piece."
+
+- speaker: Rob
+  text: "[curious] The little square box on the left? It looks like an open mouth."
+
+- speaker: Sunshine
+  text: "Exactly. That's the mouth radical. It makes sense, since these are all sounds you make with your mouth. The right side is a hint at the sound."
+
+- speaker: Rob
+  text: "Because humans make sounds with mouths, right?"
+
+- speaker: Sunshine
+  text: "[brightly] That's what I've been told! Okay, so, if you're going to break a rule by introducing four characters at once, I'm going to cheat too and use some sentences so the listeners can get a feel for what these words sound like."
+
+- speaker: Rob
+  text: "That sounds fair..."
+
+- speaker: Sunshine
+  text: "First, \"啊\". It adds warmth or surprise, like an extra little \"oh!\" on the end. Listen."
+
+- speaker: Sunshine
+  text: "好啊！"
+
+- speaker: Rob
+  text: "Okay, so that definitely sounds surprised..."
+
+- speaker: Sunshine
+  text: "Next, \"呢\". It turns a sentence into a gentle follow-up question, like \"and what about...?\""
+
+- speaker: Sunshine
+  text: "你呢？"
+
+- speaker: Rob
+  text: "Sounds soft and gentle really... I guess asking what your choice would be?"
+
+- speaker: Sunshine
+  text: "Pretty much, yeah. The third, \"呀\". It makes a greeting or a call sound friendly. The right side here is the character for tooth."
+
+- speaker: Rob
+  text: "[amused] A mouth with a tooth in it. Okay, that's a good picture."
+
+- speaker: Sunshine
+  text: "[laughs] Now listen."
+
+- speaker: Sunshine
+  text: "你好呀！"
+
+- speaker: Rob
+  text: "Definitely showing a lot of friendliness in that one."
+
+- speaker: Sunshine
+  text: "And last, \"吧\". It softens a suggestion, like \"let's\" or \"how about.\""
+
+- speaker: Sunshine
+  text: "我们走吧。"
+
+- speaker: Rob
+  text: "It almost sounds like a command, but maybe a little less forceful. Like \"Let's go.\""
+
+- speaker: Rob
+  text: "[brightly] See, that wasn't so bad! We've already finished character zero!"
+
+- speaker: Sunshine
+  text: "[warmly] I think you mean characters zero, plural. But yeah, that's four little feelings that don't mean anything on their own."
+
+- speaker: Rob
+  text: "[dryly] And now we can go back to doing this properly."
+
+- speaker: Sunshine
+  text: "[teasing] Are you sure there won't be any more exceptions?"
+
+- speaker: Rob
+  text: "[dryly] Yeah I'm positive. Mostly. Okay, let's move on to character one, singular!"
+
+- speaker: Sunshine
+  text: "It better be."

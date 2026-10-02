@@ -4,7 +4,7 @@ Credentials: properties file (key1=..., region=...) at $AZURE_CREDS or
 ~/Documents/codes/azure.txt; AZURE_SPEECH_KEY / AZURE_SPEECH_REGION override.
 The key is never printed or written into the repo.
 
-Run from the project root:  radio/.venv/bin/python radio/smoke/azure_voices.py
+Run from the project root:  radio/.venv/bin/python radio/scripts/azure_voices.py
 Writes radio/out/smoke/azure-<voice>.mp3
 """
 import os, pathlib, urllib.request, urllib.error

@@ -3,7 +3,7 @@
 Rob = en-US-AndrewMultilingualNeural, Sunshine = zh-CN-XiaoxiaoMultilingualNeural.
 One Azure request per line (150 ms gaps around Chinese), joined with ffmpeg.
 
-Run from the project root:  PYTHONPATH=radio/smoke radio/.venv/bin/python radio/smoke/poc_dialogue.py
+Run from the project root:  PYTHONPATH=radio/scripts radio/.venv/bin/python radio/scripts/poc_dialogue.py
 Writes radio/out/poc/poc_intro.mp3 (and the per-line clips beside it).
 """
 import pathlib, subprocess

@@ -1,0 +1,40 @@
+# s01e01 intro -- rough draft v4, not yet merged into script.yaml
+# Bracket emotion tags on both hosts (ElevenLabs v4). Rob: drier and more restrained; Sunshine: more expressive.
+- speaker: Rob
+  text: "[warmly] Hello, and welcome. This is One \"Zì\" at a Time, the show where we learn to read Chinese starting from absolute zero, one character at a time. I'm Rob, and with me is my co-host, Sunshine."
+
+- speaker: Sunshine
+  text: "[warmly] Hi, Rob. Hi, everyone. I'm so happy to be here."
+
+- speaker: Rob
+  text: "And I'm happy you said yes."
+
+- speaker: Sunshine
+  text: "[chuckles] Of course I did! This is a good idea. So, this whole show is Rob's. He came to me with a different way of teaching Chinese and asked if I'd help him build it. [curious] But Rob, I don't think I ever heard the whole story. How did you come up with this?"
+
+- speaker: Rob
+  text: "[thoughtfully] Well... [chuckles] that's a story for another episode. Right now I'd rather just show you. The idea is simple. We go one character at a time, starting from zero."
+
+- speaker: Sunshine
+  text: "[playfully] Oh, so the history is a mystery, eh? Fine, I'll allow it. So one at a time from zero? [curious] And we'll never have to read or repeat something we haven't covered yet, right?"
+
+- speaker: Rob
+  text: "Right. Every sentence has exactly one character you don't already know."
+
+- speaker: Sunshine
+  text: "[warmly] I love that. So, how is each episode going to work?"
+
+- speaker: Rob
+  text: "[brightly] Okay. In every episode, Sunshine, you'll introduce one new character, and we'll talk about what it looks like and where it comes from. Then you'll tell us about any new words it unlocks. And then you'll read us a good number of sentences, and I'll do my best to translate them, before we move on to the next character. We'll do that a few times each episode."
+
+- speaker: Sunshine
+  text: "[excited] One character, the words it unlocks, and lots of sentences. I like it. And you get to be the one who has to guess what everything means."
+
+- speaker: Rob
+  text: "[dryly] I'm going to be humbled, aren't I."
+
+- speaker: Sunshine
+  text: "[laughs] A little. [excited] I'm ready to try it. Shall we start?"
+
+- speaker: Rob
+  text: "[grins] [brightly] Yeah. Let's get started!"

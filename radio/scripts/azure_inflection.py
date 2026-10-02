@@ -1,6 +1,6 @@
 """Question-inflection variants for "Hear the difference?" (Xiaoxiao Multilingual).
 
-Run from the project root:  radio/.venv/bin/python radio/smoke/azure_inflection.py
+Run from the project root:  radio/.venv/bin/python radio/scripts/azure_inflection.py
 Writes radio/out/smoke/infl-<n>-<name>.mp3
 """
 import pathlib, urllib.error, urllib.request

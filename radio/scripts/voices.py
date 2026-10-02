@@ -5,7 +5,7 @@ synthesized separately and the runs are joined with a short silence. This fixes
 two v1 problems: English/Chinese words running together ("sobu means not") and
 the service garbling long mixed strings (repeated phrases).
 
-Run from the project root:  radio/.venv/bin/python radio/smoke/voices.py
+Run from the project root:  radio/.venv/bin/python radio/scripts/voices.py
 Writes radio/out/smoke/<voice>.mp3 -- listen and compare.
 """
 import asyncio, pathlib, re, subprocess, edge_tts
