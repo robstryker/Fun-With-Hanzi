@@ -1,0 +1,78 @@
+You are writing one segment of a scripted two-host episode for "One 字
+at a Time," a Chinese-learning radio show built from a graded reader.
+
+HOSTS:
+- Rob: fictionalized version of the creator, the show's host. He does NOT
+  read, pronounce, or repeat any Chinese -- not hanzi, not pinyin/romanized
+  syllables -- under any circumstance in this segment. HARD CONSTRAINT: no
+  line spoken by Rob may contain a Chinese character or a romanized Chinese
+  word. He reasons and translates in English only. He is the host, not a
+  co-expert: Sunshine reads each sentence aloud first, and then Rob
+  translates it, asks about it, or reacts. He has a prepared translation
+  script, so he is not puzzling it out cold -- the comedy/pedagogy is in
+  how he gets there, not in whether he's right.
+- Sunshine: native Mandarin co-host, the guest expert. She reads every
+  target sentence, confirms or corrects Rob's translations, and explains
+  when he's puzzled. Early episode -- no hint yet that her realness is
+  ambiguous; play her completely straight.
+
+CONTENT RULES: everyday concrete language only; no chengyu, dialect,
+swearing, or romance content.
+
+THIS SEGMENT ONLY covers: working through the sentences listed in DATA, in
+the order given. Do NOT include a cold open, recap, introduction of the
+character or its words, or a closing/conclusion -- those are separate
+segments. Start directly with Sunshine moving into the first sentence, and
+end after the last sentence is discussed (no sign-off).
+
+SENTENCE FORMAT RULES (hard rules):
+- Before reading any sentence, Sunshine names its number as its own short
+  turn, e.g. "Sentence 4." Never read a sentence without announcing its
+  number first. Use the PDF number given in DATA, not a renumbering.
+- The sentence itself is read on its own dedicated turn: Sunshine's turn
+  contains ONLY the sentence, in hanzi, exactly as given in DATA, character
+  for character with the same punctuation -- no tags, no paraphrase, no
+  English, no extra words in that turn.
+- Discussion and translation happen on the following turns, never in the
+  sentence's own turn.
+- Rob translates most sentences himself in English after Sunshine reads
+  them; she confirms or adds nuance. Occasionally Sunshine reads a short run
+  of sentences back-to-back (each still announced by number, each still on
+  its own turn) and translates between them -- use this where stacking them
+  makes a point (e.g. the same sentence with different punctuation, or a
+  pattern shown across several in a row). Vary the rhythm; don't make every
+  sentence the same shape.
+- Keep it tight. Sentences that are trivially similar to the one before
+  don't need a long discussion.
+
+DATA:
+- Character #3: 我, pinyin "wo", third tone. Meaning: "I; me; my". It was just introduced in the previous segment. It unlocks no new words (no dictionary compounds), so there was no word-unlock segment: these sentences are where the listener first sees it combined with the characters already known.
+- Already known: 是 "is; yes", 不 "not; no", and the four tone words 啊 呀 呢 吧 (from "character zero": no meaning of their own, they only add a mood). Every sentence below is built only from these plus 我, so there is no new grammar: all quick reads.
+- Sentences to work through, in this order (PDF number: sentence). Note #3 ends in three ideographic full stops 。。。 exactly as printed (a trailing-off, sheepish tone); read/write it verbatim:
+  1: 是我！
+  2: 我是。
+  4: 我不是。
+  3: 不是我。。。
+  12: 不是我呀！
+  13: 是不是我？
+  14: 我是不是？
+  17: 是我，是我！
+- Meanings, for your reference (Rob has a prepared translation script, so he may state these): 是我！ "It's me!" | 我是。 "I am." | 我不是。 "I'm not." / "I am not." | 不是我。。。 "Not me..." | 不是我呀！ "Oh, it's not me!" | 是不是我？ "Is it me?" | 我是不是？ "Am I?" (or "Am I or am I not?") | 是我，是我！ "It's me, it's me!" Word order carries the meaning here: 是 "is" never changes form (no am/is/are), so 我是 is "I am" and 是我 is "it's me". Chinese puts 不 "not" directly in front of 是.
+- Notes on the tone words (from the book): 啊 adds warmth or emphasis at the end of a sentence, like "ah!" or "oh!". 呀 is a cheerful or surprised "oh!", used like 啊. 吧 is a suggestion or check. Punctuation (。 ？ ！ ，) also shapes the meaning. Rob can only go by Sunshine's reading and these notes.
+- GROUPING AND PACING (Rob's direction for this segment): (a) Sentences 1, 2 and 4 are the three basic building blocks (it's me / I am / I am not) -- do them in quick succession, brief reactions, Rob works out each from "I" + "is" (+ "not") in his literal-translation way; keep it light. (b) Sentences 3 and 12 are both "not me": one trailing off sheepishly (the dots), one a cheerful correction (the tone word 呀). Frame with an everyday image such as someone caught next to a broken lamp, or asked who ate the last cookie -- do NOT mention any child or family of Rob's. (c) Sentences 13 and 14 are the same three characters in a different order ("Is it me?" vs "Am I?"); stack them as a contrast pair and let the order-changes-the-meaning point land, tied back to the earlier 是不是 question. (d) Sentence 17 is the finale: pure repetition for emphasis ("It's me, it's me!"), like a raised hand saying "pick me". Do not be repetitive: each group should feel different from the others.
+
+Write the segment as a plain dialogue transcript, "Rob:" / "Sunshine:"
+labels, one blank line between turns. Rob and Sunshine's voices are
+expressive: put ElevenLabs-style bracket emotion tags inline within turns
+where they help, e.g. [warmly] [laughs] [curious] [dryly] [excitedly]
+[thoughtfully]. Rob is drier and more restrained, Sunshine more expressive.
+Use them sparingly, not on every line. Never put a tag on its own line, and
+never put a tag in a turn that is only a Chinese sentence.
+
+Before finalizing, re-check: (1) every Rob line has zero Chinese characters
+and zero romanized Chinese words; (2) every sentence turn is exactly one
+sentence from DATA, verbatim; (3) every sentence is announced by its number
+first, and every sentence from DATA is read exactly once, in order.
+Output ONLY the transcript, nothing else.
+
+ADDITIONAL PACING NOTE: keep it tight. The show must not feel long-winded; aim for roughly 28-34 turns total, and don't over-explain sentences that are trivially similar. Jokes are welcome (some will be trimmed in review), but keep them short.
