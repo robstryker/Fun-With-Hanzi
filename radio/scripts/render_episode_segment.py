@@ -8,6 +8,9 @@ Reads radio/copy/text/<episode>/<segment>.yaml:
       text: 'Welcome back to One "Zì" at a Time.'
     - speaker: Rob
       text: "And I'm Rob."
+A turn may carry `drill: true` (a sentence re-read for the listener to repeat): the gap after
+it is its own clip duration + DRILL_PAD instead of TURN_GAP, and the manifest gap is tagged
+gap_type "drill". Gap lengths are decided here and read back by assemble_episode.py.
 Bracket emotion tags (e.g. "[whispers] ...") go directly inline in `text` --
 ElevenLabs v4 reads them as part of the string, no separate field needed.
 
@@ -60,6 +63,7 @@ from eleven_creds import creds, MODEL_ID, VOICE
 
 RADIO = pathlib.Path(__file__).resolve().parent.parent
 TURN_GAP = 0.20  # seconds of silence between speaker turns
+DRILL_PAD = 1.0  # a turn marked `drill: true` is followed by (its own clip length + this), so the listener can repeat it
 
 def clip_stem(speaker, text):
     key = f"{speaker}|{VOICE[speaker]}|{MODEL_ID}|{text}"
@@ -120,6 +124,7 @@ def main(episode, segment):
     manifest = []
     t = 0.0
     files = []
+    gaps = []
     for turn in turns:
         speaker, text = turn["speaker"], turn["text"].strip()
         stem = clip_stem(speaker, text)
@@ -153,12 +158,15 @@ def main(episode, segment):
             "alignment": side.name if side.exists() else None,
         })
         t += d
+        drill = bool(turn.get("drill"))
+        gap = d + DRILL_PAD if drill else TURN_GAP
         manifest.append({
-            "segment_type": "gap", "source_id": None, "duration": TURN_GAP,
-            "running_start_time": t,
+            "segment_type": "gap", "gap_type": "drill" if drill else "turn",
+            "source_id": None, "duration": gap, "running_start_time": t,
         })
-        t += TURN_GAP
+        t += gap
         files.append(f)
+        gaps.append(gap)
 
     manifest_path = audio_dir / f"{segment}.manifest.json"
     manifest_path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False))
@@ -167,7 +175,7 @@ def main(episode, segment):
     args = ["ffmpeg", "-y", "-loglevel", "error"]
     for f in files: args += ["-i", str(f)]
     n = len(files)
-    chain = "".join(f"[{i}:a]apad=pad_dur={TURN_GAP}[a{i}];" for i in range(n))
+    chain = "".join(f"[{i}:a]apad=pad_dur={gaps[i]}[a{i}];" for i in range(n))
     chain += "".join(f"[a{i}]" for i in range(n)) + f"concat=n={n}:v=0:a=1[o]"
     compiled = final_dir / f"{segment}-compiled.mp3"
     args += ["-filter_complex", chain, "-map", "[o]", str(compiled)]

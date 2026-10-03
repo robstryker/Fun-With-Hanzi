@@ -1,0 +1,95 @@
+{
+  "speaker": "Sunshine",
+  "voice_id": "zmcVlqmyk3Jpn5AVYcAL",
+  "model_id": "eleven_v4",
+  "text": "Sentence 17.",
+  "alignment": {
+    "characters": [
+      "S",
+      "e",
+      "n",
+      "t",
+      "e",
+      "n",
+      "c",
+      "e",
+      " ",
+      "1",
+      "7",
+      "."
+    ],
+    "character_start_times_seconds": [
+      0.0,
+      0.27,
+      0.3,
+      0.33,
+      0.36,
+      0.39,
+      0.42,
+      0.45,
+      0.48,
+      0.64,
+      0.98,
+      1.36
+    ],
+    "character_end_times_seconds": [
+      0.27,
+      0.3,
+      0.33,
+      0.36,
+      0.39,
+      0.42,
+      0.45,
+      0.48,
+      0.64,
+      0.98,
+      1.36,
+      1.68
+    ]
+  },
+  "normalized_alignment": {
+    "characters": [
+      "S",
+      "e",
+      "n",
+      "t",
+      "e",
+      "n",
+      "c",
+      "e",
+      " ",
+      "1",
+      "7",
+      "."
+    ],
+    "character_start_times_seconds": [
+      0.0,
+      0.27,
+      0.3,
+      0.33,
+      0.36,
+      0.39,
+      0.42,
+      0.45,
+      0.48,
+      0.64,
+      0.98,
+      1.36
+    ],
+    "character_end_times_seconds": [
+      0.27,
+      0.3,
+      0.33,
+      0.36,
+      0.39,
+      0.42,
+      0.45,
+      0.48,
+      0.64,
+      0.98,
+      1.36,
+      1.68
+    ]
+  },
+  "quality_check": null
+}

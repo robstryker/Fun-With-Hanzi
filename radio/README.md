@@ -86,7 +86,7 @@ the TTS API), refuses to build if a segment's YAML was edited after its last
 render, and writes `copy/audio/<episode>/<episode>.manifest.json` (merged,
 every entry tagged with its `segment`, offsets across the whole episode) and
 `copy/final/<episode>/<episode>-compiled.mp3`. Clips are joined directly in one
-encode, with the usual 0.2s turn gap plus an extra `--segment-gap` (default 0.6s)
+encode, with each segment render's own gaps (0.2s after a normal turn; clip length + `DRILL_PAD` 1.0s after a `drill: true` turn, see bible.md's sentence-dive rules) plus an extra `--segment-gap` (default 0.6s)
 between segments.
 
 **Manifest durations are decoded lengths, not ffprobe's** (fixed 2026-10-02):

@@ -1,0 +1,130 @@
+[
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-36747ef40e7608f5.mp3",
+    "speaker": "Sunshine",
+    "text": "Ok, let's repeat a few of them and see if you can remember them all.",
+    "duration": 3.92,
+    "running_start_time": 0.0,
+    "alignment": "Sunshine-36747ef40e7608f5.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 3.92
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-12b8aa20d0346d8e.mp3",
+    "speaker": "Sunshine",
+    "text": "我是。",
+    "duration": 0.96,
+    "running_start_time": 4.12,
+    "alignment": "Sunshine-12b8aa20d0346d8e.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "drill",
+    "source_id": null,
+    "duration": 1.96,
+    "running_start_time": 5.08
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-bd99ddaaf2f98778.mp3",
+    "speaker": "Sunshine",
+    "text": "不是我。。。",
+    "duration": 1.6,
+    "running_start_time": 7.04,
+    "alignment": "Sunshine-bd99ddaaf2f98778.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "drill",
+    "source_id": null,
+    "duration": 2.6,
+    "running_start_time": 8.64
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-4e8918ec654acf87.mp3",
+    "speaker": "Sunshine",
+    "text": "我不是。",
+    "duration": 1.04,
+    "running_start_time": 11.24,
+    "alignment": "Sunshine-4e8918ec654acf87.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "drill",
+    "source_id": null,
+    "duration": 2.04,
+    "running_start_time": 12.280000000000001
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-0970bbb1c584920e.mp3",
+    "speaker": "Sunshine",
+    "text": "不是我呀！",
+    "duration": 1.2,
+    "running_start_time": 14.32,
+    "alignment": "Sunshine-0970bbb1c584920e.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "drill",
+    "source_id": null,
+    "duration": 2.2,
+    "running_start_time": 15.52
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-5975c952cbc848f5.mp3",
+    "speaker": "Sunshine",
+    "text": "是不是我？",
+    "duration": 1.28,
+    "running_start_time": 17.72,
+    "alignment": "Sunshine-5975c952cbc848f5.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "drill",
+    "source_id": null,
+    "duration": 2.2800000000000002,
+    "running_start_time": 19.0
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-220f1b2e62c4ffe1.mp3",
+    "speaker": "Sunshine",
+    "text": "我是不是？",
+    "duration": 1.28,
+    "running_start_time": 21.28,
+    "alignment": "Sunshine-220f1b2e62c4ffe1.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "drill",
+    "source_id": null,
+    "duration": 2.2800000000000002,
+    "running_start_time": 22.560000000000002
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-c25a82c9a76cf4e8.mp3",
+    "speaker": "Rob",
+    "text": "If you understood all that, I think we're ready to move on!",
+    "duration": 3.12,
+    "running_start_time": 24.840000000000003,
+    "alignment": "Rob-c25a82c9a76cf4e8.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 27.960000000000004
+  }
+]

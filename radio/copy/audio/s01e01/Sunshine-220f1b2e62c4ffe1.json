@@ -1,0 +1,53 @@
+{
+  "speaker": "Sunshine",
+  "voice_id": "zmcVlqmyk3Jpn5AVYcAL",
+  "model_id": "eleven_v4",
+  "text": "我是不是？",
+  "alignment": {
+    "characters": [
+      "我",
+      "是",
+      "不",
+      "是",
+      "？"
+    ],
+    "character_start_times_seconds": [
+      0.0,
+      0.24,
+      0.453,
+      0.667,
+      0.88
+    ],
+    "character_end_times_seconds": [
+      0.24,
+      0.453,
+      0.667,
+      0.88,
+      1.36
+    ]
+  },
+  "normalized_alignment": {
+    "characters": [
+      "我",
+      "是",
+      "不",
+      "是",
+      "？"
+    ],
+    "character_start_times_seconds": [
+      0.0,
+      0.24,
+      0.453,
+      0.667,
+      0.88
+    ],
+    "character_end_times_seconds": [
+      0.24,
+      0.453,
+      0.667,
+      0.88,
+      1.36
+    ]
+  },
+  "quality_check": null
+}

@@ -133,6 +133,13 @@ episode-by-episode within these pacing guardrails. Undecided.
 
 ## Sentence-dive rules
 
+- **Recall drills are exempt from the rules below.** A conclusion may re-read some
+  sentences for the listener to repeat (no announcement, no discussion). Mark each
+  such turn `drill: true` in its segment YAML. Drill turns are skipped by the
+  announce-first / read-once checks and by sentence identification, and the renderer
+  follows each one with a gap of its own clip length + `DRILL_PAD` (1.0s) so the
+  listener can answer; the manifest tags that gap `gap_type: "drill"`. Drills live in
+  `zi-NNNN-conclusion.yaml`, never in the sentence dive.
 - **Sentence numbers are the PDF's printed numbers** — a sentence's position in
   `build_print.ordered_sentences` (shortest first; `print/show_sentences.py` uses
   the same function, fixed 2026-10-02 after it drifted from the PDF's order).
@@ -212,6 +219,17 @@ fallback. Neither requires redoing the script.
 
 ## Open TODOs
 
+- **Rob's voice is ~15 LU quieter than Sunshine's (logged 2026-10-02; fix when
+  finalizing s01e01, not before).** Measured over the s01e01 clips >1.5s: Sunshine
+  median -19.4 LUFS (peak -1.6 dBFS), Rob -34.1 LUFS (peak -14.1), and Rob's own
+  lines span ~14 LU. ElevenLabs has no volume setting; James is just quiet.
+  Plan: normalize at mix time (ffmpeg gain in both `render_episode_segment.py`
+  and `assemble_episode.py`, true-peak limiter, no re-billing, raw clips and
+  backups untouched). Undecided: fixed per-speaker boost (~+15 dB, keeps his
+  dynamics; leaning toward this first), per-clip normalization to ~-19 LUFS
+  (even but flattens `[dryly]` delivery), or per-clip with a gain cap. Check
+  the noise floor by ear after the boost. A different voice for Rob would
+  re-bill every Rob clip, so avoid.
 - **Likely future change (logged 2026-10-02, Rob): relax the "Rob never says
   Chinese" rule.** For longer sentences it will be very hard for Rob to break
   them down and translate them without naming the Chinese pieces he's

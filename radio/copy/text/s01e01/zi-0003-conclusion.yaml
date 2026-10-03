@@ -1,0 +1,33 @@
+# s01e01 character 3 conclusion -- recall drill on six of the 我 sentences, then a hand-off
+# Moved here from the end of zi-0003-sentences.yaml (Rob's edit). The drill turns carry `drill: true`
+# (sentences re-read with no announcement and no discussion, so they are exempt from the sentence-dive
+# announce-first / read-once checks); they are meant to get a longer gap after them for the listener to answer.
+- speaker: Sunshine
+  text: "Ok, let's repeat a few of them and see if you can remember them all."
+
+- speaker: Sunshine
+  text: "我是。"
+  drill: true
+
+- speaker: Sunshine
+  text: "不是我。。。"
+  drill: true
+
+- speaker: Sunshine
+  text: "我不是。"
+  drill: true
+
+- speaker: Sunshine
+  text: "不是我呀！"
+  drill: true
+
+- speaker: Sunshine
+  text: "是不是我？"
+  drill: true
+
+- speaker: Sunshine
+  text: "我是不是？"
+  drill: true
+
+- speaker: Rob
+  text: "If you understood all that, I think we're ready to move on!"

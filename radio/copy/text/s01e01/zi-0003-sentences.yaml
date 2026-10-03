@@ -12,7 +12,7 @@
   text: "是我！"
 
 - speaker: Rob
-  text: "[dryly] Literally, \"is I,\" with an exclamation mark. Which my script tidies up into \"It's me!\""
+  text: "[dryly] Literally, \"is I,\" with an exclamation mark. Which we can tidy up into \"It's me!\""
 
 - speaker: Sunshine
   text: "[warmly] Yes! Like when someone knocks and you call out from the hallway."
@@ -78,7 +78,7 @@
   text: "我是不是？"
 
 - speaker: Rob
-  text: "Same three pieces, and both are questions. The first starts with \"is\": \"Is, not is, me?\" That's \"Is it me?\" The second starts with \"I\": \"I is, not is?\" That's \"Am I?\""
+  text: "Same three pieces, and both are questions. The first starts with \"is\": \"Is, not is, me?\" That means \"Is it me?\" The second starts with \"I\": \"I is, not is?\" That's \"Am I?\""
 
 - speaker: Sunshine
   text: "[warmly] Yes! That 是不是 in the middle is the \"is it or isn't it\" question we met earlier. Put 我 at the end and you're asking \"Is it me?\" Put it at the front and you're asking about yourself: \"Am I, or am I not?\""
@@ -99,4 +99,4 @@
   text: "\"It's me, it's me!\" Hand straight up, already half out of the chair."
 
 - speaker: Sunshine
-  text: "[excitedly] Yes! Say it twice, and everyone knows you mean it."
+  text: "[excitedly] Yeah! Say it twice, and everyone knows you really mean it."

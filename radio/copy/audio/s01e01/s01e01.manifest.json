@@ -3490,5 +3490,759 @@
     "source_id": null,
     "duration": 0.2,
     "running_start_time": 1086.1642176870787
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "segment",
+    "segment": "zi-0003-char",
+    "source_id": null,
+    "duration": 0.6,
+    "running_start_time": 1086.3642176870787
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-a28fb25e4abd686e.mp3",
+    "speaker": "Rob",
+    "text": "Ok. Sentence time. Let's use this.",
+    "segment": "zi-0003-sentences",
+    "duration": 2.8,
+    "running_start_time": 1086.9642176870786,
+    "alignment": "Rob-a28fb25e4abd686e.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-sentences",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1089.7642176870786
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-45394309b941817c.mp3",
+    "speaker": "Sunshine",
+    "text": "Sentence 1.",
+    "segment": "zi-0003-sentences",
+    "duration": 1.12,
+    "running_start_time": 1089.9642176870786,
+    "alignment": "Sunshine-45394309b941817c.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-sentences",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1091.0842176870785
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-5a8db87971acb20f.mp3",
+    "speaker": "Sunshine",
+    "text": "是我！",
+    "segment": "zi-0003-sentences",
+    "duration": 0.96,
+    "running_start_time": 1091.2842176870786,
+    "alignment": "Sunshine-5a8db87971acb20f.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-sentences",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1092.2442176870786
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-52259643dafc2dc9.mp3",
+    "speaker": "Rob",
+    "text": "[dryly] Literally, \"is I,\" with an exclamation mark. Which we can tidy up into \"It's me!\"",
+    "segment": "zi-0003-sentences",
+    "duration": 6.16,
+    "running_start_time": 1092.4442176870787,
+    "alignment": "Rob-52259643dafc2dc9.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-sentences",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1098.6042176870787
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-d97d437d00da2d10.mp3",
+    "speaker": "Sunshine",
+    "text": "[warmly] Yes! Like when someone knocks and you call out from the hallway.",
+    "segment": "zi-0003-sentences",
+    "duration": 4.08,
+    "running_start_time": 1098.8042176870788,
+    "alignment": "Sunshine-d97d437d00da2d10.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-sentences",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1102.8842176870787
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-8a3e0da30be06e1b.mp3",
+    "speaker": "Sunshine",
+    "text": "Sentence 2.",
+    "segment": "zi-0003-sentences",
+    "duration": 1.28,
+    "running_start_time": 1103.0842176870788,
+    "alignment": "Sunshine-8a3e0da30be06e1b.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-sentences",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1104.3642176870787
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-12b8aa20d0346d8e.mp3",
+    "speaker": "Sunshine",
+    "text": "我是。",
+    "segment": "zi-0003-sentences",
+    "duration": 0.96,
+    "running_start_time": 1104.5642176870788,
+    "alignment": "Sunshine-12b8aa20d0346d8e.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-sentences",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1105.5242176870788
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-0be65d4d977cc003.mp3",
+    "speaker": "Rob",
+    "text": "Same two pieces, flipped around. \"I is.\" Once I've apologized to my English teacher, that's \"I am.\"",
+    "segment": "zi-0003-sentences",
+    "duration": 7.84,
+    "running_start_time": 1105.7242176870789,
+    "alignment": "Rob-0be65d4d977cc003.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-sentences",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1113.5642176870788
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-69936449ee857658.mp3",
+    "speaker": "Sunshine",
+    "text": "[laughs] Right. 是 never changes, so there's no am, is or are. The word order does all the work.",
+    "segment": "zi-0003-sentences",
+    "duration": 7.92,
+    "running_start_time": 1113.7642176870788,
+    "alignment": "Sunshine-69936449ee857658.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-sentences",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1121.684217687079
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-ddfb85057da94ec4.mp3",
+    "speaker": "Sunshine",
+    "text": "Sentence 4.",
+    "segment": "zi-0003-sentences",
+    "duration": 1.36,
+    "running_start_time": 1121.884217687079,
+    "alignment": "Sunshine-ddfb85057da94ec4.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-sentences",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1123.2442176870788
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-4e8918ec654acf87.mp3",
+    "speaker": "Sunshine",
+    "text": "我不是。",
+    "segment": "zi-0003-sentences",
+    "duration": 1.04,
+    "running_start_time": 1123.444217687079,
+    "alignment": "Sunshine-4e8918ec654acf87.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-sentences",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1124.4842176870789
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-b039c29cc5b0e87e.mp3",
+    "speaker": "Rob",
+    "text": "And now \"not\" is squeezed in front of \"is.\" \"I not is.\" So: \"I'm not.\"",
+    "segment": "zi-0003-sentences",
+    "duration": 6.96,
+    "running_start_time": 1124.684217687079,
+    "alignment": "Rob-b039c29cc5b0e87e.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-sentences",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1131.644217687079
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-3c2b5e0598b35c57.mp3",
+    "speaker": "Sunshine",
+    "text": "Perfect. 不 always goes right in front of 是. Now, picture a broken lamp on the floor. Someone is standing right next to it.",
+    "segment": "zi-0003-sentences",
+    "duration": 8.88,
+    "running_start_time": 1131.844217687079,
+    "alignment": "Sunshine-3c2b5e0598b35c57.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-sentences",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1140.724217687079
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-f7a53de4486629df.mp3",
+    "speaker": "Sunshine",
+    "text": "Sentence 3.",
+    "segment": "zi-0003-sentences",
+    "duration": 1.28,
+    "running_start_time": 1140.9242176870791,
+    "alignment": "Sunshine-f7a53de4486629df.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-sentences",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1142.204217687079
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-bd99ddaaf2f98778.mp3",
+    "speaker": "Sunshine",
+    "text": "不是我。。。",
+    "segment": "zi-0003-sentences",
+    "duration": 1.6,
+    "running_start_time": 1142.4042176870792,
+    "alignment": "Sunshine-bd99ddaaf2f98778.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-sentences",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1144.004217687079
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-13d506666d570ea3.mp3",
+    "speaker": "Rob",
+    "text": "[thoughtfully] \"Not is me.\" So, \"Not me...\" But those three dots are doing a lot of work. That's a person backing slowly toward the door.",
+    "segment": "zi-0003-sentences",
+    "duration": 9.68,
+    "running_start_time": 1144.204217687079,
+    "alignment": "Rob-13d506666d570ea3.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-sentences",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1153.8842176870792
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-c100aca7baa0c06b.mp3",
+    "speaker": "Sunshine",
+    "text": "[laughs] Very guilty! The voice just fades away. Now it's the same idea, but this time you really didn't do it.",
+    "segment": "zi-0003-sentences",
+    "duration": 9.12,
+    "running_start_time": 1154.0842176870792,
+    "alignment": "Sunshine-c100aca7baa0c06b.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-sentences",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1163.204217687079
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-f5da29c1518fed64.mp3",
+    "speaker": "Sunshine",
+    "text": "Sentence 12.",
+    "segment": "zi-0003-sentences",
+    "duration": 1.36,
+    "running_start_time": 1163.4042176870792,
+    "alignment": "Sunshine-f5da29c1518fed64.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-sentences",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1164.764217687079
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-0970bbb1c584920e.mp3",
+    "speaker": "Sunshine",
+    "text": "不是我呀！",
+    "segment": "zi-0003-sentences",
+    "duration": 1.2,
+    "running_start_time": 1164.964217687079,
+    "alignment": "Sunshine-0970bbb1c584920e.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-sentences",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1166.1642176870791
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-344c85f56187d492.mp3",
+    "speaker": "Rob",
+    "text": "That's the cheerful tone word on the end, the surprised \"oh!\" So: \"Oh, it's not me!\" Less lamp-breaker, more someone who just walked in with groceries.",
+    "segment": "zi-0003-sentences",
+    "duration": 10.24,
+    "running_start_time": 1166.3642176870792,
+    "alignment": "Rob-344c85f56187d492.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-sentences",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1176.6042176870792
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-b5411142654e1b00.mp3",
+    "speaker": "Sunshine",
+    "text": "[excitedly] Exactly! Bright and surprised. The same three characters give you a completely different person. Okay, the next two come as a pair.",
+    "segment": "zi-0003-sentences",
+    "duration": 9.04,
+    "running_start_time": 1176.8042176870792,
+    "alignment": "Sunshine-b5411142654e1b00.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-sentences",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1185.8442176870792
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-230307629ebfb8a0.mp3",
+    "speaker": "Sunshine",
+    "text": "Sentence 13.",
+    "segment": "zi-0003-sentences",
+    "duration": 1.52,
+    "running_start_time": 1186.0442176870793,
+    "alignment": "Sunshine-230307629ebfb8a0.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-sentences",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1187.5642176870792
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-5975c952cbc848f5.mp3",
+    "speaker": "Sunshine",
+    "text": "是不是我？",
+    "segment": "zi-0003-sentences",
+    "duration": 1.28,
+    "running_start_time": 1187.7642176870793,
+    "alignment": "Sunshine-5975c952cbc848f5.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-sentences",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1189.0442176870793
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-2bd1e1d323dc3945.mp3",
+    "speaker": "Sunshine",
+    "text": "Sentence 14.",
+    "segment": "zi-0003-sentences",
+    "duration": 1.36,
+    "running_start_time": 1189.2442176870793,
+    "alignment": "Sunshine-2bd1e1d323dc3945.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-sentences",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1190.6042176870792
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-220f1b2e62c4ffe1.mp3",
+    "speaker": "Sunshine",
+    "text": "我是不是？",
+    "segment": "zi-0003-sentences",
+    "duration": 1.28,
+    "running_start_time": 1190.8042176870792,
+    "alignment": "Sunshine-220f1b2e62c4ffe1.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-sentences",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1192.0842176870792
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-41461baaeb33e9d7.mp3",
+    "speaker": "Rob",
+    "text": "Same three pieces, and both are questions. The first starts with \"is\": \"Is, not is, me?\" That means \"Is it me?\" The second starts with \"I\": \"I is, not is?\" That's \"Am I?\"",
+    "segment": "zi-0003-sentences",
+    "duration": 14.8,
+    "running_start_time": 1192.2842176870793,
+    "alignment": "Rob-41461baaeb33e9d7.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-sentences",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1207.0842176870792
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-15dcffdab72f4a03.mp3",
+    "speaker": "Sunshine",
+    "text": "[warmly] Yes! That 是不是 in the middle is the \"is it or isn't it\" question we met earlier. Put 我 at the end and you're asking \"Is it me?\" Put it at the front and you're asking about yourself: \"Am I, or am I not?\"",
+    "segment": "zi-0003-sentences",
+    "duration": 16.08,
+    "running_start_time": 1207.2842176870793,
+    "alignment": "Sunshine-15dcffdab72f4a03.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-sentences",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1223.3642176870792
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-d99196d5865d47e0.mp3",
+    "speaker": "Rob",
+    "text": "[dryly] So nothing gets added or taken away. You just shuffle the order and end up asking something else entirely.",
+    "segment": "zi-0003-sentences",
+    "duration": 6.48,
+    "running_start_time": 1223.5642176870792,
+    "alignment": "Rob-d99196d5865d47e0.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-sentences",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1230.0442176870793
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-b1a1530c840e7a93.mp3",
+    "speaker": "Sunshine",
+    "text": "[laughs] That's Chinese! Last one. Imagine someone asks for a volunteer.",
+    "segment": "zi-0003-sentences",
+    "duration": 6.0,
+    "running_start_time": 1230.2442176870793,
+    "alignment": "Sunshine-b1a1530c840e7a93.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-sentences",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1236.2442176870793
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-d22d3c5065672f5b.mp3",
+    "speaker": "Sunshine",
+    "text": "Sentence 17.",
+    "segment": "zi-0003-sentences",
+    "duration": 1.6,
+    "running_start_time": 1236.4442176870793,
+    "alignment": "Sunshine-d22d3c5065672f5b.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-sentences",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1238.0442176870793
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-b728e3b5c0cb5d72.mp3",
+    "speaker": "Sunshine",
+    "text": "是我，是我！",
+    "segment": "zi-0003-sentences",
+    "duration": 1.84,
+    "running_start_time": 1238.2442176870793,
+    "alignment": "Sunshine-b728e3b5c0cb5d72.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-sentences",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1240.0842176870792
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-ba9d2a44345235e2.mp3",
+    "speaker": "Rob",
+    "text": "\"It's me, it's me!\" Hand straight up, already half out of the chair.",
+    "segment": "zi-0003-sentences",
+    "duration": 4.48,
+    "running_start_time": 1240.2842176870793,
+    "alignment": "Rob-ba9d2a44345235e2.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-sentences",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1244.7642176870793
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-3a53b35905d8976a.mp3",
+    "speaker": "Sunshine",
+    "text": "[excitedly] Yeah! Say it twice, and everyone knows you really mean it.",
+    "segment": "zi-0003-sentences",
+    "duration": 4.24,
+    "running_start_time": 1244.9642176870793,
+    "alignment": "Sunshine-3a53b35905d8976a.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-sentences",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1249.2042176870793
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "segment",
+    "segment": "zi-0003-sentences",
+    "source_id": null,
+    "duration": 0.6,
+    "running_start_time": 1249.4042176870794
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-36747ef40e7608f5.mp3",
+    "speaker": "Sunshine",
+    "text": "Ok, let's repeat a few of them and see if you can remember them all.",
+    "segment": "zi-0003-conclusion",
+    "duration": 3.92,
+    "running_start_time": 1250.0042176870793,
+    "alignment": "Sunshine-36747ef40e7608f5.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-conclusion",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1253.9242176870794
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-12b8aa20d0346d8e.mp3",
+    "speaker": "Sunshine",
+    "text": "我是。",
+    "segment": "zi-0003-conclusion",
+    "duration": 0.96,
+    "running_start_time": 1254.1242176870794,
+    "alignment": "Sunshine-12b8aa20d0346d8e.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "drill",
+    "segment": "zi-0003-conclusion",
+    "source_id": null,
+    "duration": 1.96,
+    "running_start_time": 1255.0842176870794
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-bd99ddaaf2f98778.mp3",
+    "speaker": "Sunshine",
+    "text": "不是我。。。",
+    "segment": "zi-0003-conclusion",
+    "duration": 1.6,
+    "running_start_time": 1257.0442176870795,
+    "alignment": "Sunshine-bd99ddaaf2f98778.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "drill",
+    "segment": "zi-0003-conclusion",
+    "source_id": null,
+    "duration": 2.6,
+    "running_start_time": 1258.6442176870794
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-4e8918ec654acf87.mp3",
+    "speaker": "Sunshine",
+    "text": "我不是。",
+    "segment": "zi-0003-conclusion",
+    "duration": 1.04,
+    "running_start_time": 1261.2442176870793,
+    "alignment": "Sunshine-4e8918ec654acf87.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "drill",
+    "segment": "zi-0003-conclusion",
+    "source_id": null,
+    "duration": 2.04,
+    "running_start_time": 1262.2842176870793
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-0970bbb1c584920e.mp3",
+    "speaker": "Sunshine",
+    "text": "不是我呀！",
+    "segment": "zi-0003-conclusion",
+    "duration": 1.2,
+    "running_start_time": 1264.3242176870792,
+    "alignment": "Sunshine-0970bbb1c584920e.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "drill",
+    "segment": "zi-0003-conclusion",
+    "source_id": null,
+    "duration": 2.2,
+    "running_start_time": 1265.5242176870793
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-5975c952cbc848f5.mp3",
+    "speaker": "Sunshine",
+    "text": "是不是我？",
+    "segment": "zi-0003-conclusion",
+    "duration": 1.28,
+    "running_start_time": 1267.7242176870793,
+    "alignment": "Sunshine-5975c952cbc848f5.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "drill",
+    "segment": "zi-0003-conclusion",
+    "source_id": null,
+    "duration": 2.2800000000000002,
+    "running_start_time": 1269.0042176870793
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-220f1b2e62c4ffe1.mp3",
+    "speaker": "Sunshine",
+    "text": "我是不是？",
+    "segment": "zi-0003-conclusion",
+    "duration": 1.28,
+    "running_start_time": 1271.2842176870793,
+    "alignment": "Sunshine-220f1b2e62c4ffe1.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "drill",
+    "segment": "zi-0003-conclusion",
+    "source_id": null,
+    "duration": 2.2800000000000002,
+    "running_start_time": 1272.5642176870792
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-c25a82c9a76cf4e8.mp3",
+    "speaker": "Rob",
+    "text": "If you understood all that, I think we're ready to move on!",
+    "segment": "zi-0003-conclusion",
+    "duration": 3.12,
+    "running_start_time": 1274.8442176870792,
+    "alignment": "Rob-c25a82c9a76cf4e8.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-conclusion",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1277.964217687079
   }
 ]

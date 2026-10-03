@@ -21,11 +21,12 @@ Writes (paths anchored to this script's location):
     radio/copy/audio/<episode>/<episode>.manifest.json  merged timing manifest
         (same fields as the segment manifests, plus `segment` on every entry
         and running_start_time offset across the whole episode; gaps carry
-        gap_type "turn" or "segment")
+        gap_type "turn", "drill" or "segment")
     radio/copy/final/<episode>/<episode>-compiled.mp3   the whole-episode mix
 
 Clips are joined directly (one encode, not a re-encode of each segment's
-compiled mp3): TURN_GAP after every line (same as the segment renders), plus
+compiled mp3): after every line, the gap its segment render chose (TURN_GAP, or clip length +
+DRILL_PAD after a `drill: true` turn), plus
 SEGMENT_GAP of extra silence after the last line of each segment but the last.
 
 Run:
@@ -71,7 +72,15 @@ def main(episode, segment_gap):
         mpath = audio_dir / f"{seg}.manifest.json"
         if not mpath.exists():
             sys.exit(f"{seg}: not rendered yet (no {mpath.name}); run render_episode_segment.py {episode} {seg}")
-        lines = [e for e in json.loads(mpath.read_text()) if e["segment_type"] == "line"]
+        entries = json.loads(mpath.read_text())
+        lines = [e for e in entries if e["segment_type"] == "line"]
+        # the gap that follows each line, as the renderer decided it (turn or drill)
+        for i, e in enumerate(entries):
+            if e["segment_type"] == "line":
+                nxt = entries[i + 1] if i + 1 < len(entries) else None
+                gap = nxt if nxt and nxt["segment_type"] == "gap" else None
+                e["_gap"] = gap["duration"] if gap else TURN_GAP
+                e["_gap_type"] = gap.get("gap_type", "turn") if gap else "turn"
         want = [(t["speaker"], t["text"].strip()) for t in yaml.safe_load((text_dir / f"{seg}.yaml").read_text())]
         have = [(e["speaker"], e["text"]) for e in lines]
         if want != have:
@@ -92,10 +101,10 @@ def main(episode, segment_gap):
                              "segment": seg, "duration": d, "running_start_time": t,
                              "alignment": e.get("alignment")})
             t += d
-            manifest.append({"segment_type": "gap", "gap_type": "turn", "segment": seg, "source_id": None,
-                             "duration": TURN_GAP, "running_start_time": t})
-            t += TURN_GAP
-            pad = TURN_GAP
+            manifest.append({"segment_type": "gap", "gap_type": e["_gap_type"], "segment": seg, "source_id": None,
+                             "duration": e["_gap"], "running_start_time": t})
+            t += e["_gap"]
+            pad = e["_gap"]
             if li == len(lines) - 1 and si < len(loaded) - 1:
                 manifest.append({"segment_type": "gap", "gap_type": "segment", "segment": seg, "source_id": None,
                                  "duration": segment_gap, "running_start_time": t})
