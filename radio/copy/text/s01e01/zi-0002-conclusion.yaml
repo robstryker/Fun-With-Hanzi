@@ -2,7 +2,7 @@
 # Written by Claude in the style of zi-0001-conclusion; unedited, for Rob's review. No hanzi in Rob lines; no daughter mention.
 # Follows zi-0002-sentences. Episode-level sign-off lives in outro.yaml.
 - speaker: Rob
-  text: "Okay, that one we should review. Quick recap?"
+  text: "Okay, we should review this one. Quick recap?"
 
 - speaker: Sunshine
   text: "Sure. Our second character was \"Bù.\" Fourth tone, and it means \"not\" or \"no.\""
@@ -14,10 +14,10 @@
   text: "[warmly] And the fourth one, the \"fault\" word, is the one you can safely forget for now."
 
 - speaker: Rob
-  text: "[dryly] Already forgotten. And in the sentences, one little word at the end changed the mood three different ways."
+  text: "[dryly] Already forgotten. And in some other sentences, one little sound at the end changed the mood three different ways."
 
 - speaker: Sunshine
-  text: "[laughs] And you survived the market."
+  text: "[laughs] And you survived again. You're making a habit of this."
 
 - speaker: Rob
   text: "Barely. But now I can say no, and mean it."
