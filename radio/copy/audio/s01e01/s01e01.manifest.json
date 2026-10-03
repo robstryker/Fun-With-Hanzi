@@ -3230,5 +3230,265 @@
     "source_id": null,
     "duration": 0.2,
     "running_start_time": 1001.644217687078
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "segment",
+    "segment": "zi-0002-conclusion",
+    "source_id": null,
+    "duration": 0.6,
+    "running_start_time": 1001.8442176870781
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-a997ba85d9248ad7.mp3",
+    "speaker": "Rob",
+    "text": "I am wondering what the next one might be.",
+    "segment": "zi-0003-char",
+    "duration": 2.48,
+    "running_start_time": 1002.4442176870781,
+    "alignment": "Rob-a997ba85d9248ad7.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-char",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1004.9242176870781
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-97f3178fc1757e4d.mp3",
+    "speaker": "Sunshine",
+    "text": "I am sure you are. I think you'll find this one useful. I know it's a great start to sentences.",
+    "segment": "zi-0003-char",
+    "duration": 6.32,
+    "running_start_time": 1005.1242176870782,
+    "alignment": "Sunshine-97f3178fc1757e4d.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-char",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1011.4442176870782
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-1a27f680353e5e1c.mp3",
+    "speaker": "Rob",
+    "text": "[dryly] I... don't get it.",
+    "segment": "zi-0003-char",
+    "duration": 2.32,
+    "running_start_time": 1011.6442176870783,
+    "alignment": "Rob-1a27f680353e5e1c.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-char",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1013.9642176870783
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-a147448ebc76d79b.mp3",
+    "speaker": "Sunshine",
+    "text": "I can tell. [laughs] Notice how every sentence we just said started with the same word?",
+    "segment": "zi-0003-char",
+    "duration": 5.6,
+    "running_start_time": 1014.1642176870783,
+    "alignment": "Sunshine-a147448ebc76d79b.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-char",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1019.7642176870784
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-30b8abc2d268eb6c.mp3",
+    "speaker": "Rob",
+    "text": "[slowly] Wait... the word is \"I\"?",
+    "segment": "zi-0003-char",
+    "duration": 3.84,
+    "running_start_time": 1019.9642176870784,
+    "alignment": "Rob-30b8abc2d268eb6c.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-char",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1023.8042176870784
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-55fadfc44f2af132.mp3",
+    "speaker": "Sunshine",
+    "text": "[excitedly] Yeah! Character number three is \"Wǒ.\" Third tone, the dipping one. It means \"I,\" \"me,\" and \"my.\"",
+    "segment": "zi-0003-char",
+    "duration": 8.32,
+    "running_start_time": 1024.0042176870784,
+    "alignment": "Sunshine-55fadfc44f2af132.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-char",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1032.3242176870783
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-06d0c45d10b009e0.mp3",
+    "speaker": "Rob",
+    "text": "So one character covers \"I,\" \"me,\" and \"my\"? I don't have to figure out which form I need?",
+    "segment": "zi-0003-char",
+    "duration": 6.0,
+    "running_start_time": 1032.5242176870784,
+    "alignment": "Rob-06d0c45d10b009e0.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-char",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1038.5242176870784
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-532e7aea15dd0124.mp3",
+    "speaker": "Sunshine",
+    "text": "No choosing. Same character, whatever job it's doing. The rest of the sentence tells you what it means.",
+    "segment": "zi-0003-char",
+    "duration": 6.4,
+    "running_start_time": 1038.7242176870784,
+    "alignment": "Sunshine-532e7aea15dd0124.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-char",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1045.1242176870785
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-15215bb02d9e5273.mp3",
+    "speaker": "Rob",
+    "text": "[thoughtfully] That's a relief. Okay, the shape. There's a hand on the left, reaching out. And on the right, something like a spear.",
+    "segment": "zi-0003-char",
+    "duration": 8.96,
+    "running_start_time": 1045.3242176870785,
+    "alignment": "Rob-15215bb02d9e5273.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-char",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1054.2842176870786
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-b1b3a341612799ce.mp3",
+    "speaker": "Sunshine",
+    "text": "The right side really is an old weapon, a spear with a blade on it. Some say it's a person holding a spear, saying \"This is mine. I'm me.\"",
+    "segment": "zi-0003-char",
+    "duration": 9.76,
+    "running_start_time": 1054.4842176870786,
+    "alignment": "Sunshine-b1b3a341612799ce.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-char",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1064.2442176870786
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-16c5a1e1404609f1.mp3",
+    "speaker": "Rob",
+    "text": "A guy defending himself with a spear. [dryly] Very confident for a word that just means \"me.\"",
+    "segment": "zi-0003-char",
+    "duration": 5.92,
+    "running_start_time": 1064.4442176870787,
+    "alignment": "Rob-16c5a1e1404609f1.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-char",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1070.3642176870787
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-0c432bddcf67abe0.mp3",
+    "speaker": "Sunshine",
+    "text": "[laughs] It's easy to remember, at least. And like our first character, there are no new compound words today. Just \"Wǒ,\" on its own.",
+    "segment": "zi-0003-char",
+    "duration": 9.12,
+    "running_start_time": 1070.5642176870788,
+    "alignment": "Sunshine-0c432bddcf67abe0.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-char",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1079.6842176870787
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-27007e08bb12be7c.mp3",
+    "speaker": "Rob",
+    "text": "Three characters in, and I can finally start talking about myself!",
+    "segment": "zi-0003-char",
+    "duration": 3.76,
+    "running_start_time": 1079.8842176870787,
+    "alignment": "Rob-27007e08bb12be7c.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-char",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1083.6442176870787
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-14e1e7ea754204ec.mp3",
+    "speaker": "Sunshine",
+    "text": "[warmly] Everyone's favorite topic.",
+    "segment": "zi-0003-char",
+    "duration": 2.32,
+    "running_start_time": 1083.8442176870788,
+    "alignment": "Sunshine-14e1e7ea754204ec.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0003-char",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1086.1642176870787
   }
 ]
