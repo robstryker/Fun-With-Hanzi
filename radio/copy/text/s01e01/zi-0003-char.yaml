@@ -1,0 +1,46 @@
+# s01e01 character 3 -- 我 (wo, 3rd tone, "I; me; my"), rough draft v1
+# Written by Claude (not generated via claude -p) around Rob's opening exchange (the "every line starts with I" gag), unedited, for Rob's review.
+# 我 unlocks no compounds, so character + word segments are one file (no zi-0003-words.yaml needed), same as zi-0001-char.
+# Isolated 我 is written as quoted pinyin "Wǒ" per the README heuristic; no hanzi anywhere. Shape kept to a few lines.
+# Follows zi-0002-conclusion. Sentences are a separate segment (zi-0003-sentences.yaml). No hanzi in Rob lines.
+- speaker: Rob
+  text: "I am wondering what the next one might be."
+
+- speaker: Sunshine
+  text: "I am sure you are. I think you'll find this one useful. I know it's a great start to sentences."
+
+- speaker: Rob
+  text: "[dryly] I... don't get it."
+
+- speaker: Sunshine
+  text: "I can tell. [laughs] Notice how every sentence we just said started with the same word?"
+
+- speaker: Rob
+  text: "[slowly] Wait... the word is \"I\"?"
+
+- speaker: Sunshine
+  text: "[excitedly] Yeah! Character number three is \"Wǒ.\" Third tone, the dipping one. It means \"I,\" \"me,\" and \"my.\""
+
+- speaker: Rob
+  text: "So one character covers \"I,\" \"me,\" and \"my\"? I don't have to figure out which form I need?"
+
+- speaker: Sunshine
+  text: "No choosing. Same character, whatever job it's doing. The rest of the sentence tells you what it means."
+
+- speaker: Rob
+  text: "[thoughtfully] That's a relief. Okay, the shape. There's a hand on the left, reaching out. And on the right, something like a spear."
+
+- speaker: Sunshine
+  text: "The right side really is an old weapon, a spear with a blade on it. Some say it's a person holding a spear, saying \"This is mine. I'm me.\""
+
+- speaker: Rob
+  text: "A guy defending himself with a spear. [dryly] Very confident for a word that just means \"me.\""
+
+- speaker: Sunshine
+  text: "[laughs] It's easy to remember, at least. And like our first character, there are no new compound words today. Just \"Wǒ,\" on its own."
+
+- speaker: Rob
+  text: "Three characters in, and I can finally start talking about myself!"
+
+- speaker: Sunshine
+  text: "[warmly] Everyone's favorite topic."
