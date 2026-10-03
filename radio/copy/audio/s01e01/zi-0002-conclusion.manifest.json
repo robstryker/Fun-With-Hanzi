@@ -1,0 +1,107 @@
+[
+  {
+    "segment_type": "line",
+    "source_id": "Rob-d130fa304adaa761.mp3",
+    "speaker": "Rob",
+    "text": "Okay, we should review this one. Quick recap?",
+    "duration": 3.04,
+    "running_start_time": 0.0,
+    "alignment": "Rob-d130fa304adaa761.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 3.04
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-e895cc05fdf94212.mp3",
+    "speaker": "Sunshine",
+    "text": "Sure. Our second character was \"Bù.\" Fourth tone, and it means \"not\" or \"no.\"",
+    "duration": 6.72,
+    "running_start_time": 3.24,
+    "alignment": "Sunshine-e895cc05fdf94212.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 9.96
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-d8199e8c80d80fac.mp3",
+    "speaker": "Rob",
+    "text": "And it gave us two words that matter. \"Is not,\" and \"is it or isn't it,\" for asking yes-or-no questions.",
+    "duration": 7.84,
+    "running_start_time": 10.16,
+    "alignment": "Rob-d8199e8c80d80fac.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 18.0
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-60b28f40cc6f9703.mp3",
+    "speaker": "Sunshine",
+    "text": "[warmly] And the fourth one, the \"fault\" word, is the one you can safely forget for now.",
+    "duration": 5.12,
+    "running_start_time": 18.2,
+    "alignment": "Sunshine-60b28f40cc6f9703.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 23.32
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-edbd3420467e09aa.mp3",
+    "speaker": "Rob",
+    "text": "[dryly] Already forgotten. And in some other sentences, one little sound at the end changed the mood three different ways.",
+    "duration": 7.04,
+    "running_start_time": 23.52,
+    "alignment": "Rob-edbd3420467e09aa.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 30.56
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-4238cb9116289d8c.mp3",
+    "speaker": "Sunshine",
+    "text": "[laughs] And you survived again. You're making a habit of this.",
+    "duration": 4.8,
+    "running_start_time": 30.759999999999998,
+    "alignment": "Sunshine-4238cb9116289d8c.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 35.559999999999995
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-cf2731846fbf01eb.mp3",
+    "speaker": "Rob",
+    "text": "Barely. But now I can say no, and mean it.",
+    "duration": 3.84,
+    "running_start_time": 35.76,
+    "alignment": "Rob-cf2731846fbf01eb.json"
+  },
+  {
+    "segment_type": "gap",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 39.599999999999994
+  }
+]

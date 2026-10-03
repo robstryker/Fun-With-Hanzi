@@ -3096,5 +3096,139 @@
     "source_id": null,
     "duration": 0.2,
     "running_start_time": 961.2442176870777
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "segment",
+    "segment": "zi-0002-sentences",
+    "source_id": null,
+    "duration": 0.6,
+    "running_start_time": 961.4442176870778
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-d130fa304adaa761.mp3",
+    "speaker": "Rob",
+    "text": "Okay, we should review this one. Quick recap?",
+    "segment": "zi-0002-conclusion",
+    "duration": 3.04,
+    "running_start_time": 962.0442176870778,
+    "alignment": "Rob-d130fa304adaa761.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0002-conclusion",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 965.0842176870777
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-e895cc05fdf94212.mp3",
+    "speaker": "Sunshine",
+    "text": "Sure. Our second character was \"Bù.\" Fourth tone, and it means \"not\" or \"no.\"",
+    "segment": "zi-0002-conclusion",
+    "duration": 6.72,
+    "running_start_time": 965.2842176870778,
+    "alignment": "Sunshine-e895cc05fdf94212.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0002-conclusion",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 972.0042176870778
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-d8199e8c80d80fac.mp3",
+    "speaker": "Rob",
+    "text": "And it gave us two words that matter. \"Is not,\" and \"is it or isn't it,\" for asking yes-or-no questions.",
+    "segment": "zi-0002-conclusion",
+    "duration": 7.84,
+    "running_start_time": 972.2042176870779,
+    "alignment": "Rob-d8199e8c80d80fac.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0002-conclusion",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 980.0442176870779
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-60b28f40cc6f9703.mp3",
+    "speaker": "Sunshine",
+    "text": "[warmly] And the fourth one, the \"fault\" word, is the one you can safely forget for now.",
+    "segment": "zi-0002-conclusion",
+    "duration": 5.12,
+    "running_start_time": 980.2442176870779,
+    "alignment": "Sunshine-60b28f40cc6f9703.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0002-conclusion",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 985.3642176870779
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-edbd3420467e09aa.mp3",
+    "speaker": "Rob",
+    "text": "[dryly] Already forgotten. And in some other sentences, one little sound at the end changed the mood three different ways.",
+    "segment": "zi-0002-conclusion",
+    "duration": 7.04,
+    "running_start_time": 985.564217687078,
+    "alignment": "Rob-edbd3420467e09aa.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0002-conclusion",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 992.604217687078
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Sunshine-4238cb9116289d8c.mp3",
+    "speaker": "Sunshine",
+    "text": "[laughs] And you survived again. You're making a habit of this.",
+    "segment": "zi-0002-conclusion",
+    "duration": 4.8,
+    "running_start_time": 992.804217687078,
+    "alignment": "Sunshine-4238cb9116289d8c.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0002-conclusion",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 997.604217687078
+  },
+  {
+    "segment_type": "line",
+    "source_id": "Rob-cf2731846fbf01eb.mp3",
+    "speaker": "Rob",
+    "text": "Barely. But now I can say no, and mean it.",
+    "segment": "zi-0002-conclusion",
+    "duration": 3.84,
+    "running_start_time": 997.804217687078,
+    "alignment": "Rob-cf2731846fbf01eb.json"
+  },
+  {
+    "segment_type": "gap",
+    "gap_type": "turn",
+    "segment": "zi-0002-conclusion",
+    "source_id": null,
+    "duration": 0.2,
+    "running_start_time": 1001.644217687078
   }
 ]
